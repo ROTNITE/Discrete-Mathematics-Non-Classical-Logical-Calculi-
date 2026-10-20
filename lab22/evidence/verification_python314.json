@@ -1,0 +1,180 @@
+{
+  "python": "3.14.3",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "interpreter": "C:\\Users\\rotn1\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+  "checks": [
+    {
+      "name": "tests",
+      "args": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "log": "evidence\\tests_python314.txt"
+    },
+    {
+      "name": "demo",
+      "args": [
+        "lab1.py",
+        "--demo"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "log": "evidence\\demo_python314.txt"
+    },
+    {
+      "name": "demo_file",
+      "args": [
+        "lab1.py",
+        "--file",
+        "examples/demo.txt"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "log": "evidence\\demo_file_python314.txt"
+    },
+    {
+      "name": "negative",
+      "args": [
+        "lab1.py",
+        "--file",
+        "examples/negative.txt"
+      ],
+      "exit": 1,
+      "expected_exit": 1,
+      "passed": true,
+      "log": "evidence\\negative_python314.txt"
+    },
+    {
+      "name": "compile",
+      "args": [
+        "-m",
+        "compileall",
+        "-q",
+        "lab1.py",
+        "proofchecker",
+        "tests",
+        "tools"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "log": "evidence\\compile_python314.txt"
+    }
+  ],
+  "originals": [
+    {
+      "file": "Лабы\\Лабораторная работа №1.pdf",
+      "state": "unchanged"
+    },
+    {
+      "file": "Лабы\\Методический материал к ЛР.pdf",
+      "state": "unchanged"
+    },
+    {
+      "file": "Лекции\\Лекция 1.pptx",
+      "state": "unchanged"
+    },
+    {
+      "file": "Лекции\\Лекция 2-1.pptx",
+      "state": "unchanged"
+    },
+    {
+      "file": "Семинары\\2.1 2.2.png",
+      "state": "unchanged"
+    },
+    {
+      "file": "Семинары\\2_3.png",
+      "state": "unchanged"
+    },
+    {
+      "file": "Семинары\\2_4.png",
+      "state": "unchanged"
+    },
+    {
+      "file": "Семинары\\2_5.png",
+      "state": "unchanged"
+    },
+    {
+      "file": "Семинары\\3.1.png",
+      "state": "unchanged"
+    },
+    {
+      "file": "Семинары\\photo_2026-10-19_02-19-56.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "Семинары\\photo_2026-10-19_02-20-03.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "Семинары\\photo_2026-10-19_02-20-06.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "Семинары\\photo_2026-10-19_02-20-11.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "Семинары\\photo_2026-10-19_02-20-15.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "Семинары\\photo_2026-10-19_02-20-17.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "Семинары\\photo_2026-10-19_02-20-19.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "Семинары\\photo_2026-10-19_02-20-22.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "Семинары\\photo_2026-10-19_02-20-24.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "Семинары\\photo_2026-10-19_02-20-27.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "Семинары\\photo_2026-10-19_02-20-30.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "Семинары\\photo_2026-10-19_02-20-32.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "Семинары\\photo_2026-10-19_02-20-34.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "Семинары\\photo_2026-10-19_02-20-37.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "Семинары\\photo_2026-10-19_02-20-39.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "Семинары\\photo_2026-10-19_02-20-41.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "Семинары\\Семинар №1 2024.pptx",
+      "state": "unchanged"
+    }
+  ],
+  "passed": true
+}

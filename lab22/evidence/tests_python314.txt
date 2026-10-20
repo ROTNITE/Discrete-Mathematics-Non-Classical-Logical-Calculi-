@@ -1,0 +1,61 @@
+Python: 3.14.3
+Command: python -m unittest discover -s tests -v
+Exit: 0; expected: 0
+
+test_ascii_formulas (test_cli.CliTests.test_ascii_formulas) ... ok
+test_bom_and_invalid_utf8 (test_cli.CliTests.test_bom_and_invalid_utf8) ... ok
+test_demo_exit_and_counts (test_cli.CliTests.test_demo_exit_and_counts) ... ok
+test_demo_file (test_cli.CliTests.test_demo_file) ... ok
+test_eof_is_clean (test_cli.CliTests.test_eof_is_clean) ... ok
+test_interactive_commands_and_reset (test_cli.CliTests.test_interactive_commands_and_reset) ... ok
+test_missing_file (test_cli.CliTests.test_missing_file) ... ok
+test_negative_file_and_exit (test_cli.CliTests.test_negative_file_and_exit) ... ok
+test_stdin_comments_and_continuation_after_error (test_cli.CliTests.test_stdin_comments_and_continuation_after_error) ... ok
+test_disjunction_keeps_structure (test_formula.ParserTests.test_disjunction_keeps_structure) ... ok
+test_error_position_uses_original_text (test_formula.ParserTests.test_error_position_uses_original_text) ... ok
+test_f_and_t_are_variables_in_variant_three (test_formula.ParserTests.test_f_and_t_are_variables_in_variant_three) ... ok
+test_implication_expansion (test_formula.ParserTests.test_implication_expansion) ... ok
+test_left_associativity_from_lecture (test_formula.ParserTests.test_left_associativity_from_lecture) ... ok
+test_limits_are_diagnostics (test_formula.ParserTests.test_limits_are_diagnostics) ... ok
+test_method_invalid_inputs (test_formula.ParserTests.test_method_invalid_inputs) ... ok
+test_no_double_negation_simplification (test_formula.ParserTests.test_no_double_negation_simplification) ... ok
+test_other_invalid_inputs (test_formula.ParserTests.test_other_invalid_inputs) ... ok
+test_precedence (test_formula.ParserTests.test_precedence) ... ok
+test_redundant_parentheses_from_method (test_formula.ParserTests.test_redundant_parentheses_from_method) ... ok
+test_round_trip (test_formula.ParserTests.test_round_trip) ... ok
+test_single_variable (test_formula.ParserTests.test_single_variable) ... ok
+test_tree_contains_only_basis (test_formula.ParserTests.test_tree_contains_only_basis) ... ok
+test_unicode_aliases_and_math_letters (test_formula.ParserTests.test_unicode_aliases_and_math_letters) ... ok
+test_absent_variable (test_formula.SubstitutionTests.test_absent_variable) ... ok
+test_all_occurrences (test_formula.SubstitutionTests.test_all_occurrences) ... ok
+test_f_can_be_substituted (test_formula.SubstitutionTests.test_f_can_be_substituted) ... ok
+test_match_entire_compound_formula (test_formula.SubstitutionTests.test_match_entire_compound_formula) ... ok
+test_matcher_against_independent_finite_enumeration (test_formula.SubstitutionTests.test_matcher_against_independent_finite_enumeration) ... ok
+test_multiple_variables_rejected (test_formula.SubstitutionTests.test_multiple_variables_rejected) ... ok
+test_partial_replacement_rejected (test_formula.SubstitutionTests.test_partial_replacement_rejected) ... ok
+test_replacement_is_not_recursively_substituted (test_formula.SubstitutionTests.test_replacement_is_not_recursively_substituted) ... ok
+test_all_seven_concrete_axioms (test_verifier.VerifierTests.test_all_seven_concrete_axioms) ... ok
+test_atomic_beta_from_axiom (test_verifier.VerifierTests.test_atomic_beta_from_axiom) ... ok
+test_atomic_beta_from_previous_line (test_verifier.VerifierTests.test_atomic_beta_from_previous_line) ... ok
+test_axiom_seven_is_left_side_not_equation (test_verifier.VerifierTests.test_axiom_seven_is_left_side_not_equation) ... ok
+test_axioms_are_classical_tautologies (test_verifier.VerifierTests.test_axioms_are_classical_tautologies) ... ok
+test_bad_lines_do_not_change_state_or_index (test_verifier.VerifierTests.test_bad_lines_do_not_change_state_or_index) ... ok
+test_compound_beta_with_same_variable_inside (test_verifier.VerifierTests.test_compound_beta_with_same_variable_inside) ... ok
+test_demo_proof_and_all_reason_certificates (test_verifier.VerifierTests.test_demo_proof_and_all_reason_certificates) ... ok
+test_identity_is_axiom_seven_in_this_variant (test_verifier.VerifierTests.test_identity_is_axiom_seven_in_this_variant) ... ok
+test_mp_can_use_axiom_without_entering_it (test_verifier.VerifierTests.test_mp_can_use_axiom_without_entering_it) ... ok
+test_mp_from_earlier_lines (test_verifier.VerifierTests.test_mp_from_earlier_lines) ... ok
+test_mp_works_with_expanded_basis_input (test_verifier.VerifierTests.test_mp_works_with_expanded_basis_input) ... ok
+test_no_missing_or_reverse_mp (test_verifier.VerifierTests.test_no_missing_or_reverse_mp) ... ok
+test_partial_substitution_is_not_one_step (test_verifier.VerifierTests.test_partial_substitution_is_not_one_step) ... ok
+test_rejection_is_not_global_unprovability_claim (test_verifier.VerifierTests.test_rejection_is_not_global_unprovability_claim) ... ok
+test_repeat_has_explicit_reference (test_verifier.VerifierTests.test_repeat_has_explicit_reference) ... ok
+test_semantic_equivalence_does_not_admit_line (test_verifier.VerifierTests.test_semantic_equivalence_does_not_admit_line) ... ok
+test_sessions_are_independent (test_verifier.VerifierTests.test_sessions_are_independent) ... ok
+test_simultaneous_substitution_is_not_one_step (test_verifier.VerifierTests.test_simultaneous_substitution_is_not_one_step) ... ok
+test_size_and_session_limits (test_verifier.VerifierTests.test_size_and_session_limits) ... ok
+
+----------------------------------------------------------------------
+Ran 52 tests in 1.058s
+
+OK
