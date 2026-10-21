@@ -206,6 +206,27 @@ def match_substitution(source: Formula, target: Formula, variable: str) -> Formu
     return replacement
 
 
+def match_schema(schema: Formula, target: Formula) -> dict[str, Formula] | None:
+    """Согласованные одновременные подстановки параметров схемы аксиомы.
+
+    Параметры — только переменные исходной схемы. Найденные поддеревья
+    результата не обходятся заново и не изменяются другими подстановками.
+    """
+    replacements: dict[str, Formula] = {}
+    stack = [(schema, target)]
+    while stack:
+        source, actual = stack.pop()
+        if isinstance(source, Var):
+            previous = replacements.setdefault(source.name, actual)
+            if previous != actual:
+                return None
+        elif type(source) is not type(actual):
+            return None
+        else:
+            stack.extend(zip(children(source), children(actual)))
+    return replacements
+
+
 def tree_lines(formula: Formula, indent: str = "") -> list[str]:
     label = formula.name if isinstance(formula, Var) else ("NOT" if isinstance(formula, Not) else "OR")
     result = [indent + label]

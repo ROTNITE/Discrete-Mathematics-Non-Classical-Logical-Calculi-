@@ -2,6 +2,14 @@ Python: 3.12.14
 Command: python -m unittest discover -s tests -v
 Exit: 0; expected: 0
 
+test_beta_for_derived_formula_still_changes_only_one_variable (test_axiom_schemas.AxiomSchemaTests.test_beta_for_derived_formula_still_changes_only_one_variable) ... ok
+test_compound_overlapping_substitutions_are_simultaneous (test_axiom_schemas.AxiomSchemaTests.test_compound_overlapping_substitutions_are_simultaneous) ... ok
+test_derived_steps_are_not_labeled_axioms (test_axiom_schemas.AxiomSchemaTests.test_derived_steps_are_not_labeled_axioms) ... ok
+test_every_axiom_accepts_compound_instances (test_axiom_schemas.AxiomSchemaTests.test_every_axiom_accepts_compound_instances) ... ok
+test_repeated_parameter_must_have_same_replacement (test_axiom_schemas.AxiomSchemaTests.test_repeated_parameter_must_have_same_replacement) ... ok
+test_teachers_k_example_as_structural_matching_only (test_axiom_schemas.AxiomSchemaTests.test_teachers_k_example_as_structural_matching_only) ... ok
+test_two_variables_in_axiom_are_accepted_immediately (test_axiom_schemas.AxiomSchemaTests.test_two_variables_in_axiom_are_accepted_immediately) ... ok
+test_user_transcript_corrected_axiom_and_mp (test_axiom_schemas.AxiomSchemaTests.test_user_transcript_corrected_axiom_and_mp) ... ok
 test_ascii_formulas (test_cli.CliTests.test_ascii_formulas) ... ok
 test_bom_and_invalid_utf8 (test_cli.CliTests.test_bom_and_invalid_utf8) ... ok
 test_demo_exit_and_counts (test_cli.CliTests.test_demo_exit_and_counts) ... ok
@@ -35,8 +43,8 @@ test_multiple_variables_rejected (test_formula.SubstitutionTests.test_multiple_v
 test_partial_replacement_rejected (test_formula.SubstitutionTests.test_partial_replacement_rejected) ... ok
 test_replacement_is_not_recursively_substituted (test_formula.SubstitutionTests.test_replacement_is_not_recursively_substituted) ... ok
 test_all_seven_concrete_axioms (test_verifier.VerifierTests.test_all_seven_concrete_axioms) ... ok
-test_atomic_beta_from_axiom (test_verifier.VerifierTests.test_atomic_beta_from_axiom) ... ok
 test_atomic_beta_from_previous_line (test_verifier.VerifierTests.test_atomic_beta_from_previous_line) ... ok
+test_axiom_instance_has_schema_reason (test_verifier.VerifierTests.test_axiom_instance_has_schema_reason) ... ok
 test_axiom_seven_is_left_side_not_equation (test_verifier.VerifierTests.test_axiom_seven_is_left_side_not_equation) ... ok
 test_axioms_are_classical_tautologies (test_verifier.VerifierTests.test_axioms_are_classical_tautologies) ... ok
 test_bad_lines_do_not_change_state_or_index (test_verifier.VerifierTests.test_bad_lines_do_not_change_state_or_index) ... ok
@@ -52,10 +60,10 @@ test_rejection_is_not_global_unprovability_claim (test_verifier.VerifierTests.te
 test_repeat_has_explicit_reference (test_verifier.VerifierTests.test_repeat_has_explicit_reference) ... ok
 test_semantic_equivalence_does_not_admit_line (test_verifier.VerifierTests.test_semantic_equivalence_does_not_admit_line) ... ok
 test_sessions_are_independent (test_verifier.VerifierTests.test_sessions_are_independent) ... ok
-test_simultaneous_substitution_is_not_one_step (test_verifier.VerifierTests.test_simultaneous_substitution_is_not_one_step) ... ok
+test_simultaneous_substitution_in_axiom_is_one_instance (test_verifier.VerifierTests.test_simultaneous_substitution_in_axiom_is_one_instance) ... ok
 test_size_and_session_limits (test_verifier.VerifierTests.test_size_and_session_limits) ... ok
 
 ----------------------------------------------------------------------
-Ran 52 tests in 0.871s
+Ran 60 tests in 0.849s
 
 OK

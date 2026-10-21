@@ -45,39 +45,41 @@ class VerifierTests(unittest.TestCase):
         self.assertTrue(result.accepted)
         self.assertEqual(result.step.reason.sources[0].number, 7)
 
-    def test_atomic_beta_from_axiom(self):
+    def test_axiom_instance_has_schema_reason(self):
         result = Session().submit("a -> (a | q)")
         self.assertTrue(result.accepted)
         reason = result.step.reason
-        self.assertEqual((reason.rule, reason.variable, reason.replacement), ("β", "p", Var("a")))
+        self.assertEqual(reason.rule, "axiom_schema")
+        self.assertEqual(dict(reason.substitutions), {"p": Var("a"), "q": Var("q")})
         self.assertEqual(reason.sources[0].kind, "axiom")
 
     def test_compound_beta_with_same_variable_inside(self):
         result = Session().submit("(p|r) -> ((p|r)|q)")
         self.assertTrue(result.accepted)
-        self.assertEqual(result.step.reason.replacement, parse("p|r"))
+        self.assertEqual(dict(result.step.reason.substitutions)["p"], parse("p|r"))
 
     def test_atomic_beta_from_previous_line(self):
         session = Session()
-        self.assertTrue(session.submit("a -> (a | q)").accepted)
-        result = session.submit("a -> (a | b)")
+        for text in DEMO[:6]:
+            self.assertTrue(session.submit(text).accepted)
+        result = session.submit("(a->a)|r")
         self.assertTrue(result.accepted)
         self.assertEqual(result.step.reason.sources[0].kind, "step")
         self.assertEqual(result.step.reason.variable, "q")
 
-    def test_simultaneous_substitution_is_not_one_step(self):
-        self.assertFalse(Session().submit("a -> (a | b)").accepted)
+    def test_simultaneous_substitution_in_axiom_is_one_instance(self):
+        self.assertTrue(Session().submit("a -> (a | b)").accepted)
 
     def test_partial_substitution_is_not_one_step(self):
         self.assertFalse(Session().submit("a -> (p | q)").accepted)
 
     def test_mp_from_earlier_lines(self):
         session = Session()
-        for text in DEMO[:2]:
+        for text in DEMO[:5]:
             self.assertTrue(session.submit(text).accepted)
-        result = session.submit(DEMO[2])
+        result = session.submit(DEMO[5])
         self.assertEqual(result.step.reason.rule, "MP")
-        self.assertEqual([x.number for x in result.step.reason.sources], [2, 1])
+        self.assertEqual([x.number for x in result.step.reason.sources], [5, 3])
 
     def test_mp_can_use_axiom_without_entering_it(self):
         session = Session()
@@ -106,7 +108,7 @@ class VerifierTests(unittest.TestCase):
 
     def test_bad_lines_do_not_change_state_or_index(self):
         session = Session()
-        for text in ("p", "mn->p", "a->(a|b)"):
+        for text in ("p", "mn->p", "a->(c|b)"):
             self.assertFalse(session.submit(text).accepted)
         self.assertEqual(session.steps, [])
         first = session.submit("p->p")
@@ -115,15 +117,17 @@ class VerifierTests(unittest.TestCase):
 
     def test_repeat_has_explicit_reference(self):
         session = Session()
-        session.submit("a->(a|q)")
-        result = session.submit("((a))->((a)|(q))")
+        for text in DEMO[:6]:
+            session.submit(text)
+        result = session.submit("((q->q))|((r))")
         self.assertEqual(result.step.reason.rule, "repeat")
-        self.assertEqual(result.step.reason.sources[0].number, 1)
+        self.assertEqual(result.step.reason.sources[0].number, 6)
 
     def test_sessions_are_independent(self):
         one = Session()
-        one.submit("a->(a|q)")
-        self.assertFalse(Session().submit("a->(a|b)").accepted)
+        for text in DEMO[:6]:
+            one.submit(text)
+        self.assertFalse(Session().submit("(q->q)|r").accepted)
 
     def test_rejection_is_not_global_unprovability_claim(self):
         result = Session().submit("p|~p")
@@ -156,11 +160,22 @@ class VerifierTests(unittest.TestCase):
             if reason.rule == "β":
                 self.assertEqual(substitute(reason.sources[0].formula, reason.variable,
                                             reason.replacement), step.formula)
+            elif reason.rule == "axiom_schema":
+                replacements = dict(reason.substitutions)
+
+                def instantiate(node):
+                    if isinstance(node, Var):
+                        return replacements[node.name]
+                    if isinstance(node, Not):
+                        return Not(instantiate(node.operand))
+                    return Or(instantiate(node.left), instantiate(node.right))
+
+                self.assertEqual(instantiate(reason.sources[0].formula), step.formula)
             elif reason.rule == "MP":
                 implication, premise = reason.sources
                 self.assertEqual(implication.formula, Or(Not(premise.formula), step.formula))
             self.assertTrue(is_tautology(step.formula))
-        self.assertEqual(rules, ["β", "β", "MP", "β", "β", "MP", "β"])
+        self.assertEqual(rules, ["axiom_schema"] * 5 + ["MP", "β"])
 
 
 if __name__ == "__main__":

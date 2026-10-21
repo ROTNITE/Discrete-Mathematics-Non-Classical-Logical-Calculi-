@@ -1,10 +1,10 @@
-"""Конкретные аксиомы, состояние доказательства и проверка одного шага."""
+"""Схемы аксиом, состояние доказательства и проверка одного шага."""
 
 from __future__ import annotations
 
 from dataclasses import dataclass
 
-from .formula import Formula, FormulaError, Not, Or, match_substitution, parse, render, variables
+from .formula import Formula, FormulaError, Not, Or, match_schema, match_substitution, parse, render, variables
 
 AXIOM_TEXTS = (
     "p -> (p | q)",
@@ -37,6 +37,7 @@ class Reason:
     sources: tuple[Reference, ...]
     variable: str | None = None
     replacement: Formula | None = None
+    substitutions: tuple[tuple[str, Formula], ...] = ()
 
 
 @dataclass(frozen=True, slots=True)
@@ -82,8 +83,15 @@ class Session:
 
     def _reason(self, target: Formula) -> Reason | None:
         known = self._known.get(target)
+        if known and known.kind == "axiom":
+            return Reason("axiom", (known,))
+        for number, schema in enumerate(AXIOMS, 1):
+            replacements = match_schema(schema, target)
+            if replacements is not None:
+                return Reason("axiom_schema", (Reference("axiom", number, schema),),
+                              substitutions=tuple(sorted(replacements.items())))
         if known:
-            return Reason("axiom" if known.kind == "axiom" else "repeat", (known,))
+            return Reason("repeat", (known,))
         for antecedent, implication in self._mp.get(target, ()):
             premise = self._known.get(antecedent)
             if premise:
@@ -100,6 +108,11 @@ class Session:
         prefix = f"Формула {show(target)}"
         if reason.rule == "axiom":
             return f"{prefix} совпадает с {reason.sources[0].label}."
+        if reason.rule == "axiom_schema":
+            substitutions = "; ".join(f"{variable} := {show(value)}"
+                                      for variable, value in reason.substitutions)
+            return (f"{prefix} является экземпляром схемы аксиомы "
+                    f"A{reason.sources[0].number} с подстановками: {substitutions}.")
         if reason.rule == "repeat":
             return f"{prefix} уже доказана: {reason.sources[0].label}."
         if reason.rule == "MP":
@@ -121,7 +134,7 @@ class Session:
             return Verdict(False, f"Лимит сеанса: {MAX_STEPS} строк. Начните новый сеанс.", formula)
         reason = self._reason(formula)
         if reason is None:
-            return Verdict(False, "П.п.ф., но шаг не обоснован: нет совпадения с аксиомой, "
+            return Verdict(False, "П.п.ф., но шаг не обоснован: нет совпадения со схемой аксиомы, "
                            "ранее доказанной формулой, применения MP или одной подстановки бета. "
                            "Это не означает, что формула вообще недоказуема.", formula)
         step = Step(len(self.steps) + 1, text, formula, reason)
