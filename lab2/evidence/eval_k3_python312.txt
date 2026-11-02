@@ -1,0 +1,6 @@
+Python: 3.12.10
+Command arguments: ["lab2.py", "eval", "p->q", "--logic", "k3", "--values", "p=1/2,q=1/2"]
+Exit: 0; expected: 0
+Seconds: 0.115616
+
+k3: (p → q) = 1/2 при p=1/2, q=1/2

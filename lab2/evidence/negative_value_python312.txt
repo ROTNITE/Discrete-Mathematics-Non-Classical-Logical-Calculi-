@@ -1,0 +1,6 @@
+Python: 3.12.10
+Command arguments: ["lab2.py", "eval", "p", "--logic", "classic", "--values", "p=1/2"]
+Exit: 2; expected: 2
+Seconds: 0.117021
+
+Ошибка: значения переменных p недопустимы в classic

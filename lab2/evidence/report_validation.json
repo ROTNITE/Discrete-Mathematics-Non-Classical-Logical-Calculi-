@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "pdf_pages": 9,
+  "visual_reviewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "renderer": "Microsoft Word ExportAsFixedFormat + Poppler PNG 1800px",
+  "canonical_renderer_error": "FileNotFoundError: LibreOffice soffice.exe was not found on PATH",
+  "poppler_warnings": [
+    "No display font for Symbol",
+    "No display font for ArialUnicode"
+  ],
+  "missing_used_glyphs_observed": false,
+  "native_equations": 21,
+  "tables": 8,
+  "formula_tables_match_csv": true,
+  "relationship_table_matches_json": true,
+  "deliverable_sha256": {
+    "output/LR2_variant3.docx": "e3628a5c407f49c9bd2c9b5ec47fa3ecd6d0ededb23f591f7dac711bf1e9962b",
+    "output/LR2_variant3.pdf": "8167b3108030248e0726c3f71d8f356a29e14e126f5907fdccef3160d1f54b72",
+    "output/results.json": "cf5440fff0b64a77a0d2b65b83a579761046d5198a63d7e382d55f74d5437c90",
+    "output/RESULTS.md": "7acb67e663e4dcb5f39b33e94b49863838ff026111b7b85abcb9b0046eb730f9"
+  }
+}

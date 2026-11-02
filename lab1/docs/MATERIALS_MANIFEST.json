@@ -1,0 +1,221 @@
+[
+  {
+    "file": "Лабы\\Лабораторная работа №1.pdf",
+    "bytes": 252008,
+    "sha256": "1e7b3c507b739c7dac5c23aaf4e865159616bed032d9ceac5540c84b5daaf0ed",
+    "pages": 3
+  },
+  {
+    "file": "Лабы\\Методический материал к ЛР.pdf",
+    "bytes": 467449,
+    "sha256": "ad845c33dc7a3d99437d9f50f8deed7861dfe19f2d5ca88bb3194feb7b95c4c8",
+    "pages": 2
+  },
+  {
+    "file": "Лекции\\Лекция 1.pptx",
+    "bytes": 408777,
+    "sha256": "536cb0fad20c3f6a09b5df0ee26f29994014ff6e1f19ca67f74ad83d10a2f49a",
+    "slides": 25
+  },
+  {
+    "file": "Лекции\\Лекция 2-1.pptx",
+    "bytes": 4953504,
+    "sha256": "ab9f490f6bddf2eca39aa3d2e56224ab964dadc153afaf2c748f12334e7a99e1",
+    "slides": 20
+  },
+  {
+    "file": "Семинары\\2.1 2.2.png",
+    "bytes": 24968,
+    "sha256": "b67e6eac46fc26f746a6ec46d7ba28676d83d8d9ac8866bef37d93a1a38bafee",
+    "dimensions": [
+      771,
+      857
+    ]
+  },
+  {
+    "file": "Семинары\\2_3.png",
+    "bytes": 48793,
+    "sha256": "ad81739ed74dcba41b1ebb0b5c479f12686300a090383ba2ce176206a2c6a1b2",
+    "dimensions": [
+      1656,
+      496
+    ]
+  },
+  {
+    "file": "Семинары\\2_4.png",
+    "bytes": 38862,
+    "sha256": "74f54f7e2d513eeeac278c225f2df2281464988827fd12c2e207158da438d73e",
+    "dimensions": [
+      1854,
+      972
+    ]
+  },
+  {
+    "file": "Семинары\\2_5.png",
+    "bytes": 124455,
+    "sha256": "44eb53a6636690722fe8721cc386dfccf7c000fb9bafd9694c522b8de0342d15",
+    "dimensions": [
+      3320,
+      1410
+    ]
+  },
+  {
+    "file": "Семинары\\3.1.png",
+    "bytes": 166441,
+    "sha256": "c9d4fba020a8030e2f303e148b14e8a48f6fd908c220b672fc651c33b1908c90",
+    "dimensions": [
+      986,
+      770
+    ]
+  },
+  {
+    "file": "Семинары\\photo_2026-10-19_02-19-56.jpg",
+    "bytes": 125414,
+    "sha256": "27931dfcd47cf27c1a93ba99de7486e0b637df2cefba1931700e3e9010ba2351",
+    "dimensions": [
+      960,
+      1280
+    ]
+  },
+  {
+    "file": "Семинары\\photo_2026-10-19_02-20-03.jpg",
+    "bytes": 143295,
+    "sha256": "58a066b7562b323a9beb414de364e4d2efba10ebe0b955a4895d19d83b848569",
+    "dimensions": [
+      960,
+      1280
+    ]
+  },
+  {
+    "file": "Семинары\\photo_2026-10-19_02-20-06.jpg",
+    "bytes": 102674,
+    "sha256": "6a66a8e1ccfb18e27d97e3b674e8ac9ab653b56820c0a16b13ca8ff10751cfce",
+    "dimensions": [
+      960,
+      1280
+    ]
+  },
+  {
+    "file": "Семинары\\photo_2026-10-19_02-20-11.jpg",
+    "bytes": 157892,
+    "sha256": "a2d6bbd6b83aa2284603608ff76bd8d9578f66a6e64bb058579e975b773b9af9",
+    "dimensions": [
+      960,
+      1280
+    ]
+  },
+  {
+    "file": "Семинары\\photo_2026-10-19_02-20-15.jpg",
+    "bytes": 139373,
+    "sha256": "757f497a51625e60f46d128cd353025741782cf39e6be22ea15334023396d3c2",
+    "dimensions": [
+      960,
+      1280
+    ]
+  },
+  {
+    "file": "Семинары\\photo_2026-10-19_02-20-17.jpg",
+    "bytes": 125320,
+    "sha256": "ca5584e37621a008c0545d9283455519fd9bd9bd6392716235857e8029861a3a",
+    "dimensions": [
+      960,
+      1280
+    ]
+  },
+  {
+    "file": "Семинары\\photo_2026-10-19_02-20-19.jpg",
+    "bytes": 116362,
+    "sha256": "8425657ce9a8445bb423b3d5e203dcb8e802c7ff35a69fa120bc70c9abe7c8a1",
+    "dimensions": [
+      960,
+      1280
+    ]
+  },
+  {
+    "file": "Семинары\\photo_2026-10-19_02-20-22.jpg",
+    "bytes": 104611,
+    "sha256": "c180098041d0aa494afbdb5750794838ef67ff3ce37b6ab86621a26c68a48e44",
+    "dimensions": [
+      960,
+      1280
+    ]
+  },
+  {
+    "file": "Семинары\\photo_2026-10-19_02-20-24.jpg",
+    "bytes": 155667,
+    "sha256": "71f73ba4c138a4e4bfc617f79e79a91eac05f319962cbc00c915fe08da8d6c52",
+    "dimensions": [
+      960,
+      1280
+    ]
+  },
+  {
+    "file": "Семинары\\photo_2026-10-19_02-20-27.jpg",
+    "bytes": 125654,
+    "sha256": "e46ae8dc41325d1432065981db4594537857a31801bd9867eb8abcb8dcbcc5e1",
+    "dimensions": [
+      960,
+      1280
+    ]
+  },
+  {
+    "file": "Семинары\\photo_2026-10-19_02-20-30.jpg",
+    "bytes": 131691,
+    "sha256": "016a4f74fd560788a20541943bb6d404b7693c43eb58d68338a6c19cfaf15f7f",
+    "dimensions": [
+      960,
+      1280
+    ]
+  },
+  {
+    "file": "Семинары\\photo_2026-10-19_02-20-32.jpg",
+    "bytes": 139730,
+    "sha256": "61a893dc14ad23ddefaf83e8130b6a3d99a39afe3b640c8f137d6db6bf719955",
+    "dimensions": [
+      960,
+      1280
+    ]
+  },
+  {
+    "file": "Семинары\\photo_2026-10-19_02-20-34.jpg",
+    "bytes": 112059,
+    "sha256": "ccc16fadad1601676e912c23b270f02d1ba759990ded2186971d75215e4577c2",
+    "dimensions": [
+      960,
+      1280
+    ]
+  },
+  {
+    "file": "Семинары\\photo_2026-10-19_02-20-37.jpg",
+    "bytes": 132940,
+    "sha256": "aef28cd2374edde90b297194754b64911e38606fe00bc7330e35bff94963f3be",
+    "dimensions": [
+      960,
+      1280
+    ]
+  },
+  {
+    "file": "Семинары\\photo_2026-10-19_02-20-39.jpg",
+    "bytes": 139808,
+    "sha256": "eaf4d4a3709cecc10fc86525c29db321e605c9cb128bb9f7c2202fd7c459a30d",
+    "dimensions": [
+      960,
+      1280
+    ]
+  },
+  {
+    "file": "Семинары\\photo_2026-10-19_02-20-41.jpg",
+    "bytes": 156494,
+    "sha256": "c7e28e39c9c9cd41a5bdaef8cc808e0740fa149a2df943f417a008e4f41f0c86",
+    "dimensions": [
+      960,
+      1280
+    ]
+  },
+  {
+    "file": "Семинары\\Семинар №1 2024.pptx",
+    "bytes": 613650,
+    "sha256": "a3eb074bb039c8b64b065dc96c9cf4f05c121e392d67a9de1774f1f5333613c8",
+    "slides": 13
+  }
+]

@@ -1,0 +1,303 @@
+{
+  "python": "3.14.3",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "interpreter": "C:\\Users\\rotn1\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+  "checks": [
+    {
+      "name": "tests",
+      "args": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "seconds": 4.591882300001089,
+      "log": "evidence/tests_python314.txt"
+    },
+    {
+      "name": "compile",
+      "args": [
+        "-m",
+        "compileall",
+        "-q",
+        "lab2.py",
+        "multilogic",
+        "tests",
+        "tools"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "seconds": 0.13436319999891566,
+      "log": "evidence/compile_python314.txt"
+    },
+    {
+      "name": "variant",
+      "args": [
+        "lab2.py",
+        "variant"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "seconds": 0.19360860000051616,
+      "log": "evidence/variant_python314.txt"
+    },
+    {
+      "name": "eval_k3",
+      "args": [
+        "lab2.py",
+        "eval",
+        "p->q",
+        "--logic",
+        "k3",
+        "--values",
+        "p=1/2,q=1/2"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "seconds": 0.13343979999990552,
+      "log": "evidence/eval_k3_python314.txt"
+    },
+    {
+      "name": "eval_l3",
+      "args": [
+        "lab2.py",
+        "eval",
+        "p->q",
+        "--logic",
+        "l3",
+        "--values",
+        "p=1/2,q=1/2"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "seconds": 0.13335650000044552,
+      "log": "evidence/eval_l3_python314.txt"
+    },
+    {
+      "name": "compare",
+      "args": [
+        "lab2.py",
+        "compare",
+        "(p->q)->(~q->~p)"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "seconds": 0.13474959999985003,
+      "log": "evidence/compare_python314.txt"
+    },
+    {
+      "name": "entails_half",
+      "args": [
+        "lab2.py",
+        "entails",
+        "--premise",
+        "p->q",
+        "--premise",
+        "q->p",
+        "--conclusion",
+        "p|~p",
+        "--logic",
+        "l3"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "seconds": 0.13893370000005234,
+      "log": "evidence/entails_half_python314.txt"
+    },
+    {
+      "name": "vacuous",
+      "args": [
+        "lab2.py",
+        "entails",
+        "--premise",
+        "p",
+        "--premise",
+        "~p",
+        "--conclusion",
+        "q"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "seconds": 0.13252319999992324,
+      "log": "evidence/vacuous_python314.txt"
+    },
+    {
+      "name": "negative_syntax",
+      "args": [
+        "lab2.py",
+        "analyze",
+        "p->"
+      ],
+      "exit": 2,
+      "expected_exit": 2,
+      "passed": true,
+      "seconds": 0.12459830000079819,
+      "log": "evidence/negative_syntax_python314.txt"
+    },
+    {
+      "name": "negative_value",
+      "args": [
+        "lab2.py",
+        "eval",
+        "p",
+        "--logic",
+        "classic",
+        "--values",
+        "p=1/2"
+      ],
+      "exit": 2,
+      "expected_exit": 2,
+      "passed": true,
+      "seconds": 0.12669980000100622,
+      "log": "evidence/negative_value_python314.txt"
+    },
+    {
+      "name": "interactive",
+      "args": [
+        "lab2.py"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "seconds": 0.14311350000025413,
+      "log": "evidence/interactive_python314.txt"
+    }
+  ],
+  "materials": [
+    {
+      "file": "lab2/materials/Лабораторная работа 2.pdf",
+      "state": "unchanged"
+    },
+    {
+      "file": "lab1/materials/Лабораторная работа №1.pdf",
+      "state": "unchanged"
+    },
+    {
+      "file": "lab1/materials/Методический материал к ЛР.pdf",
+      "state": "unchanged"
+    },
+    {
+      "file": "materials/Лекции/Лекция 1.pptx",
+      "state": "unchanged"
+    },
+    {
+      "file": "materials/Лекции/Лекция 2-1.pptx",
+      "state": "unchanged"
+    },
+    {
+      "file": "materials/Семинары/2.1 2.2.png",
+      "state": "unchanged"
+    },
+    {
+      "file": "materials/Семинары/2_3.png",
+      "state": "unchanged"
+    },
+    {
+      "file": "materials/Семинары/2_4.png",
+      "state": "unchanged"
+    },
+    {
+      "file": "materials/Семинары/2_5.png",
+      "state": "unchanged"
+    },
+    {
+      "file": "materials/Семинары/3.1.png",
+      "state": "unchanged"
+    },
+    {
+      "file": "materials/Семинары/photo_2026-10-19_02-19-56.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "materials/Семинары/photo_2026-10-19_02-20-03.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "materials/Семинары/photo_2026-10-19_02-20-06.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "materials/Семинары/photo_2026-10-19_02-20-11.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "materials/Семинары/photo_2026-10-19_02-20-15.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "materials/Семинары/photo_2026-10-19_02-20-17.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "materials/Семинары/photo_2026-10-19_02-20-19.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "materials/Семинары/photo_2026-10-19_02-20-22.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "materials/Семинары/photo_2026-10-19_02-20-24.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "materials/Семинары/photo_2026-10-19_02-20-27.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "materials/Семинары/photo_2026-10-19_02-20-30.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "materials/Семинары/photo_2026-10-19_02-20-32.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "materials/Семинары/photo_2026-10-19_02-20-34.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "materials/Семинары/photo_2026-10-19_02-20-37.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "materials/Семинары/photo_2026-10-19_02-20-39.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "materials/Семинары/photo_2026-10-19_02-20-41.jpg",
+      "state": "unchanged"
+    },
+    {
+      "file": "materials/Семинары/Семинар №1 2024.pptx",
+      "state": "unchanged"
+    }
+  ],
+  "source_sha256": {
+    "lab2.py": "4c4e078c815c0004d55d6a7915d2756e35ad9f14fb89cf2fdef2b61ded159e2b",
+    "multilogic/__init__.py": "d8e7b864f0959f9e48d0e345314813187c69d0f53250e92e3b2ae6247d550294",
+    "multilogic/cli.py": "3617f1fcbd6f7e02e96337c9546ce7ab80c6c223d7e77a937f1201a920f82bd3",
+    "multilogic/formula.py": "4b94118ceccaa92d1c278a2963520b770ed6b2600009b647342e8e669a40d085",
+    "multilogic/semantics.py": "e3a77f2ca7c8a63db9afa2637b42eab45b96f8546be12ffc6ab32d4398643a7d",
+    "multilogic/variant.py": "816baf4cd4cef5777868e6b16b7ad9fbbcdb74069f9976af68a77ff817dcec72",
+    "start.cmd": "9b6e7c755a4f17d8c0e478c129e6475a1e22220452cd72a4f941f0157524c56d",
+    "tests/reference.py": "12acd00027fdaf621bae390be81dfa0bd6a70470a8e941208d2690158d8649c6",
+    "tests/test_cli.py": "1d224acd8eb21669c3f6a237046e6a459b5b86dcf3e52818af0d233f3df3a164",
+    "tests/test_formula.py": "b8fabe7ae6282579b2a3dddb8b02ebf1eeb11377e67f19421213d52680a46e97",
+    "tests/test_semantics.py": "ec06fb0e74e5d6f014cb9f5cdcc87a7c34ee91aea94f5605b7bcdba088d2e0ca",
+    "tests/test_variant.py": "dff1fd4377eb07148948830204c79e8ad547f1b4ded75e11198681a62769b314"
+  },
+  "passed": true
+}

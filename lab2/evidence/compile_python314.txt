@@ -1,0 +1,5 @@
+Python: 3.14.3
+Command arguments: ["-m", "compileall", "-q", "lab2.py", "multilogic", "tests", "tools"]
+Exit: 0; expected: 0
+Seconds: 0.134363
+

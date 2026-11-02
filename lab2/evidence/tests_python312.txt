@@ -1,0 +1,68 @@
+Python: 3.12.10
+Command arguments: ["-m", "unittest", "discover", "-s", "tests", "-v"]
+Exit: 0; expected: 0
+Seconds: 4.198838
+
+test_argparse_errors (test_cli.CliTests.test_argparse_errors) ... ok
+test_comparison_and_given_values (test_cli.CliTests.test_comparison_and_given_values) ... ok
+test_empty_premises (test_cli.CliTests.test_empty_premises) ... ok
+test_entailment_and_counterexample (test_cli.CliTests.test_entailment_and_counterexample) ... ok
+test_eof_is_clean (test_cli.CliTests.test_eof_is_clean) ... ok
+test_evaluation_example_and_json (test_cli.CliTests.test_evaluation_example_and_json) ... ok
+test_input_errors_have_exit2_and_no_traceback (test_cli.CliTests.test_input_errors_have_exit2_and_no_traceback) ... ok
+test_interactive_errors_do_not_end_session (test_cli.CliTests.test_interactive_errors_do_not_end_session) ... ok
+test_interactive_menu_all_main_scenarios (test_cli.CliTests.test_interactive_menu_all_main_scenarios) ... ok
+test_table_and_analysis (test_cli.CliTests.test_table_and_analysis) ... ok
+test_tree_preserves_implication (test_cli.CliTests.test_tree_preserves_implication) ... ok
+test_vacuity_is_visible (test_cli.CliTests.test_vacuity_is_visible) ... ok
+test_variant_export_from_another_working_directory (test_cli.CliTests.test_variant_export_from_another_working_directory) ... ok
+test_distinct_case_and_ordinary_f_t (test_formula.FormulaTests.test_distinct_case_and_ordinary_f_t) ... ok
+test_four_operations (test_formula.FormulaTests.test_four_operations) ... ok
+test_implication_is_a_primitive_node (test_formula.FormulaTests.test_implication_is_a_primitive_node) ... ok
+test_invalid_examples_from_method (test_formula.FormulaTests.test_invalid_examples_from_method) ... ok
+test_invalid_library_trees (test_formula.FormulaTests.test_invalid_library_trees) ... ok
+test_left_associativity_from_lecture (test_formula.FormulaTests.test_left_associativity_from_lecture) ... ok
+test_no_semantic_rewriting (test_formula.FormulaTests.test_no_semantic_rewriting) ... ok
+test_other_invalid_formulas (test_formula.FormulaTests.test_other_invalid_formulas) ... ok
+test_position_refers_to_original_input (test_formula.FormulaTests.test_position_refers_to_original_input) ... ok
+test_precedence_and_negation (test_formula.FormulaTests.test_precedence_and_negation) ... ok
+test_redundant_parentheses_from_method (test_formula.FormulaTests.test_redundant_parentheses_from_method) ... ok
+test_round_trip_in_both_notations (test_formula.FormulaTests.test_round_trip_in_both_notations) ... ok
+test_size_boundaries (test_formula.FormulaTests.test_size_boundaries) ... ok
+test_tree_preserves_all_operations (test_formula.FormulaTests.test_tree_preserves_all_operations) ... ok
+test_unicode_and_ascii_aliases (test_formula.FormulaTests.test_unicode_and_ascii_aliases) ... ok
+test_composition_example_from_seminar (test_semantics.AnalysisTests.test_composition_example_from_seminar) ... ok
+test_counterexample_may_be_half (test_semantics.AnalysisTests.test_counterexample_may_be_half) ... ok
+test_distinct_variables_determine_row_count (test_semantics.AnalysisTests.test_distinct_variables_determine_row_count) ... ok
+test_full_enumeration_limits (test_semantics.AnalysisTests.test_full_enumeration_limits) ... ok
+test_unsatisfiable_is_distinct_from_identically_false (test_semantics.AnalysisTests.test_unsatisfiable_is_distinct_from_identically_false) ... ok
+test_compare_a_given_assignment (test_semantics.ComparisonTests.test_compare_a_given_assignment) ... ok
+test_compare_both_domains_and_primitive_implication (test_semantics.ComparisonTests.test_compare_both_domains_and_primitive_implication) ... ok
+test_invalid_comparison_selection (test_semantics.ComparisonTests.test_invalid_comparison_selection) ... ok
+test_properties_compare_booleans_not_domain_sizes (test_semantics.ComparisonTests.test_properties_compare_booleans_not_domain_sizes) ... ok
+test_same_values_on_common_domain_do_not_imply_same_validity (test_semantics.ComparisonTests.test_same_values_on_common_domain_do_not_imply_same_validity) ... ok
+test_duplicate_premises_preserve_result (test_semantics.EntailmentTests.test_duplicate_premises_preserve_result) ... ok
+test_empty_premises_mean_validity (test_semantics.EntailmentTests.test_empty_premises_mean_validity) ... ok
+test_half_conclusion_breaks_entailment (test_semantics.EntailmentTests.test_half_conclusion_breaks_entailment) ... ok
+test_inconsistent_premises_are_reported_separately (test_semantics.EntailmentTests.test_inconsistent_premises_are_reported_separately) ... ok
+test_modus_ponens_in_all_systems (test_semantics.EntailmentTests.test_modus_ponens_in_all_systems) ... ok
+test_too_many_premises (test_semantics.EntailmentTests.test_too_many_premises) ... ok
+test_union_of_variables_includes_conclusion (test_semantics.EntailmentTests.test_union_of_variables_includes_conclusion) ... ok
+test_all_binary_truth_table_cells (test_semantics.OperationTests.test_all_binary_truth_table_cells) ... ok
+test_all_unary_truth_table_cells (test_semantics.OperationTests.test_all_unary_truth_table_cells) ... ok
+test_assignment_example_from_lab2_page2 (test_semantics.OperationTests.test_assignment_example_from_lab2_page2) ... ok
+test_assignment_rejects_missing_extra_and_invalid_values (test_semantics.OperationTests.test_assignment_rejects_missing_extra_and_invalid_values) ... ok
+test_implication_cannot_be_expanded_in_l3 (test_semantics.OperationTests.test_implication_cannot_be_expanded_in_l3) ... ok
+test_values_and_logic_lookup (test_semantics.OperationTests.test_values_and_logic_lookup) ... ok
+test_counterexamples_really_satisfy_every_premise (test_variant.VariantTests.test_counterexamples_really_satisfy_every_premise) ... ok
+test_every_formula_row_against_independent_reference (test_variant.VariantTests.test_every_formula_row_against_independent_reference) ... ok
+test_every_relation_row_against_independent_reference (test_variant.VariantTests.test_every_relation_row_against_independent_reference) ... ok
+test_expected_entailment_flags (test_variant.VariantTests.test_expected_entailment_flags) ... ok
+test_export_contains_complete_tables_and_matches_summary (test_variant.VariantTests.test_export_contains_complete_tables_and_matches_summary) ... ok
+test_r3_preserves_r_in_the_original_premise (test_variant.VariantTests.test_r3_preserves_r_in_the_original_premise) ... ok
+test_variant_semantic_properties (test_variant.VariantTests.test_variant_semantic_properties) ... ok
+
+----------------------------------------------------------------------
+Ran 58 tests in 4.040s
+
+OK

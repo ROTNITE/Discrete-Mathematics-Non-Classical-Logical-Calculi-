@@ -1,0 +1,4 @@
+Python: 3.14.3
+Command: python -m compileall -q lab1.py proofchecker tests tools
+Exit: 0; expected: 0
+

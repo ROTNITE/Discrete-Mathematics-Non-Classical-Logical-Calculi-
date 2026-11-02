@@ -1,0 +1,1741 @@
+{
+  "variant": 3,
+  "designated_values": [
+    "1"
+  ],
+  "formulas": {
+    "F1": {
+      "classic": {
+        "formula": "(p ∨ ¬p)",
+        "logic": "classic",
+        "variables": [
+          "p"
+        ],
+        "total_interpretations": 2,
+        "value_counts": {
+          "0": 0,
+          "1": 2
+        },
+        "valid": true,
+        "satisfiable": true,
+        "unsatisfiable": false,
+        "identically_false": false,
+        "model": {
+          "assignment": {
+            "p": "0"
+          },
+          "value": "1"
+        },
+        "counterexample": null
+      },
+      "k3": {
+        "formula": "(p ∨ ¬p)",
+        "logic": "k3",
+        "variables": [
+          "p"
+        ],
+        "total_interpretations": 3,
+        "value_counts": {
+          "0": 0,
+          "1/2": 1,
+          "1": 2
+        },
+        "valid": false,
+        "satisfiable": true,
+        "unsatisfiable": false,
+        "identically_false": false,
+        "model": {
+          "assignment": {
+            "p": "0"
+          },
+          "value": "1"
+        },
+        "counterexample": {
+          "assignment": {
+            "p": "1/2"
+          },
+          "value": "1/2"
+        }
+      },
+      "l3": {
+        "formula": "(p ∨ ¬p)",
+        "logic": "l3",
+        "variables": [
+          "p"
+        ],
+        "total_interpretations": 3,
+        "value_counts": {
+          "0": 0,
+          "1/2": 1,
+          "1": 2
+        },
+        "valid": false,
+        "satisfiable": true,
+        "unsatisfiable": false,
+        "identically_false": false,
+        "model": {
+          "assignment": {
+            "p": "0"
+          },
+          "value": "1"
+        },
+        "counterexample": {
+          "assignment": {
+            "p": "1/2"
+          },
+          "value": "1/2"
+        }
+      }
+    },
+    "F2": {
+      "classic": {
+        "formula": "((p → q) → (¬q → ¬p))",
+        "logic": "classic",
+        "variables": [
+          "p",
+          "q"
+        ],
+        "total_interpretations": 4,
+        "value_counts": {
+          "0": 0,
+          "1": 4
+        },
+        "valid": true,
+        "satisfiable": true,
+        "unsatisfiable": false,
+        "identically_false": false,
+        "model": {
+          "assignment": {
+            "p": "0",
+            "q": "0"
+          },
+          "value": "1"
+        },
+        "counterexample": null
+      },
+      "k3": {
+        "formula": "((p → q) → (¬q → ¬p))",
+        "logic": "k3",
+        "variables": [
+          "p",
+          "q"
+        ],
+        "total_interpretations": 9,
+        "value_counts": {
+          "0": 0,
+          "1/2": 3,
+          "1": 6
+        },
+        "valid": false,
+        "satisfiable": true,
+        "unsatisfiable": false,
+        "identically_false": false,
+        "model": {
+          "assignment": {
+            "p": "0",
+            "q": "0"
+          },
+          "value": "1"
+        },
+        "counterexample": {
+          "assignment": {
+            "p": "1/2",
+            "q": "0"
+          },
+          "value": "1/2"
+        }
+      },
+      "l3": {
+        "formula": "((p → q) → (¬q → ¬p))",
+        "logic": "l3",
+        "variables": [
+          "p",
+          "q"
+        ],
+        "total_interpretations": 9,
+        "value_counts": {
+          "0": 0,
+          "1/2": 0,
+          "1": 9
+        },
+        "valid": true,
+        "satisfiable": true,
+        "unsatisfiable": false,
+        "identically_false": false,
+        "model": {
+          "assignment": {
+            "p": "0",
+            "q": "0"
+          },
+          "value": "1"
+        },
+        "counterexample": null
+      }
+    },
+    "F3": {
+      "classic": {
+        "formula": "¬(p ∨ ¬p)",
+        "logic": "classic",
+        "variables": [
+          "p"
+        ],
+        "total_interpretations": 2,
+        "value_counts": {
+          "0": 2,
+          "1": 0
+        },
+        "valid": false,
+        "satisfiable": false,
+        "unsatisfiable": true,
+        "identically_false": true,
+        "model": null,
+        "counterexample": {
+          "assignment": {
+            "p": "0"
+          },
+          "value": "0"
+        }
+      },
+      "k3": {
+        "formula": "¬(p ∨ ¬p)",
+        "logic": "k3",
+        "variables": [
+          "p"
+        ],
+        "total_interpretations": 3,
+        "value_counts": {
+          "0": 2,
+          "1/2": 1,
+          "1": 0
+        },
+        "valid": false,
+        "satisfiable": false,
+        "unsatisfiable": true,
+        "identically_false": false,
+        "model": null,
+        "counterexample": {
+          "assignment": {
+            "p": "0"
+          },
+          "value": "0"
+        }
+      },
+      "l3": {
+        "formula": "¬(p ∨ ¬p)",
+        "logic": "l3",
+        "variables": [
+          "p"
+        ],
+        "total_interpretations": 3,
+        "value_counts": {
+          "0": 2,
+          "1/2": 1,
+          "1": 0
+        },
+        "valid": false,
+        "satisfiable": false,
+        "unsatisfiable": true,
+        "identically_false": false,
+        "model": null,
+        "counterexample": {
+          "assignment": {
+            "p": "0"
+          },
+          "value": "0"
+        }
+      }
+    },
+    "F4": {
+      "classic": {
+        "formula": "((p ∧ q) ∨ (¬p ∧ r))",
+        "logic": "classic",
+        "variables": [
+          "p",
+          "q",
+          "r"
+        ],
+        "total_interpretations": 8,
+        "value_counts": {
+          "0": 4,
+          "1": 4
+        },
+        "valid": false,
+        "satisfiable": true,
+        "unsatisfiable": false,
+        "identically_false": false,
+        "model": {
+          "assignment": {
+            "p": "0",
+            "q": "0",
+            "r": "1"
+          },
+          "value": "1"
+        },
+        "counterexample": {
+          "assignment": {
+            "p": "0",
+            "q": "0",
+            "r": "0"
+          },
+          "value": "0"
+        }
+      },
+      "k3": {
+        "formula": "((p ∧ q) ∨ (¬p ∧ r))",
+        "logic": "k3",
+        "variables": [
+          "p",
+          "q",
+          "r"
+        ],
+        "total_interpretations": 27,
+        "value_counts": {
+          "0": 7,
+          "1/2": 14,
+          "1": 6
+        },
+        "valid": false,
+        "satisfiable": true,
+        "unsatisfiable": false,
+        "identically_false": false,
+        "model": {
+          "assignment": {
+            "p": "0",
+            "q": "0",
+            "r": "1"
+          },
+          "value": "1"
+        },
+        "counterexample": {
+          "assignment": {
+            "p": "0",
+            "q": "0",
+            "r": "0"
+          },
+          "value": "0"
+        }
+      },
+      "l3": {
+        "formula": "((p ∧ q) ∨ (¬p ∧ r))",
+        "logic": "l3",
+        "variables": [
+          "p",
+          "q",
+          "r"
+        ],
+        "total_interpretations": 27,
+        "value_counts": {
+          "0": 7,
+          "1/2": 14,
+          "1": 6
+        },
+        "valid": false,
+        "satisfiable": true,
+        "unsatisfiable": false,
+        "identically_false": false,
+        "model": {
+          "assignment": {
+            "p": "0",
+            "q": "0",
+            "r": "1"
+          },
+          "value": "1"
+        },
+        "counterexample": {
+          "assignment": {
+            "p": "0",
+            "q": "0",
+            "r": "0"
+          },
+          "value": "0"
+        }
+      }
+    },
+    "F5": {
+      "classic": {
+        "formula": "(((p → q) ∧ (p → ¬q)) → ¬p)",
+        "logic": "classic",
+        "variables": [
+          "p",
+          "q"
+        ],
+        "total_interpretations": 4,
+        "value_counts": {
+          "0": 0,
+          "1": 4
+        },
+        "valid": true,
+        "satisfiable": true,
+        "unsatisfiable": false,
+        "identically_false": false,
+        "model": {
+          "assignment": {
+            "p": "0",
+            "q": "0"
+          },
+          "value": "1"
+        },
+        "counterexample": null
+      },
+      "k3": {
+        "formula": "(((p → q) ∧ (p → ¬q)) → ¬p)",
+        "logic": "k3",
+        "variables": [
+          "p",
+          "q"
+        ],
+        "total_interpretations": 9,
+        "value_counts": {
+          "0": 0,
+          "1/2": 4,
+          "1": 5
+        },
+        "valid": false,
+        "satisfiable": true,
+        "unsatisfiable": false,
+        "identically_false": false,
+        "model": {
+          "assignment": {
+            "p": "0",
+            "q": "0"
+          },
+          "value": "1"
+        },
+        "counterexample": {
+          "assignment": {
+            "p": "1/2",
+            "q": "0"
+          },
+          "value": "1/2"
+        }
+      },
+      "l3": {
+        "formula": "(((p → q) ∧ (p → ¬q)) → ¬p)",
+        "logic": "l3",
+        "variables": [
+          "p",
+          "q"
+        ],
+        "total_interpretations": 9,
+        "value_counts": {
+          "0": 0,
+          "1/2": 2,
+          "1": 7
+        },
+        "valid": false,
+        "satisfiable": true,
+        "unsatisfiable": false,
+        "identically_false": false,
+        "model": {
+          "assignment": {
+            "p": "0",
+            "q": "0"
+          },
+          "value": "1"
+        },
+        "counterexample": {
+          "assignment": {
+            "p": "1/2",
+            "q": "1/2"
+          },
+          "value": "1/2"
+        }
+      }
+    }
+  },
+  "relations": {
+    "R1": {
+      "classic": {
+        "premises": [
+          "(p ∨ q)",
+          "(p → r)",
+          "(q → s)",
+          "((r ∨ s) → t)",
+          "(t → u)"
+        ],
+        "conclusion": "u",
+        "logic": "classic",
+        "variables": [
+          "p",
+          "q",
+          "r",
+          "s",
+          "t",
+          "u"
+        ],
+        "total_interpretations": 64,
+        "premise_models": 5,
+        "counterexamples": 0,
+        "holds": true,
+        "vacuous": false,
+        "counterexample": null,
+        "model": {
+          "assignment": {
+            "p": "0",
+            "q": "1",
+            "r": "0",
+            "s": "1",
+            "t": "1",
+            "u": "1"
+          },
+          "premise_values": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "conclusion_value": "1"
+        }
+      },
+      "k3": {
+        "premises": [
+          "(p ∨ q)",
+          "(p → r)",
+          "(q → s)",
+          "((r ∨ s) → t)",
+          "(t → u)"
+        ],
+        "conclusion": "u",
+        "logic": "k3",
+        "variables": [
+          "p",
+          "q",
+          "r",
+          "s",
+          "t",
+          "u"
+        ],
+        "total_interpretations": 729,
+        "premise_models": 9,
+        "counterexamples": 0,
+        "holds": true,
+        "vacuous": false,
+        "counterexample": null,
+        "model": {
+          "assignment": {
+            "p": "0",
+            "q": "1",
+            "r": "0",
+            "s": "1",
+            "t": "1",
+            "u": "1"
+          },
+          "premise_values": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "conclusion_value": "1"
+        }
+      },
+      "l3": {
+        "premises": [
+          "(p ∨ q)",
+          "(p → r)",
+          "(q → s)",
+          "((r ∨ s) → t)",
+          "(t → u)"
+        ],
+        "conclusion": "u",
+        "logic": "l3",
+        "variables": [
+          "p",
+          "q",
+          "r",
+          "s",
+          "t",
+          "u"
+        ],
+        "total_interpretations": 729,
+        "premise_models": 11,
+        "counterexamples": 0,
+        "holds": true,
+        "vacuous": false,
+        "counterexample": null,
+        "model": {
+          "assignment": {
+            "p": "0",
+            "q": "1",
+            "r": "0",
+            "s": "1",
+            "t": "1",
+            "u": "1"
+          },
+          "premise_values": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "conclusion_value": "1"
+        }
+      }
+    },
+    "R2": {
+      "classic": {
+        "premises": [
+          "(p → q)",
+          "(q → (r ∨ s))",
+          "(r → t)",
+          "(s → t)",
+          "(t → u)"
+        ],
+        "conclusion": "(¬p ∨ u)",
+        "logic": "classic",
+        "variables": [
+          "p",
+          "q",
+          "r",
+          "s",
+          "t",
+          "u"
+        ],
+        "total_interpretations": 64,
+        "premise_models": 12,
+        "counterexamples": 0,
+        "holds": true,
+        "vacuous": false,
+        "counterexample": null,
+        "model": {
+          "assignment": {
+            "p": "0",
+            "q": "0",
+            "r": "0",
+            "s": "0",
+            "t": "0",
+            "u": "0"
+          },
+          "premise_values": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "conclusion_value": "1"
+        }
+      },
+      "k3": {
+        "premises": [
+          "(p → q)",
+          "(q → (r ∨ s))",
+          "(r → t)",
+          "(s → t)",
+          "(t → u)"
+        ],
+        "conclusion": "(¬p ∨ u)",
+        "logic": "k3",
+        "variables": [
+          "p",
+          "q",
+          "r",
+          "s",
+          "t",
+          "u"
+        ],
+        "total_interpretations": 729,
+        "premise_models": 33,
+        "counterexamples": 0,
+        "holds": true,
+        "vacuous": false,
+        "counterexample": null,
+        "model": {
+          "assignment": {
+            "p": "0",
+            "q": "0",
+            "r": "0",
+            "s": "0",
+            "t": "0",
+            "u": "0"
+          },
+          "premise_values": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "conclusion_value": "1"
+        }
+      },
+      "l3": {
+        "premises": [
+          "(p → q)",
+          "(q → (r ∨ s))",
+          "(r → t)",
+          "(s → t)",
+          "(t → u)"
+        ],
+        "conclusion": "(¬p ∨ u)",
+        "logic": "l3",
+        "variables": [
+          "p",
+          "q",
+          "r",
+          "s",
+          "t",
+          "u"
+        ],
+        "total_interpretations": 729,
+        "premise_models": 63,
+        "counterexamples": 3,
+        "holds": false,
+        "vacuous": false,
+        "counterexample": {
+          "assignment": {
+            "p": "1/2",
+            "q": "1/2",
+            "r": "0",
+            "s": "1/2",
+            "t": "1/2",
+            "u": "1/2"
+          },
+          "premise_values": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "conclusion_value": "1/2"
+        },
+        "model": {
+          "assignment": {
+            "p": "0",
+            "q": "0",
+            "r": "0",
+            "s": "0",
+            "t": "0",
+            "u": "0"
+          },
+          "premise_values": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "conclusion_value": "1"
+        }
+      }
+    },
+    "R3": {
+      "classic": {
+        "premises": [
+          "(p ∨ q)",
+          "(p → s)",
+          "(r → s)",
+          "(s → t)",
+          "(t → u)"
+        ],
+        "conclusion": "(u ∧ ((p → q) ∨ (q → p)))",
+        "logic": "classic",
+        "variables": [
+          "p",
+          "q",
+          "r",
+          "s",
+          "t",
+          "u"
+        ],
+        "total_interpretations": 64,
+        "premise_models": 9,
+        "counterexamples": 1,
+        "holds": false,
+        "vacuous": false,
+        "counterexample": {
+          "assignment": {
+            "p": "0",
+            "q": "1",
+            "r": "0",
+            "s": "0",
+            "t": "0",
+            "u": "0"
+          },
+          "premise_values": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "conclusion_value": "0"
+        },
+        "model": {
+          "assignment": {
+            "p": "0",
+            "q": "1",
+            "r": "0",
+            "s": "0",
+            "t": "0",
+            "u": "0"
+          },
+          "premise_values": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "conclusion_value": "0"
+        }
+      },
+      "k3": {
+        "premises": [
+          "(p ∨ q)",
+          "(p → s)",
+          "(r → s)",
+          "(s → t)",
+          "(t → u)"
+        ],
+        "conclusion": "(u ∧ ((p → q) ∨ (q → p)))",
+        "logic": "k3",
+        "variables": [
+          "p",
+          "q",
+          "r",
+          "s",
+          "t",
+          "u"
+        ],
+        "total_interpretations": 729,
+        "premise_models": 21,
+        "counterexamples": 2,
+        "holds": false,
+        "vacuous": false,
+        "counterexample": {
+          "assignment": {
+            "p": "0",
+            "q": "1",
+            "r": "0",
+            "s": "0",
+            "t": "0",
+            "u": "0"
+          },
+          "premise_values": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "conclusion_value": "0"
+        },
+        "model": {
+          "assignment": {
+            "p": "0",
+            "q": "1",
+            "r": "0",
+            "s": "0",
+            "t": "0",
+            "u": "0"
+          },
+          "premise_values": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "conclusion_value": "0"
+        }
+      },
+      "l3": {
+        "premises": [
+          "(p ∨ q)",
+          "(p → s)",
+          "(r → s)",
+          "(s → t)",
+          "(t → u)"
+        ],
+        "conclusion": "(u ∧ ((p → q) ∨ (q → p)))",
+        "logic": "l3",
+        "variables": [
+          "p",
+          "q",
+          "r",
+          "s",
+          "t",
+          "u"
+        ],
+        "total_interpretations": 729,
+        "premise_models": 33,
+        "counterexamples": 7,
+        "holds": false,
+        "vacuous": false,
+        "counterexample": {
+          "assignment": {
+            "p": "0",
+            "q": "1",
+            "r": "0",
+            "s": "0",
+            "t": "0",
+            "u": "0"
+          },
+          "premise_values": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "conclusion_value": "0"
+        },
+        "model": {
+          "assignment": {
+            "p": "0",
+            "q": "1",
+            "r": "0",
+            "s": "0",
+            "t": "0",
+            "u": "0"
+          },
+          "premise_values": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "conclusion_value": "0"
+        }
+      }
+    },
+    "R4": {
+      "classic": {
+        "premises": [
+          "(p ∨ q)",
+          "(p → r)",
+          "(q → s)",
+          "(r → t)",
+          "(s → t)"
+        ],
+        "conclusion": "(p → q)",
+        "logic": "classic",
+        "variables": [
+          "p",
+          "q",
+          "r",
+          "s",
+          "t"
+        ],
+        "total_interpretations": 32,
+        "premise_models": 5,
+        "counterexamples": 2,
+        "holds": false,
+        "vacuous": false,
+        "counterexample": {
+          "assignment": {
+            "p": "1",
+            "q": "0",
+            "r": "1",
+            "s": "0",
+            "t": "1"
+          },
+          "premise_values": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "conclusion_value": "0"
+        },
+        "model": {
+          "assignment": {
+            "p": "0",
+            "q": "1",
+            "r": "0",
+            "s": "1",
+            "t": "1"
+          },
+          "premise_values": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "conclusion_value": "1"
+        }
+      },
+      "k3": {
+        "premises": [
+          "(p ∨ q)",
+          "(p → r)",
+          "(q → s)",
+          "(r → t)",
+          "(s → t)"
+        ],
+        "conclusion": "(p → q)",
+        "logic": "k3",
+        "variables": [
+          "p",
+          "q",
+          "r",
+          "s",
+          "t"
+        ],
+        "total_interpretations": 243,
+        "premise_models": 9,
+        "counterexamples": 4,
+        "holds": false,
+        "vacuous": false,
+        "counterexample": {
+          "assignment": {
+            "p": "1",
+            "q": "0",
+            "r": "1",
+            "s": "0",
+            "t": "1"
+          },
+          "premise_values": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "conclusion_value": "0"
+        },
+        "model": {
+          "assignment": {
+            "p": "0",
+            "q": "1",
+            "r": "0",
+            "s": "1",
+            "t": "1"
+          },
+          "premise_values": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "conclusion_value": "1"
+        }
+      },
+      "l3": {
+        "premises": [
+          "(p ∨ q)",
+          "(p → r)",
+          "(q → s)",
+          "(r → t)",
+          "(s → t)"
+        ],
+        "conclusion": "(p → q)",
+        "logic": "l3",
+        "variables": [
+          "p",
+          "q",
+          "r",
+          "s",
+          "t"
+        ],
+        "total_interpretations": 243,
+        "premise_models": 11,
+        "counterexamples": 5,
+        "holds": false,
+        "vacuous": false,
+        "counterexample": {
+          "assignment": {
+            "p": "1",
+            "q": "0",
+            "r": "1",
+            "s": "0",
+            "t": "1"
+          },
+          "premise_values": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "conclusion_value": "0"
+        },
+        "model": {
+          "assignment": {
+            "p": "0",
+            "q": "1",
+            "r": "0",
+            "s": "1",
+            "t": "1"
+          },
+          "premise_values": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "conclusion_value": "1"
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "F1": {
+      "formula": "(p ∨ ¬p)",
+      "variables": [
+        "p"
+      ],
+      "systems": [
+        {
+          "formula": "(p ∨ ¬p)",
+          "logic": "classic",
+          "variables": [
+            "p"
+          ],
+          "total_interpretations": 2,
+          "value_counts": {
+            "0": 0,
+            "1": 2
+          },
+          "valid": true,
+          "satisfiable": true,
+          "unsatisfiable": false,
+          "identically_false": false,
+          "model": {
+            "assignment": {
+              "p": "0"
+            },
+            "value": "1"
+          },
+          "counterexample": null
+        },
+        {
+          "formula": "(p ∨ ¬p)",
+          "logic": "k3",
+          "variables": [
+            "p"
+          ],
+          "total_interpretations": 3,
+          "value_counts": {
+            "0": 0,
+            "1/2": 1,
+            "1": 2
+          },
+          "valid": false,
+          "satisfiable": true,
+          "unsatisfiable": false,
+          "identically_false": false,
+          "model": {
+            "assignment": {
+              "p": "0"
+            },
+            "value": "1"
+          },
+          "counterexample": {
+            "assignment": {
+              "p": "1/2"
+            },
+            "value": "1/2"
+          }
+        },
+        {
+          "formula": "(p ∨ ¬p)",
+          "logic": "l3",
+          "variables": [
+            "p"
+          ],
+          "total_interpretations": 3,
+          "value_counts": {
+            "0": 0,
+            "1/2": 1,
+            "1": 2
+          },
+          "valid": false,
+          "satisfiable": true,
+          "unsatisfiable": false,
+          "identically_false": false,
+          "model": {
+            "assignment": {
+              "p": "0"
+            },
+            "value": "1"
+          },
+          "counterexample": {
+            "assignment": {
+              "p": "1/2"
+            },
+            "value": "1/2"
+          }
+        }
+      ],
+      "pairs": [
+        {
+          "logics": [
+            "classic",
+            "k3"
+          ],
+          "common_interpretations": 2,
+          "values_equal": true,
+          "different_interpretations": 0,
+          "counterexample": null
+        },
+        {
+          "logics": [
+            "classic",
+            "l3"
+          ],
+          "common_interpretations": 2,
+          "values_equal": true,
+          "different_interpretations": 0,
+          "counterexample": null
+        },
+        {
+          "logics": [
+            "k3",
+            "l3"
+          ],
+          "common_interpretations": 3,
+          "values_equal": true,
+          "different_interpretations": 0,
+          "counterexample": null
+        }
+      ],
+      "properties_equal": false
+    },
+    "F2": {
+      "formula": "((p → q) → (¬q → ¬p))",
+      "variables": [
+        "p",
+        "q"
+      ],
+      "systems": [
+        {
+          "formula": "((p → q) → (¬q → ¬p))",
+          "logic": "classic",
+          "variables": [
+            "p",
+            "q"
+          ],
+          "total_interpretations": 4,
+          "value_counts": {
+            "0": 0,
+            "1": 4
+          },
+          "valid": true,
+          "satisfiable": true,
+          "unsatisfiable": false,
+          "identically_false": false,
+          "model": {
+            "assignment": {
+              "p": "0",
+              "q": "0"
+            },
+            "value": "1"
+          },
+          "counterexample": null
+        },
+        {
+          "formula": "((p → q) → (¬q → ¬p))",
+          "logic": "k3",
+          "variables": [
+            "p",
+            "q"
+          ],
+          "total_interpretations": 9,
+          "value_counts": {
+            "0": 0,
+            "1/2": 3,
+            "1": 6
+          },
+          "valid": false,
+          "satisfiable": true,
+          "unsatisfiable": false,
+          "identically_false": false,
+          "model": {
+            "assignment": {
+              "p": "0",
+              "q": "0"
+            },
+            "value": "1"
+          },
+          "counterexample": {
+            "assignment": {
+              "p": "1/2",
+              "q": "0"
+            },
+            "value": "1/2"
+          }
+        },
+        {
+          "formula": "((p → q) → (¬q → ¬p))",
+          "logic": "l3",
+          "variables": [
+            "p",
+            "q"
+          ],
+          "total_interpretations": 9,
+          "value_counts": {
+            "0": 0,
+            "1/2": 0,
+            "1": 9
+          },
+          "valid": true,
+          "satisfiable": true,
+          "unsatisfiable": false,
+          "identically_false": false,
+          "model": {
+            "assignment": {
+              "p": "0",
+              "q": "0"
+            },
+            "value": "1"
+          },
+          "counterexample": null
+        }
+      ],
+      "pairs": [
+        {
+          "logics": [
+            "classic",
+            "k3"
+          ],
+          "common_interpretations": 4,
+          "values_equal": true,
+          "different_interpretations": 0,
+          "counterexample": null
+        },
+        {
+          "logics": [
+            "classic",
+            "l3"
+          ],
+          "common_interpretations": 4,
+          "values_equal": true,
+          "different_interpretations": 0,
+          "counterexample": null
+        },
+        {
+          "logics": [
+            "k3",
+            "l3"
+          ],
+          "common_interpretations": 9,
+          "values_equal": false,
+          "different_interpretations": 3,
+          "counterexample": {
+            "assignment": {
+              "p": "1/2",
+              "q": "0"
+            },
+            "values": {
+              "classic": null,
+              "k3": "1/2",
+              "l3": "1"
+            }
+          }
+        }
+      ],
+      "properties_equal": false
+    },
+    "F3": {
+      "formula": "¬(p ∨ ¬p)",
+      "variables": [
+        "p"
+      ],
+      "systems": [
+        {
+          "formula": "¬(p ∨ ¬p)",
+          "logic": "classic",
+          "variables": [
+            "p"
+          ],
+          "total_interpretations": 2,
+          "value_counts": {
+            "0": 2,
+            "1": 0
+          },
+          "valid": false,
+          "satisfiable": false,
+          "unsatisfiable": true,
+          "identically_false": true,
+          "model": null,
+          "counterexample": {
+            "assignment": {
+              "p": "0"
+            },
+            "value": "0"
+          }
+        },
+        {
+          "formula": "¬(p ∨ ¬p)",
+          "logic": "k3",
+          "variables": [
+            "p"
+          ],
+          "total_interpretations": 3,
+          "value_counts": {
+            "0": 2,
+            "1/2": 1,
+            "1": 0
+          },
+          "valid": false,
+          "satisfiable": false,
+          "unsatisfiable": true,
+          "identically_false": false,
+          "model": null,
+          "counterexample": {
+            "assignment": {
+              "p": "0"
+            },
+            "value": "0"
+          }
+        },
+        {
+          "formula": "¬(p ∨ ¬p)",
+          "logic": "l3",
+          "variables": [
+            "p"
+          ],
+          "total_interpretations": 3,
+          "value_counts": {
+            "0": 2,
+            "1/2": 1,
+            "1": 0
+          },
+          "valid": false,
+          "satisfiable": false,
+          "unsatisfiable": true,
+          "identically_false": false,
+          "model": null,
+          "counterexample": {
+            "assignment": {
+              "p": "0"
+            },
+            "value": "0"
+          }
+        }
+      ],
+      "pairs": [
+        {
+          "logics": [
+            "classic",
+            "k3"
+          ],
+          "common_interpretations": 2,
+          "values_equal": true,
+          "different_interpretations": 0,
+          "counterexample": null
+        },
+        {
+          "logics": [
+            "classic",
+            "l3"
+          ],
+          "common_interpretations": 2,
+          "values_equal": true,
+          "different_interpretations": 0,
+          "counterexample": null
+        },
+        {
+          "logics": [
+            "k3",
+            "l3"
+          ],
+          "common_interpretations": 3,
+          "values_equal": true,
+          "different_interpretations": 0,
+          "counterexample": null
+        }
+      ],
+      "properties_equal": false
+    },
+    "F4": {
+      "formula": "((p ∧ q) ∨ (¬p ∧ r))",
+      "variables": [
+        "p",
+        "q",
+        "r"
+      ],
+      "systems": [
+        {
+          "formula": "((p ∧ q) ∨ (¬p ∧ r))",
+          "logic": "classic",
+          "variables": [
+            "p",
+            "q",
+            "r"
+          ],
+          "total_interpretations": 8,
+          "value_counts": {
+            "0": 4,
+            "1": 4
+          },
+          "valid": false,
+          "satisfiable": true,
+          "unsatisfiable": false,
+          "identically_false": false,
+          "model": {
+            "assignment": {
+              "p": "0",
+              "q": "0",
+              "r": "1"
+            },
+            "value": "1"
+          },
+          "counterexample": {
+            "assignment": {
+              "p": "0",
+              "q": "0",
+              "r": "0"
+            },
+            "value": "0"
+          }
+        },
+        {
+          "formula": "((p ∧ q) ∨ (¬p ∧ r))",
+          "logic": "k3",
+          "variables": [
+            "p",
+            "q",
+            "r"
+          ],
+          "total_interpretations": 27,
+          "value_counts": {
+            "0": 7,
+            "1/2": 14,
+            "1": 6
+          },
+          "valid": false,
+          "satisfiable": true,
+          "unsatisfiable": false,
+          "identically_false": false,
+          "model": {
+            "assignment": {
+              "p": "0",
+              "q": "0",
+              "r": "1"
+            },
+            "value": "1"
+          },
+          "counterexample": {
+            "assignment": {
+              "p": "0",
+              "q": "0",
+              "r": "0"
+            },
+            "value": "0"
+          }
+        },
+        {
+          "formula": "((p ∧ q) ∨ (¬p ∧ r))",
+          "logic": "l3",
+          "variables": [
+            "p",
+            "q",
+            "r"
+          ],
+          "total_interpretations": 27,
+          "value_counts": {
+            "0": 7,
+            "1/2": 14,
+            "1": 6
+          },
+          "valid": false,
+          "satisfiable": true,
+          "unsatisfiable": false,
+          "identically_false": false,
+          "model": {
+            "assignment": {
+              "p": "0",
+              "q": "0",
+              "r": "1"
+            },
+            "value": "1"
+          },
+          "counterexample": {
+            "assignment": {
+              "p": "0",
+              "q": "0",
+              "r": "0"
+            },
+            "value": "0"
+          }
+        }
+      ],
+      "pairs": [
+        {
+          "logics": [
+            "classic",
+            "k3"
+          ],
+          "common_interpretations": 8,
+          "values_equal": true,
+          "different_interpretations": 0,
+          "counterexample": null
+        },
+        {
+          "logics": [
+            "classic",
+            "l3"
+          ],
+          "common_interpretations": 8,
+          "values_equal": true,
+          "different_interpretations": 0,
+          "counterexample": null
+        },
+        {
+          "logics": [
+            "k3",
+            "l3"
+          ],
+          "common_interpretations": 27,
+          "values_equal": true,
+          "different_interpretations": 0,
+          "counterexample": null
+        }
+      ],
+      "properties_equal": true
+    },
+    "F5": {
+      "formula": "(((p → q) ∧ (p → ¬q)) → ¬p)",
+      "variables": [
+        "p",
+        "q"
+      ],
+      "systems": [
+        {
+          "formula": "(((p → q) ∧ (p → ¬q)) → ¬p)",
+          "logic": "classic",
+          "variables": [
+            "p",
+            "q"
+          ],
+          "total_interpretations": 4,
+          "value_counts": {
+            "0": 0,
+            "1": 4
+          },
+          "valid": true,
+          "satisfiable": true,
+          "unsatisfiable": false,
+          "identically_false": false,
+          "model": {
+            "assignment": {
+              "p": "0",
+              "q": "0"
+            },
+            "value": "1"
+          },
+          "counterexample": null
+        },
+        {
+          "formula": "(((p → q) ∧ (p → ¬q)) → ¬p)",
+          "logic": "k3",
+          "variables": [
+            "p",
+            "q"
+          ],
+          "total_interpretations": 9,
+          "value_counts": {
+            "0": 0,
+            "1/2": 4,
+            "1": 5
+          },
+          "valid": false,
+          "satisfiable": true,
+          "unsatisfiable": false,
+          "identically_false": false,
+          "model": {
+            "assignment": {
+              "p": "0",
+              "q": "0"
+            },
+            "value": "1"
+          },
+          "counterexample": {
+            "assignment": {
+              "p": "1/2",
+              "q": "0"
+            },
+            "value": "1/2"
+          }
+        },
+        {
+          "formula": "(((p → q) ∧ (p → ¬q)) → ¬p)",
+          "logic": "l3",
+          "variables": [
+            "p",
+            "q"
+          ],
+          "total_interpretations": 9,
+          "value_counts": {
+            "0": 0,
+            "1/2": 2,
+            "1": 7
+          },
+          "valid": false,
+          "satisfiable": true,
+          "unsatisfiable": false,
+          "identically_false": false,
+          "model": {
+            "assignment": {
+              "p": "0",
+              "q": "0"
+            },
+            "value": "1"
+          },
+          "counterexample": {
+            "assignment": {
+              "p": "1/2",
+              "q": "1/2"
+            },
+            "value": "1/2"
+          }
+        }
+      ],
+      "pairs": [
+        {
+          "logics": [
+            "classic",
+            "k3"
+          ],
+          "common_interpretations": 4,
+          "values_equal": true,
+          "different_interpretations": 0,
+          "counterexample": null
+        },
+        {
+          "logics": [
+            "classic",
+            "l3"
+          ],
+          "common_interpretations": 4,
+          "values_equal": true,
+          "different_interpretations": 0,
+          "counterexample": null
+        },
+        {
+          "logics": [
+            "k3",
+            "l3"
+          ],
+          "common_interpretations": 9,
+          "values_equal": false,
+          "different_interpretations": 2,
+          "counterexample": {
+            "assignment": {
+              "p": "1/2",
+              "q": "0"
+            },
+            "values": {
+              "classic": null,
+              "k3": "1/2",
+              "l3": "1"
+            }
+          }
+        }
+      ],
+      "properties_equal": false
+    }
+  }
+}

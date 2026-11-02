@@ -1,0 +1,3821 @@
+{
+  "passed": true,
+  "files": 545,
+  "entries": [
+    {
+      "path": ".gitignore",
+      "bytes": 28,
+      "sha256": "ffff10087cd8a093a21b30c8ee62d8d8a81bb90c2a06cdc3a489072d2271aeeb",
+      "new_path": ".gitignore",
+      "unchanged": true
+    },
+    {
+      "path": "lab1.py",
+      "bytes": 167,
+      "sha256": "6df9f5eea4fcf61838636c1ca62cc53358e66c70be4c4032741ead737fb56497",
+      "new_path": "lab1/lab1.py",
+      "unchanged": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 10575,
+      "sha256": "dec54874b9b1ac09a039276aeee0ec416ba9c13f8a4b54ecf5c13c8fa96fcbb0",
+      "new_path": "lab1/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "start.cmd",
+      "bytes": 169,
+      "sha256": "f7f03aa420f88963780eefeecb4aed5dfab4217a0a1569c59b005337da0e65ec",
+      "new_path": "lab1/start.cmd",
+      "unchanged": true
+    },
+    {
+      "path": "docs/DEFENSE.md",
+      "bytes": 8035,
+      "sha256": "e5282c619aede6b8d1c7001470e4d4fa437d73486bc82ab49788bea7e52fc97d",
+      "new_path": "lab1/docs/DEFENSE.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/MATERIALS_MANIFEST.json",
+      "bytes": 5751,
+      "sha256": "6983966f3b523224b6973a3a9a6503648913456d2706156ee92280dcfd0de551",
+      "new_path": "lab1/docs/MATERIALS_MANIFEST.json",
+      "unchanged": true
+    },
+    {
+      "path": "docs/MATERIALS_REVIEW.md",
+      "bytes": 29639,
+      "sha256": "ed071c2400f5a72a92bbcc6512736b2c7e3c68edc5276c1adfb69ae1c99b877d",
+      "new_path": "lab1/docs/MATERIALS_REVIEW.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/PLAN.md",
+      "bytes": 2891,
+      "sha256": "9d007bedfe8c67f361392e1ae7691f38fe44bf8f5956282c9eb44c8bc7543d25",
+      "new_path": "lab1/docs/PLAN.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/REQUIREMENTS.md",
+      "bytes": 3597,
+      "sha256": "3fc391e2e0af9b38e46d60a2de3b345dd94745b538aa9d05208ed550f097f5cb",
+      "new_path": "lab1/docs/REQUIREMENTS.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 5970,
+      "sha256": "cf396980202e48379861f8d3069490d2a56aa8761e7e919d9930f880c61a6bc9",
+      "new_path": "lab1/docs/VALIDATION.md",
+      "unchanged": true
+    },
+    {
+      "path": "evidence/axiom_schema_regression.txt",
+      "bytes": 1396,
+      "sha256": "221b3cfedff0ead0c5dd804c48efa2322fd96c9d6394d2a1da661c9b21dea7dc",
+      "new_path": "lab1/evidence/axiom_schema_regression.txt",
+      "unchanged": true
+    },
+    {
+      "path": "evidence/compile_python312.txt",
+      "bytes": 108,
+      "sha256": "1d938888836e52904d3c1c00401ab6206a15802c57681c90969360dfe7211169",
+      "new_path": "lab1/evidence/compile_python312.txt",
+      "unchanged": true
+    },
+    {
+      "path": "evidence/compile_python314.txt",
+      "bytes": 107,
+      "sha256": "893a6e8ef985dcb7b8d22ee27965cbf12271e6c9cb8a1b23e05a1ed29bf30c17",
+      "new_path": "lab1/evidence/compile_python314.txt",
+      "unchanged": true
+    },
+    {
+      "path": "evidence/demo_file_python312.txt",
+      "bytes": 1674,
+      "sha256": "7c40d0a8c5b4de90a894d1736c6588179c58342a8617b56e8c3ca69114ca5c84",
+      "new_path": "lab1/evidence/demo_file_python312.txt",
+      "unchanged": true
+    },
+    {
+      "path": "evidence/demo_file_python314.txt",
+      "bytes": 1673,
+      "sha256": "207c54036268c59263090fcda2aece7997c7d2ce5c17781ca02d26509af0c996",
+      "new_path": "lab1/evidence/demo_file_python314.txt",
+      "unchanged": true
+    },
+    {
+      "path": "evidence/demo_python312.txt",
+      "bytes": 1653,
+      "sha256": "6bc79eda547327d9302b0b699007ac6c7a5a0edea46a287b28bd631bfdf9bcb3",
+      "new_path": "lab1/evidence/demo_python312.txt",
+      "unchanged": true
+    },
+    {
+      "path": "evidence/demo_python314.txt",
+      "bytes": 1652,
+      "sha256": "40e15fa137ccd49f9f68feb233a8df0e0456215a05db8c7994a749c66bf6dcd4",
+      "new_path": "lab1/evidence/demo_python314.txt",
+      "unchanged": true
+    },
+    {
+      "path": "evidence/launcher.txt",
+      "bytes": 1616,
+      "sha256": "d8e92f7000fc37df3029cd55773f4edcf8e75d02f923ca0cdf0afa02e895ef82",
+      "new_path": "lab1/evidence/launcher.txt",
+      "unchanged": true
+    },
+    {
+      "path": "evidence/negative_python312.txt",
+      "bytes": 2487,
+      "sha256": "71120d95778806b5a77dd241c7a51fca885e8f8a7364d48938ab9e8b7706ef7d",
+      "new_path": "lab1/evidence/negative_python312.txt",
+      "unchanged": true
+    },
+    {
+      "path": "evidence/negative_python314.txt",
+      "bytes": 2486,
+      "sha256": "11f854bd3fb70d9092eb1674025dfb04aa1eba309052153d3066576809596dbe",
+      "new_path": "lab1/evidence/negative_python314.txt",
+      "unchanged": true
+    },
+    {
+      "path": "evidence/tests_python312.txt",
+      "bytes": 6750,
+      "sha256": "24272b725734636d1f4027eea8ee8aa302ce6d8f12d44c2a5bc4437e8771cc2f",
+      "new_path": "lab1/evidence/tests_python312.txt",
+      "unchanged": true
+    },
+    {
+      "path": "evidence/tests_python314.txt",
+      "bytes": 6749,
+      "sha256": "e04a78d608d72525c7ce851f74b631866f158beeef4e29b0fcb565d9dd8805bd",
+      "new_path": "lab1/evidence/tests_python314.txt",
+      "unchanged": true
+    },
+    {
+      "path": "evidence/verification_python312.json",
+      "bytes": 4310,
+      "sha256": "00f449c5aaa5f6b71a532a8d07e882f26470b171e51b9dbae3d1505874d8dc0c",
+      "new_path": "lab1/evidence/verification_python312.json",
+      "unchanged": true
+    },
+    {
+      "path": "evidence/verification_python314.json",
+      "bytes": 4285,
+      "sha256": "f4f735d5e46e64575eee1d4c53ee244641378855d15deed1d80094b4e95bab50",
+      "new_path": "lab1/evidence/verification_python314.json",
+      "unchanged": true
+    },
+    {
+      "path": "examples/demo.txt",
+      "bytes": 530,
+      "sha256": "645136e59b3764dc9ebc930d520ad6bc96b4dbbcf7de4ab01619f9b52ad35d0f",
+      "new_path": "lab1/examples/demo.txt",
+      "unchanged": true
+    },
+    {
+      "path": "examples/negative.txt",
+      "bytes": 609,
+      "sha256": "f6d000a0b915fc76f27285d0d8430fc10073e2178ed78df15533aa3936a84105",
+      "new_path": "lab1/examples/negative.txt",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/.gitignore",
+      "bytes": 28,
+      "sha256": "ffff10087cd8a093a21b30c8ee62d8d8a81bb90c2a06cdc3a489072d2271aeeb",
+      "new_path": "lab1/archive/existing_lab1/.gitignore",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/lab1.py",
+      "bytes": 167,
+      "sha256": "6df9f5eea4fcf61838636c1ca62cc53358e66c70be4c4032741ead737fb56497",
+      "new_path": "lab1/archive/existing_lab1/lab1.py",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/PACKAGE_MANIFEST.json",
+      "bytes": 5922,
+      "sha256": "31a8af41497f9b4a7d9fc7bf304a297a55a820cf527c85a269292e6b6bcf3649",
+      "new_path": "lab1/archive/existing_lab1/PACKAGE_MANIFEST.json",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/README.md",
+      "bytes": 10575,
+      "sha256": "dec54874b9b1ac09a039276aeee0ec416ba9c13f8a4b54ecf5c13c8fa96fcbb0",
+      "new_path": "lab1/archive/existing_lab1/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/start.cmd",
+      "bytes": 169,
+      "sha256": "f7f03aa420f88963780eefeecb4aed5dfab4217a0a1569c59b005337da0e65ec",
+      "new_path": "lab1/archive/existing_lab1/start.cmd",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/.gitignore",
+      "bytes": 28,
+      "sha256": "ffff10087cd8a093a21b30c8ee62d8d8a81bb90c2a06cdc3a489072d2271aeeb",
+      "new_path": "lab1/archive/LR1_variant3/.gitignore",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/lab1.py",
+      "bytes": 167,
+      "sha256": "6df9f5eea4fcf61838636c1ca62cc53358e66c70be4c4032741ead737fb56497",
+      "new_path": "lab1/archive/LR1_variant3/lab1.py",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/PACKAGE_MANIFEST.json",
+      "bytes": 5922,
+      "sha256": "31a8af41497f9b4a7d9fc7bf304a297a55a820cf527c85a269292e6b6bcf3649",
+      "new_path": "lab1/archive/LR1_variant3/PACKAGE_MANIFEST.json",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/README.md",
+      "bytes": 10575,
+      "sha256": "dec54874b9b1ac09a039276aeee0ec416ba9c13f8a4b54ecf5c13c8fa96fcbb0",
+      "new_path": "lab1/archive/LR1_variant3/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/start.cmd",
+      "bytes": 169,
+      "sha256": "f7f03aa420f88963780eefeecb4aed5dfab4217a0a1569c59b005337da0e65ec",
+      "new_path": "lab1/archive/LR1_variant3/start.cmd",
+      "unchanged": true
+    },
+    {
+      "path": "output/LR1_variant3.docx",
+      "bytes": 45133,
+      "sha256": "97c431abcfca08141e014236ecfc9e52934ca87910e4973e126f4cdfa7063802",
+      "new_path": "lab1/output/LR1_variant3.docx",
+      "unchanged": true
+    },
+    {
+      "path": "output/LR1_variant3.pdf",
+      "bytes": 248444,
+      "sha256": "c59420ce5ffc5be592e1f4db0ba9544578250c2bb0fc92fe88e940a3bccbf224",
+      "new_path": "lab1/output/LR1_variant3.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "output/LR1_variant3.zip",
+      "bytes": 342580,
+      "sha256": "075494c314c39968ac122577f80400c8d94bdfd1f8b9ec69270a7a0feb53ebd5",
+      "new_path": "lab1/output/LR1_variant3.zip",
+      "unchanged": true
+    },
+    {
+      "path": "output/packaging_verification.json",
+      "bytes": 5029,
+      "sha256": "1d996ac4a4fe832ba02916484b9e1fed65223d759ac209ca216aecd633e11d00",
+      "new_path": "lab1/output/packaging_verification.json",
+      "unchanged": true
+    },
+    {
+      "path": "proofchecker/cli.py",
+      "bytes": 5834,
+      "sha256": "8cea4d3d568f6d2ff5f19c0efd56f538351fae467d901e634207fe7f40a408c2",
+      "new_path": "lab1/proofchecker/cli.py",
+      "unchanged": true
+    },
+    {
+      "path": "proofchecker/formula.py",
+      "bytes": 8303,
+      "sha256": "7d60d7d4cf44aa2c030c77bb5b165cb41acfd15eb1ba7d50ce3627375abde668",
+      "new_path": "lab1/proofchecker/formula.py",
+      "unchanged": true
+    },
+    {
+      "path": "proofchecker/verifier.py",
+      "bytes": 6297,
+      "sha256": "525ad4278c642f0d0b0bb828358257324fe3e551b57a20e61df3916022b50fa9",
+      "new_path": "lab1/proofchecker/verifier.py",
+      "unchanged": true
+    },
+    {
+      "path": "proofchecker/__init__.py",
+      "bytes": 82,
+      "sha256": "33689a5cc6722300cb767a121b956afe33589775da57ebd4dba2741e8e5b4ace",
+      "new_path": "lab1/proofchecker/__init__.py",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_axiom_schemas.py",
+      "bytes": 4448,
+      "sha256": "c610f18f31151dd07968114317177491a2ceb0baa3e17658d079ec7e0f85686e",
+      "new_path": "lab1/tests/test_axiom_schemas.py",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_cli.py",
+      "bytes": 2882,
+      "sha256": "15e2750728eef144e6cc54f3c767d393326a0cb3bbe3de98f30b1225a18448e5",
+      "new_path": "lab1/tests/test_cli.py",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_formula.py",
+      "bytes": 5759,
+      "sha256": "00f810b51f75cce5600959bcfb8cc19268d5e512dada11bf2fa5afaf6b24edbe",
+      "new_path": "lab1/tests/test_formula.py",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_verifier.py",
+      "bytes": 7720,
+      "sha256": "3fddb6e9d1548355a08b9ed33dc5c0fc9c05ccadc00c334fd85f0a248971b58c",
+      "new_path": "lab1/tests/test_verifier.py",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-manifest.json",
+      "bytes": 10637,
+      "sha256": "af54f84660881d2e3869e944a1a8a4672d0aca98051d8b003e9afc0f2128049b",
+      "new_path": "lab1/tmp/publish-lab22-manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "tools/build_report.py",
+      "bytes": 28143,
+      "sha256": "d6936157fd8f15316e4372cbc6a3c6d067927a8fd7b910ac2caac1faedafda44",
+      "new_path": "lab1/tools/build_report.py",
+      "unchanged": true
+    },
+    {
+      "path": "tools/export_report.ps1",
+      "bytes": 816,
+      "sha256": "1a2bcf3a230cb20c6e1e69b1e216935adcafb25999f01a2194ae37f6a1147504",
+      "new_path": "lab1/tools/export_report.ps1",
+      "unchanged": true
+    },
+    {
+      "path": "tools/package_submission.py",
+      "bytes": 4359,
+      "sha256": "f907299dfa73c6b3993b154cd5166defdfce1657e14b3e33b9d01925f6b59f42",
+      "new_path": "lab1/tools/package_submission.py",
+      "unchanged": true
+    },
+    {
+      "path": "tools/verify.py",
+      "bytes": 2814,
+      "sha256": "f87e4bdaacd245528db02a0a650acafa841451002154b62741e1883eee841a14",
+      "new_path": "lab1/tools/verify.py",
+      "unchanged": true
+    },
+    {
+      "path": "__pycache__/lab1.cpython-312.pyc",
+      "bytes": 335,
+      "sha256": "ae3063d76149760d421c536db0d7abfb57539c47de16fabeb5d51bca691fad65",
+      "new_path": "lab1/__pycache__/lab1.cpython-312.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "__pycache__/lab1.cpython-314.pyc",
+      "bytes": 336,
+      "sha256": "53f37847fb16af86a20106ad207f3b74688d07cc4229d80073b586c5c491a07d",
+      "new_path": "lab1/__pycache__/lab1.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "Лабы/Лабораторная работа 2.pdf",
+      "bytes": 292674,
+      "sha256": "ce38baa092cfe8b62daeae278d5143cfcc91faba9b963f8aa309353810a3be57",
+      "new_path": "lab2/materials/Лабораторная работа 2.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "Лабы/Лабораторная работа №1.pdf",
+      "bytes": 252008,
+      "sha256": "1e7b3c507b739c7dac5c23aaf4e865159616bed032d9ceac5540c84b5daaf0ed",
+      "new_path": "lab1/materials/Лабораторная работа №1.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "Лабы/Методический материал к ЛР.pdf",
+      "bytes": 467449,
+      "sha256": "ad845c33dc7a3d99437d9f50f8deed7861dfe19f2d5ca88bb3194feb7b95c4c8",
+      "new_path": "lab1/materials/Методический материал к ЛР.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "Лекции/Лекция 1.pptx",
+      "bytes": 408777,
+      "sha256": "536cb0fad20c3f6a09b5df0ee26f29994014ff6e1f19ca67f74ad83d10a2f49a",
+      "new_path": "materials/Лекции/Лекция 1.pptx",
+      "unchanged": true
+    },
+    {
+      "path": "Лекции/Лекция 2-1.pptx",
+      "bytes": 4953504,
+      "sha256": "ab9f490f6bddf2eca39aa3d2e56224ab964dadc153afaf2c748f12334e7a99e1",
+      "new_path": "materials/Лекции/Лекция 2-1.pptx",
+      "unchanged": true
+    },
+    {
+      "path": "Семинары/2.1 2.2.png",
+      "bytes": 24968,
+      "sha256": "b67e6eac46fc26f746a6ec46d7ba28676d83d8d9ac8866bef37d93a1a38bafee",
+      "new_path": "materials/Семинары/2.1 2.2.png",
+      "unchanged": true
+    },
+    {
+      "path": "Семинары/2_3.png",
+      "bytes": 48793,
+      "sha256": "ad81739ed74dcba41b1ebb0b5c479f12686300a090383ba2ce176206a2c6a1b2",
+      "new_path": "materials/Семинары/2_3.png",
+      "unchanged": true
+    },
+    {
+      "path": "Семинары/2_4.png",
+      "bytes": 38862,
+      "sha256": "74f54f7e2d513eeeac278c225f2df2281464988827fd12c2e207158da438d73e",
+      "new_path": "materials/Семинары/2_4.png",
+      "unchanged": true
+    },
+    {
+      "path": "Семинары/2_5.png",
+      "bytes": 124455,
+      "sha256": "44eb53a6636690722fe8721cc386dfccf7c000fb9bafd9694c522b8de0342d15",
+      "new_path": "materials/Семинары/2_5.png",
+      "unchanged": true
+    },
+    {
+      "path": "Семинары/3.1.png",
+      "bytes": 166441,
+      "sha256": "c9d4fba020a8030e2f303e148b14e8a48f6fd908c220b672fc651c33b1908c90",
+      "new_path": "materials/Семинары/3.1.png",
+      "unchanged": true
+    },
+    {
+      "path": "Семинары/photo_2026-10-19_02-19-56.jpg",
+      "bytes": 125414,
+      "sha256": "27931dfcd47cf27c1a93ba99de7486e0b637df2cefba1931700e3e9010ba2351",
+      "new_path": "materials/Семинары/photo_2026-10-19_02-19-56.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "Семинары/photo_2026-10-19_02-20-03.jpg",
+      "bytes": 143295,
+      "sha256": "58a066b7562b323a9beb414de364e4d2efba10ebe0b955a4895d19d83b848569",
+      "new_path": "materials/Семинары/photo_2026-10-19_02-20-03.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "Семинары/photo_2026-10-19_02-20-06.jpg",
+      "bytes": 102674,
+      "sha256": "6a66a8e1ccfb18e27d97e3b674e8ac9ab653b56820c0a16b13ca8ff10751cfce",
+      "new_path": "materials/Семинары/photo_2026-10-19_02-20-06.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "Семинары/photo_2026-10-19_02-20-11.jpg",
+      "bytes": 157892,
+      "sha256": "a2d6bbd6b83aa2284603608ff76bd8d9578f66a6e64bb058579e975b773b9af9",
+      "new_path": "materials/Семинары/photo_2026-10-19_02-20-11.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "Семинары/photo_2026-10-19_02-20-15.jpg",
+      "bytes": 139373,
+      "sha256": "757f497a51625e60f46d128cd353025741782cf39e6be22ea15334023396d3c2",
+      "new_path": "materials/Семинары/photo_2026-10-19_02-20-15.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "Семинары/photo_2026-10-19_02-20-17.jpg",
+      "bytes": 125320,
+      "sha256": "ca5584e37621a008c0545d9283455519fd9bd9bd6392716235857e8029861a3a",
+      "new_path": "materials/Семинары/photo_2026-10-19_02-20-17.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "Семинары/photo_2026-10-19_02-20-19.jpg",
+      "bytes": 116362,
+      "sha256": "8425657ce9a8445bb423b3d5e203dcb8e802c7ff35a69fa120bc70c9abe7c8a1",
+      "new_path": "materials/Семинары/photo_2026-10-19_02-20-19.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "Семинары/photo_2026-10-19_02-20-22.jpg",
+      "bytes": 104611,
+      "sha256": "c180098041d0aa494afbdb5750794838ef67ff3ce37b6ab86621a26c68a48e44",
+      "new_path": "materials/Семинары/photo_2026-10-19_02-20-22.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "Семинары/photo_2026-10-19_02-20-24.jpg",
+      "bytes": 155667,
+      "sha256": "71f73ba4c138a4e4bfc617f79e79a91eac05f319962cbc00c915fe08da8d6c52",
+      "new_path": "materials/Семинары/photo_2026-10-19_02-20-24.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "Семинары/photo_2026-10-19_02-20-27.jpg",
+      "bytes": 125654,
+      "sha256": "e46ae8dc41325d1432065981db4594537857a31801bd9867eb8abcb8dcbcc5e1",
+      "new_path": "materials/Семинары/photo_2026-10-19_02-20-27.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "Семинары/photo_2026-10-19_02-20-30.jpg",
+      "bytes": 131691,
+      "sha256": "016a4f74fd560788a20541943bb6d404b7693c43eb58d68338a6c19cfaf15f7f",
+      "new_path": "materials/Семинары/photo_2026-10-19_02-20-30.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "Семинары/photo_2026-10-19_02-20-32.jpg",
+      "bytes": 139730,
+      "sha256": "61a893dc14ad23ddefaf83e8130b6a3d99a39afe3b640c8f137d6db6bf719955",
+      "new_path": "materials/Семинары/photo_2026-10-19_02-20-32.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "Семинары/photo_2026-10-19_02-20-34.jpg",
+      "bytes": 112059,
+      "sha256": "ccc16fadad1601676e912c23b270f02d1ba759990ded2186971d75215e4577c2",
+      "new_path": "materials/Семинары/photo_2026-10-19_02-20-34.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "Семинары/photo_2026-10-19_02-20-37.jpg",
+      "bytes": 132940,
+      "sha256": "aef28cd2374edde90b297194754b64911e38606fe00bc7330e35bff94963f3be",
+      "new_path": "materials/Семинары/photo_2026-10-19_02-20-37.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "Семинары/photo_2026-10-19_02-20-39.jpg",
+      "bytes": 139808,
+      "sha256": "eaf4d4a3709cecc10fc86525c29db321e605c9cb128bb9f7c2202fd7c459a30d",
+      "new_path": "materials/Семинары/photo_2026-10-19_02-20-39.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "Семинары/photo_2026-10-19_02-20-41.jpg",
+      "bytes": 156494,
+      "sha256": "c7e28e39c9c9cd41a5bdaef8cc808e0740fa149a2df943f417a008e4f41f0c86",
+      "new_path": "materials/Семинары/photo_2026-10-19_02-20-41.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "Семинары/Семинар №1 2024.pptx",
+      "bytes": 613650,
+      "sha256": "a3eb074bb039c8b64b065dc96c9cf4f05c121e392d67a9de1774f1f5333613c8",
+      "new_path": "materials/Семинары/Семинар №1 2024.pptx",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/docs/DEFENSE.md",
+      "bytes": 8035,
+      "sha256": "e5282c619aede6b8d1c7001470e4d4fa437d73486bc82ab49788bea7e52fc97d",
+      "new_path": "lab1/archive/existing_lab1/docs/DEFENSE.md",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/docs/MATERIALS_MANIFEST.json",
+      "bytes": 5751,
+      "sha256": "6983966f3b523224b6973a3a9a6503648913456d2706156ee92280dcfd0de551",
+      "new_path": "lab1/archive/existing_lab1/docs/MATERIALS_MANIFEST.json",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/docs/MATERIALS_REVIEW.md",
+      "bytes": 29639,
+      "sha256": "ed071c2400f5a72a92bbcc6512736b2c7e3c68edc5276c1adfb69ae1c99b877d",
+      "new_path": "lab1/archive/existing_lab1/docs/MATERIALS_REVIEW.md",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/docs/PLAN.md",
+      "bytes": 2891,
+      "sha256": "9d007bedfe8c67f361392e1ae7691f38fe44bf8f5956282c9eb44c8bc7543d25",
+      "new_path": "lab1/archive/existing_lab1/docs/PLAN.md",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/docs/REQUIREMENTS.md",
+      "bytes": 3597,
+      "sha256": "3fc391e2e0af9b38e46d60a2de3b345dd94745b538aa9d05208ed550f097f5cb",
+      "new_path": "lab1/archive/existing_lab1/docs/REQUIREMENTS.md",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/docs/VALIDATION.md",
+      "bytes": 5970,
+      "sha256": "cf396980202e48379861f8d3069490d2a56aa8761e7e919d9930f880c61a6bc9",
+      "new_path": "lab1/archive/existing_lab1/docs/VALIDATION.md",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/evidence/axiom_schema_regression.txt",
+      "bytes": 1396,
+      "sha256": "221b3cfedff0ead0c5dd804c48efa2322fd96c9d6394d2a1da661c9b21dea7dc",
+      "new_path": "lab1/archive/existing_lab1/evidence/axiom_schema_regression.txt",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/evidence/compile_python312.txt",
+      "bytes": 108,
+      "sha256": "1d938888836e52904d3c1c00401ab6206a15802c57681c90969360dfe7211169",
+      "new_path": "lab1/archive/existing_lab1/evidence/compile_python312.txt",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/evidence/compile_python314.txt",
+      "bytes": 107,
+      "sha256": "893a6e8ef985dcb7b8d22ee27965cbf12271e6c9cb8a1b23e05a1ed29bf30c17",
+      "new_path": "lab1/archive/existing_lab1/evidence/compile_python314.txt",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/evidence/demo_file_python312.txt",
+      "bytes": 1674,
+      "sha256": "7c40d0a8c5b4de90a894d1736c6588179c58342a8617b56e8c3ca69114ca5c84",
+      "new_path": "lab1/archive/existing_lab1/evidence/demo_file_python312.txt",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/evidence/demo_file_python314.txt",
+      "bytes": 1673,
+      "sha256": "207c54036268c59263090fcda2aece7997c7d2ce5c17781ca02d26509af0c996",
+      "new_path": "lab1/archive/existing_lab1/evidence/demo_file_python314.txt",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/evidence/demo_python312.txt",
+      "bytes": 1653,
+      "sha256": "6bc79eda547327d9302b0b699007ac6c7a5a0edea46a287b28bd631bfdf9bcb3",
+      "new_path": "lab1/archive/existing_lab1/evidence/demo_python312.txt",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/evidence/demo_python314.txt",
+      "bytes": 1652,
+      "sha256": "40e15fa137ccd49f9f68feb233a8df0e0456215a05db8c7994a749c66bf6dcd4",
+      "new_path": "lab1/archive/existing_lab1/evidence/demo_python314.txt",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/evidence/launcher.txt",
+      "bytes": 1616,
+      "sha256": "d8e92f7000fc37df3029cd55773f4edcf8e75d02f923ca0cdf0afa02e895ef82",
+      "new_path": "lab1/archive/existing_lab1/evidence/launcher.txt",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/evidence/negative_python312.txt",
+      "bytes": 2487,
+      "sha256": "71120d95778806b5a77dd241c7a51fca885e8f8a7364d48938ab9e8b7706ef7d",
+      "new_path": "lab1/archive/existing_lab1/evidence/negative_python312.txt",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/evidence/negative_python314.txt",
+      "bytes": 2486,
+      "sha256": "11f854bd3fb70d9092eb1674025dfb04aa1eba309052153d3066576809596dbe",
+      "new_path": "lab1/archive/existing_lab1/evidence/negative_python314.txt",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/evidence/tests_python312.txt",
+      "bytes": 6750,
+      "sha256": "24272b725734636d1f4027eea8ee8aa302ce6d8f12d44c2a5bc4437e8771cc2f",
+      "new_path": "lab1/archive/existing_lab1/evidence/tests_python312.txt",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/evidence/tests_python314.txt",
+      "bytes": 6749,
+      "sha256": "e04a78d608d72525c7ce851f74b631866f158beeef4e29b0fcb565d9dd8805bd",
+      "new_path": "lab1/archive/existing_lab1/evidence/tests_python314.txt",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/evidence/verification_python312.json",
+      "bytes": 4310,
+      "sha256": "00f449c5aaa5f6b71a532a8d07e882f26470b171e51b9dbae3d1505874d8dc0c",
+      "new_path": "lab1/archive/existing_lab1/evidence/verification_python312.json",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/evidence/verification_python314.json",
+      "bytes": 4285,
+      "sha256": "f4f735d5e46e64575eee1d4c53ee244641378855d15deed1d80094b4e95bab50",
+      "new_path": "lab1/archive/existing_lab1/evidence/verification_python314.json",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/examples/demo.txt",
+      "bytes": 530,
+      "sha256": "645136e59b3764dc9ebc930d520ad6bc96b4dbbcf7de4ab01619f9b52ad35d0f",
+      "new_path": "lab1/archive/existing_lab1/examples/demo.txt",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/examples/negative.txt",
+      "bytes": 609,
+      "sha256": "f6d000a0b915fc76f27285d0d8430fc10073e2178ed78df15533aa3936a84105",
+      "new_path": "lab1/archive/existing_lab1/examples/negative.txt",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/output/LR1_variant3.docx",
+      "bytes": 45133,
+      "sha256": "97c431abcfca08141e014236ecfc9e52934ca87910e4973e126f4cdfa7063802",
+      "new_path": "lab1/archive/existing_lab1/output/LR1_variant3.docx",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/output/LR1_variant3.pdf",
+      "bytes": 248444,
+      "sha256": "c59420ce5ffc5be592e1f4db0ba9544578250c2bb0fc92fe88e940a3bccbf224",
+      "new_path": "lab1/archive/existing_lab1/output/LR1_variant3.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/proofchecker/cli.py",
+      "bytes": 5834,
+      "sha256": "8cea4d3d568f6d2ff5f19c0efd56f538351fae467d901e634207fe7f40a408c2",
+      "new_path": "lab1/archive/existing_lab1/proofchecker/cli.py",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/proofchecker/formula.py",
+      "bytes": 8303,
+      "sha256": "7d60d7d4cf44aa2c030c77bb5b165cb41acfd15eb1ba7d50ce3627375abde668",
+      "new_path": "lab1/archive/existing_lab1/proofchecker/formula.py",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/proofchecker/verifier.py",
+      "bytes": 6297,
+      "sha256": "525ad4278c642f0d0b0bb828358257324fe3e551b57a20e61df3916022b50fa9",
+      "new_path": "lab1/archive/existing_lab1/proofchecker/verifier.py",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/proofchecker/__init__.py",
+      "bytes": 82,
+      "sha256": "33689a5cc6722300cb767a121b956afe33589775da57ebd4dba2741e8e5b4ace",
+      "new_path": "lab1/archive/existing_lab1/proofchecker/__init__.py",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/tests/test_axiom_schemas.py",
+      "bytes": 4448,
+      "sha256": "c610f18f31151dd07968114317177491a2ceb0baa3e17658d079ec7e0f85686e",
+      "new_path": "lab1/archive/existing_lab1/tests/test_axiom_schemas.py",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/tests/test_cli.py",
+      "bytes": 2882,
+      "sha256": "15e2750728eef144e6cc54f3c767d393326a0cb3bbe3de98f30b1225a18448e5",
+      "new_path": "lab1/archive/existing_lab1/tests/test_cli.py",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/tests/test_formula.py",
+      "bytes": 5759,
+      "sha256": "00f810b51f75cce5600959bcfb8cc19268d5e512dada11bf2fa5afaf6b24edbe",
+      "new_path": "lab1/archive/existing_lab1/tests/test_formula.py",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/tests/test_verifier.py",
+      "bytes": 7720,
+      "sha256": "3fddb6e9d1548355a08b9ed33dc5c0fc9c05ccadc00c334fd85f0a248971b58c",
+      "new_path": "lab1/archive/existing_lab1/tests/test_verifier.py",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/tools/build_report.py",
+      "bytes": 28143,
+      "sha256": "d6936157fd8f15316e4372cbc6a3c6d067927a8fd7b910ac2caac1faedafda44",
+      "new_path": "lab1/archive/existing_lab1/tools/build_report.py",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/tools/export_report.ps1",
+      "bytes": 816,
+      "sha256": "1a2bcf3a230cb20c6e1e69b1e216935adcafb25999f01a2194ae37f6a1147504",
+      "new_path": "lab1/archive/existing_lab1/tools/export_report.ps1",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/tools/package_submission.py",
+      "bytes": 4359,
+      "sha256": "f907299dfa73c6b3993b154cd5166defdfce1657e14b3e33b9d01925f6b59f42",
+      "new_path": "lab1/archive/existing_lab1/tools/package_submission.py",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/tools/verify.py",
+      "bytes": 2814,
+      "sha256": "f87e4bdaacd245528db02a0a650acafa841451002154b62741e1883eee841a14",
+      "new_path": "lab1/archive/existing_lab1/tools/verify.py",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/proofchecker/__pycache__/cli.cpython-314.pyc",
+      "bytes": 9055,
+      "sha256": "a8e78f75dce7f0303f691188f08155df0ae0e4a12e0a71c2608f7c91257ca550",
+      "new_path": "lab1/archive/existing_lab1/proofchecker/__pycache__/cli.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/proofchecker/__pycache__/formula.cpython-314.pyc",
+      "bytes": 16661,
+      "sha256": "96ec2b0fd23db53f380633c81e00dbfe64ac55df28c620f5ed224e8e14f71455",
+      "new_path": "lab1/archive/existing_lab1/proofchecker/__pycache__/formula.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/proofchecker/__pycache__/verifier.cpython-314.pyc",
+      "bytes": 11349,
+      "sha256": "7b3f4b5d4ac3d4f3c034cd443f8a5edc283da15ee973817defc47ba52e6b8370",
+      "new_path": "lab1/archive/existing_lab1/proofchecker/__pycache__/verifier.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/proofchecker/__pycache__/__init__.cpython-314.pyc",
+      "bytes": 270,
+      "sha256": "2f599ea0ade9b3d76f843a2bf35c7acf138bf30274c4317b11f56bf8355b863f",
+      "new_path": "lab1/archive/existing_lab1/proofchecker/__pycache__/__init__.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/tests/__pycache__/test_axiom_schemas.cpython-314.pyc",
+      "bytes": 8427,
+      "sha256": "ee90b7c809027a343c0ba57e5d97f19b66f17eb9c584916d1f7bb83d2538415d",
+      "new_path": "lab1/archive/existing_lab1/tests/__pycache__/test_axiom_schemas.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/tests/__pycache__/test_cli.cpython-314.pyc",
+      "bytes": 6076,
+      "sha256": "7e6a68a8c4b2577318999823c1ed7e57a8dd68241248efdc35772b60e96aadbd",
+      "new_path": "lab1/archive/existing_lab1/tests/__pycache__/test_cli.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/tests/__pycache__/test_formula.cpython-314.pyc",
+      "bytes": 13241,
+      "sha256": "a6c82e1fe29820362c5dd59a5624e4704a50e8414582b6a985f1e54a8003b117",
+      "new_path": "lab1/archive/existing_lab1/tests/__pycache__/test_formula.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "lab1/tests/__pycache__/test_verifier.cpython-314.pyc",
+      "bytes": 18546,
+      "sha256": "30c0eaa6dacbe52ff01d3d71a6fb1b820b82d77f22c4141b7de54b7dcd26b971",
+      "new_path": "lab1/archive/existing_lab1/tests/__pycache__/test_verifier.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/docs/DEFENSE.md",
+      "bytes": 8035,
+      "sha256": "e5282c619aede6b8d1c7001470e4d4fa437d73486bc82ab49788bea7e52fc97d",
+      "new_path": "lab1/archive/LR1_variant3/docs/DEFENSE.md",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/docs/MATERIALS_MANIFEST.json",
+      "bytes": 5751,
+      "sha256": "6983966f3b523224b6973a3a9a6503648913456d2706156ee92280dcfd0de551",
+      "new_path": "lab1/archive/LR1_variant3/docs/MATERIALS_MANIFEST.json",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/docs/MATERIALS_REVIEW.md",
+      "bytes": 29639,
+      "sha256": "ed071c2400f5a72a92bbcc6512736b2c7e3c68edc5276c1adfb69ae1c99b877d",
+      "new_path": "lab1/archive/LR1_variant3/docs/MATERIALS_REVIEW.md",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/docs/PLAN.md",
+      "bytes": 2891,
+      "sha256": "9d007bedfe8c67f361392e1ae7691f38fe44bf8f5956282c9eb44c8bc7543d25",
+      "new_path": "lab1/archive/LR1_variant3/docs/PLAN.md",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/docs/REQUIREMENTS.md",
+      "bytes": 3597,
+      "sha256": "3fc391e2e0af9b38e46d60a2de3b345dd94745b538aa9d05208ed550f097f5cb",
+      "new_path": "lab1/archive/LR1_variant3/docs/REQUIREMENTS.md",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/docs/VALIDATION.md",
+      "bytes": 5970,
+      "sha256": "cf396980202e48379861f8d3069490d2a56aa8761e7e919d9930f880c61a6bc9",
+      "new_path": "lab1/archive/LR1_variant3/docs/VALIDATION.md",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/evidence/axiom_schema_regression.txt",
+      "bytes": 1396,
+      "sha256": "221b3cfedff0ead0c5dd804c48efa2322fd96c9d6394d2a1da661c9b21dea7dc",
+      "new_path": "lab1/archive/LR1_variant3/evidence/axiom_schema_regression.txt",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/evidence/compile_python312.txt",
+      "bytes": 108,
+      "sha256": "1d938888836e52904d3c1c00401ab6206a15802c57681c90969360dfe7211169",
+      "new_path": "lab1/archive/LR1_variant3/evidence/compile_python312.txt",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/evidence/compile_python314.txt",
+      "bytes": 107,
+      "sha256": "893a6e8ef985dcb7b8d22ee27965cbf12271e6c9cb8a1b23e05a1ed29bf30c17",
+      "new_path": "lab1/archive/LR1_variant3/evidence/compile_python314.txt",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/evidence/demo_file_python312.txt",
+      "bytes": 1674,
+      "sha256": "7c40d0a8c5b4de90a894d1736c6588179c58342a8617b56e8c3ca69114ca5c84",
+      "new_path": "lab1/archive/LR1_variant3/evidence/demo_file_python312.txt",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/evidence/demo_file_python314.txt",
+      "bytes": 1673,
+      "sha256": "207c54036268c59263090fcda2aece7997c7d2ce5c17781ca02d26509af0c996",
+      "new_path": "lab1/archive/LR1_variant3/evidence/demo_file_python314.txt",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/evidence/demo_python312.txt",
+      "bytes": 1653,
+      "sha256": "6bc79eda547327d9302b0b699007ac6c7a5a0edea46a287b28bd631bfdf9bcb3",
+      "new_path": "lab1/archive/LR1_variant3/evidence/demo_python312.txt",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/evidence/demo_python314.txt",
+      "bytes": 1652,
+      "sha256": "40e15fa137ccd49f9f68feb233a8df0e0456215a05db8c7994a749c66bf6dcd4",
+      "new_path": "lab1/archive/LR1_variant3/evidence/demo_python314.txt",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/evidence/launcher.txt",
+      "bytes": 1616,
+      "sha256": "d8e92f7000fc37df3029cd55773f4edcf8e75d02f923ca0cdf0afa02e895ef82",
+      "new_path": "lab1/archive/LR1_variant3/evidence/launcher.txt",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/evidence/negative_python312.txt",
+      "bytes": 2487,
+      "sha256": "71120d95778806b5a77dd241c7a51fca885e8f8a7364d48938ab9e8b7706ef7d",
+      "new_path": "lab1/archive/LR1_variant3/evidence/negative_python312.txt",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/evidence/negative_python314.txt",
+      "bytes": 2486,
+      "sha256": "11f854bd3fb70d9092eb1674025dfb04aa1eba309052153d3066576809596dbe",
+      "new_path": "lab1/archive/LR1_variant3/evidence/negative_python314.txt",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/evidence/tests_python312.txt",
+      "bytes": 6750,
+      "sha256": "24272b725734636d1f4027eea8ee8aa302ce6d8f12d44c2a5bc4437e8771cc2f",
+      "new_path": "lab1/archive/LR1_variant3/evidence/tests_python312.txt",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/evidence/tests_python314.txt",
+      "bytes": 6749,
+      "sha256": "e04a78d608d72525c7ce851f74b631866f158beeef4e29b0fcb565d9dd8805bd",
+      "new_path": "lab1/archive/LR1_variant3/evidence/tests_python314.txt",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/evidence/verification_python312.json",
+      "bytes": 4310,
+      "sha256": "00f449c5aaa5f6b71a532a8d07e882f26470b171e51b9dbae3d1505874d8dc0c",
+      "new_path": "lab1/archive/LR1_variant3/evidence/verification_python312.json",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/evidence/verification_python314.json",
+      "bytes": 4285,
+      "sha256": "f4f735d5e46e64575eee1d4c53ee244641378855d15deed1d80094b4e95bab50",
+      "new_path": "lab1/archive/LR1_variant3/evidence/verification_python314.json",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/examples/demo.txt",
+      "bytes": 530,
+      "sha256": "645136e59b3764dc9ebc930d520ad6bc96b4dbbcf7de4ab01619f9b52ad35d0f",
+      "new_path": "lab1/archive/LR1_variant3/examples/demo.txt",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/examples/negative.txt",
+      "bytes": 609,
+      "sha256": "f6d000a0b915fc76f27285d0d8430fc10073e2178ed78df15533aa3936a84105",
+      "new_path": "lab1/archive/LR1_variant3/examples/negative.txt",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/output/LR1_variant3.docx",
+      "bytes": 45133,
+      "sha256": "97c431abcfca08141e014236ecfc9e52934ca87910e4973e126f4cdfa7063802",
+      "new_path": "lab1/archive/LR1_variant3/output/LR1_variant3.docx",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/output/LR1_variant3.pdf",
+      "bytes": 248444,
+      "sha256": "c59420ce5ffc5be592e1f4db0ba9544578250c2bb0fc92fe88e940a3bccbf224",
+      "new_path": "lab1/archive/LR1_variant3/output/LR1_variant3.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/proofchecker/cli.py",
+      "bytes": 5834,
+      "sha256": "8cea4d3d568f6d2ff5f19c0efd56f538351fae467d901e634207fe7f40a408c2",
+      "new_path": "lab1/archive/LR1_variant3/proofchecker/cli.py",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/proofchecker/formula.py",
+      "bytes": 8303,
+      "sha256": "7d60d7d4cf44aa2c030c77bb5b165cb41acfd15eb1ba7d50ce3627375abde668",
+      "new_path": "lab1/archive/LR1_variant3/proofchecker/formula.py",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/proofchecker/verifier.py",
+      "bytes": 6297,
+      "sha256": "525ad4278c642f0d0b0bb828358257324fe3e551b57a20e61df3916022b50fa9",
+      "new_path": "lab1/archive/LR1_variant3/proofchecker/verifier.py",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/proofchecker/__init__.py",
+      "bytes": 82,
+      "sha256": "33689a5cc6722300cb767a121b956afe33589775da57ebd4dba2741e8e5b4ace",
+      "new_path": "lab1/archive/LR1_variant3/proofchecker/__init__.py",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/tests/test_axiom_schemas.py",
+      "bytes": 4448,
+      "sha256": "c610f18f31151dd07968114317177491a2ceb0baa3e17658d079ec7e0f85686e",
+      "new_path": "lab1/archive/LR1_variant3/tests/test_axiom_schemas.py",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/tests/test_cli.py",
+      "bytes": 2882,
+      "sha256": "15e2750728eef144e6cc54f3c767d393326a0cb3bbe3de98f30b1225a18448e5",
+      "new_path": "lab1/archive/LR1_variant3/tests/test_cli.py",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/tests/test_formula.py",
+      "bytes": 5759,
+      "sha256": "00f810b51f75cce5600959bcfb8cc19268d5e512dada11bf2fa5afaf6b24edbe",
+      "new_path": "lab1/archive/LR1_variant3/tests/test_formula.py",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/tests/test_verifier.py",
+      "bytes": 7720,
+      "sha256": "3fddb6e9d1548355a08b9ed33dc5c0fc9c05ccadc00c334fd85f0a248971b58c",
+      "new_path": "lab1/archive/LR1_variant3/tests/test_verifier.py",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/tools/build_report.py",
+      "bytes": 28143,
+      "sha256": "d6936157fd8f15316e4372cbc6a3c6d067927a8fd7b910ac2caac1faedafda44",
+      "new_path": "lab1/archive/LR1_variant3/tools/build_report.py",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/tools/export_report.ps1",
+      "bytes": 816,
+      "sha256": "1a2bcf3a230cb20c6e1e69b1e216935adcafb25999f01a2194ae37f6a1147504",
+      "new_path": "lab1/archive/LR1_variant3/tools/export_report.ps1",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/tools/package_submission.py",
+      "bytes": 4359,
+      "sha256": "f907299dfa73c6b3993b154cd5166defdfce1657e14b3e33b9d01925f6b59f42",
+      "new_path": "lab1/archive/LR1_variant3/tools/package_submission.py",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/tools/verify.py",
+      "bytes": 2814,
+      "sha256": "f87e4bdaacd245528db02a0a650acafa841451002154b62741e1883eee841a14",
+      "new_path": "lab1/archive/LR1_variant3/tools/verify.py",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/proofchecker/__pycache__/cli.cpython-314.pyc",
+      "bytes": 9063,
+      "sha256": "e7982120af30f38a1fe9696ebd77a07fae156b58bd04b0af57d354f16c9ba270",
+      "new_path": "lab1/archive/LR1_variant3/proofchecker/__pycache__/cli.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/proofchecker/__pycache__/formula.cpython-314.pyc",
+      "bytes": 16669,
+      "sha256": "040d04e380a23ec46d23d26a3faba724148782378eeb95c19bf9a878d3a12778",
+      "new_path": "lab1/archive/LR1_variant3/proofchecker/__pycache__/formula.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/proofchecker/__pycache__/verifier.cpython-314.pyc",
+      "bytes": 11357,
+      "sha256": "30f59a4061fddcd89fcce109e0a248b52784446592a129bc20ab12e5a524cace",
+      "new_path": "lab1/archive/LR1_variant3/proofchecker/__pycache__/verifier.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/proofchecker/__pycache__/__init__.cpython-314.pyc",
+      "bytes": 278,
+      "sha256": "c86def4dcac6692093bac1bb4b1ab84ae3ed690b39576f93c6969abcad07ee8b",
+      "new_path": "lab1/archive/LR1_variant3/proofchecker/__pycache__/__init__.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/tests/__pycache__/test_axiom_schemas.cpython-314.pyc",
+      "bytes": 8435,
+      "sha256": "71863bc06c1b2210b97cce7464cc98dd44aeaecbccea6fa491d7e99263b513f9",
+      "new_path": "lab1/archive/LR1_variant3/tests/__pycache__/test_axiom_schemas.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/tests/__pycache__/test_cli.cpython-314.pyc",
+      "bytes": 6084,
+      "sha256": "e9f7eb451e1543bba3706bf0cbab550078d7232e44ff8da4ffb8e463c1982673",
+      "new_path": "lab1/archive/LR1_variant3/tests/__pycache__/test_cli.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/tests/__pycache__/test_formula.cpython-314.pyc",
+      "bytes": 13249,
+      "sha256": "f62ed94e35dfc0152965b3f7e5cbae72afd45790a5f6bb725a948942535543e6",
+      "new_path": "lab1/archive/LR1_variant3/tests/__pycache__/test_formula.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "LR1_variant3/tests/__pycache__/test_verifier.cpython-314.pyc",
+      "bytes": 18554,
+      "sha256": "ca2c64e71effe3321f1c963d94a66e8dbe282b400046a42478ceac105f555217",
+      "new_path": "lab1/archive/LR1_variant3/tests/__pycache__/test_verifier.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "proofchecker/__pycache__/cli.cpython-312.pyc",
+      "bytes": 8044,
+      "sha256": "6edb45d0667e38a0548668234fe0e3f9ba00b187311e71bf5f11b2f6a568c707",
+      "new_path": "lab1/proofchecker/__pycache__/cli.cpython-312.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "proofchecker/__pycache__/cli.cpython-314.pyc",
+      "bytes": 9050,
+      "sha256": "4fbcafff9f22fed7644819bf8695053130acee0d2c62659578f696caf685c879",
+      "new_path": "lab1/proofchecker/__pycache__/cli.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "proofchecker/__pycache__/formula.cpython-312.pyc",
+      "bytes": 13609,
+      "sha256": "0bb05ec0e54094dd70cf18d12c2e4edeb241bf4687fbe9d4bfe30411067ff3ad",
+      "new_path": "lab1/proofchecker/__pycache__/formula.cpython-312.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "proofchecker/__pycache__/formula.cpython-314.pyc",
+      "bytes": 16656,
+      "sha256": "f84b80499c66883ce1d6581c4eb7524372c8ee6910649106c05c69e490af8871",
+      "new_path": "lab1/proofchecker/__pycache__/formula.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "proofchecker/__pycache__/verifier.cpython-312.pyc",
+      "bytes": 10095,
+      "sha256": "670f7b3065ea44a02f618fa30b2002ead943c5010a25d4296580f564e477f60e",
+      "new_path": "lab1/proofchecker/__pycache__/verifier.cpython-312.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "proofchecker/__pycache__/verifier.cpython-314.pyc",
+      "bytes": 11344,
+      "sha256": "ada3fa45dae77e805766c39e79205f2fe3cd33e07d40c9ab0c938c8d349e041d",
+      "new_path": "lab1/proofchecker/__pycache__/verifier.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "proofchecker/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 263,
+      "sha256": "2cb6bf03ca5457be95e19a301d89a973b3959c33cca50ff9c33a56182f8a734e",
+      "new_path": "lab1/proofchecker/__pycache__/__init__.cpython-312.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "proofchecker/__pycache__/__init__.cpython-314.pyc",
+      "bytes": 265,
+      "sha256": "1ed51840a50e0e0c2a86fd311988de7dde9e457fd40ec5d61cb16f06724349c5",
+      "new_path": "lab1/proofchecker/__pycache__/__init__.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "tests/__pycache__/test_axiom_schemas.cpython-312.pyc",
+      "bytes": 8160,
+      "sha256": "7784a93cd3cf6f2b439c3bff113cf370bd9512ecc1a174b717da06a69df4ef43",
+      "new_path": "lab1/tests/__pycache__/test_axiom_schemas.cpython-312.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "tests/__pycache__/test_axiom_schemas.cpython-314.pyc",
+      "bytes": 8422,
+      "sha256": "d0b3a0a7025b1ec43a9ece2646dca6234fcae0e9ebadbc5258130a54ef2afd50",
+      "new_path": "lab1/tests/__pycache__/test_axiom_schemas.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "tests/__pycache__/test_cli.cpython-312.pyc",
+      "bytes": 5926,
+      "sha256": "ce34330c0907846e937ba48153ab6213413c03464bfdd27245f9eff41a230819",
+      "new_path": "lab1/tests/__pycache__/test_cli.cpython-312.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "tests/__pycache__/test_cli.cpython-314.pyc",
+      "bytes": 6071,
+      "sha256": "2e6f10ca7f0186b108dc1edefb4b62b021c70d922cc575d65588512ba4ca2146",
+      "new_path": "lab1/tests/__pycache__/test_cli.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "tests/__pycache__/test_formula.cpython-312.pyc",
+      "bytes": 12630,
+      "sha256": "19d3d8276da54ed88eea2bddf36c778187639e3036cfacd4dd006066e9686d48",
+      "new_path": "lab1/tests/__pycache__/test_formula.cpython-312.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "tests/__pycache__/test_formula.cpython-314.pyc",
+      "bytes": 13236,
+      "sha256": "954b652a159d525fbfd5269e0bc91b62908662fb701179c5358481341f2e71e0",
+      "new_path": "lab1/tests/__pycache__/test_formula.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "tests/__pycache__/test_verifier.cpython-312.pyc",
+      "bytes": 17849,
+      "sha256": "3c237fe13970f6f4a63b0152ee16dbe598f9364a1e3b0ba0925c480615b56bb5",
+      "new_path": "lab1/tests/__pycache__/test_verifier.cpython-312.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "tests/__pycache__/test_verifier.cpython-314.pyc",
+      "bytes": 18541,
+      "sha256": "cacd7fc961be70b4b47263453c7875d5a4f2d104653b3aa0c85a25e1d65159a9",
+      "new_path": "lab1/tests/__pycache__/test_verifier.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/inventory.json",
+      "bytes": 5751,
+      "sha256": "6983966f3b523224b6973a3a9a6503648913456d2706156ee92280dcfd0de551",
+      "new_path": "lab1/tmp/materials/inventory.json",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/photos_1.jpg",
+      "bytes": 1043606,
+      "sha256": "ae2c72bf7e21c3a1044aeb1ff0866b38dc69b736faf9181e2ba72d326b29cf34",
+      "new_path": "lab1/tmp/materials/photos_1.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/photos_2.jpg",
+      "bytes": 977367,
+      "sha256": "30f278f6bb20762bb3987352daa9766c649a07157d6a51a1de3fbeba3fa6010f",
+      "new_path": "lab1/tmp/materials/photos_2.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/photos_3.jpg",
+      "bytes": 1086316,
+      "sha256": "66e6d866ffdb77f637ca8de6b3744b4a14e50493ecc463ea794e70e091b2b1ba",
+      "new_path": "lab1/tmp/materials/photos_3.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/photos_4.jpg",
+      "bytes": 1079579,
+      "sha256": "39ce1fda57c9f6277c37c77571e5669a44c2026cfb2b69ca03d0ca5a58339eeb",
+      "new_path": "lab1/tmp/materials/photos_4.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/Лабораторная работа №1.txt",
+      "bytes": 5771,
+      "sha256": "c97aaec2bc878dfa86adf830ac125ac6c53eb845878a6ea92755cc5165913ddb",
+      "new_path": "lab1/tmp/materials/Лабораторная работа №1.txt",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/Лабораторная работа №1_contact_1.jpg",
+      "bytes": 109132,
+      "sha256": "b12cfe1c2869f4d36a9ebb822a7a6eb8a3ff2ffc66ab0b7cf0317ff8c87b02cd",
+      "new_path": "lab1/tmp/materials/Лабораторная работа №1_contact_1.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/Лекция 1.txt",
+      "bytes": 14079,
+      "sha256": "f503b8d6bb71e2cea4f3727a68be0811d39eb3ddab21b4fa33a3bfaf866930cf",
+      "new_path": "lab1/tmp/materials/Лекция 1.txt",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/Лекция 1_contact_1.jpg",
+      "bytes": 304157,
+      "sha256": "02e340f1fc258a7f3b7dde6bc6b00c6b55f16407d230d6d70530bba0d8f0be6b",
+      "new_path": "lab1/tmp/materials/Лекция 1_contact_1.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/Лекция 1_contact_2.jpg",
+      "bytes": 469723,
+      "sha256": "cc99c3963553971397ceb4ab6c70b6435d39dfaf3035529e4e66b678aaf05111",
+      "new_path": "lab1/tmp/materials/Лекция 1_contact_2.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/Лекция 1_contact_3.jpg",
+      "bytes": 417824,
+      "sha256": "c1ebe189a3ae0aaa3476f2065617b2b86a2a3a1fd9f03656eb0f358f791380bd",
+      "new_path": "lab1/tmp/materials/Лекция 1_contact_3.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/Лекция 1_contact_4.jpg",
+      "bytes": 394346,
+      "sha256": "1a2f2e59739c7a5100036208a2090b099e78c8613aeef855011b8b8b01d84e85",
+      "new_path": "lab1/tmp/materials/Лекция 1_contact_4.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/Лекция 1_contact_5.jpg",
+      "bytes": 66866,
+      "sha256": "7dd38a6bbd538d7fad343e84039fdc779341bc4a439e28bd5ab3d0b1995b8940",
+      "new_path": "lab1/tmp/materials/Лекция 1_contact_5.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/Лекция 2-1.txt",
+      "bytes": 8857,
+      "sha256": "4bc068a47c2a356a9b963b677d8712bf2d8e2465bd942677e5337e924f960672",
+      "new_path": "lab1/tmp/materials/Лекция 2-1.txt",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/Лекция 2-1_contact_1.jpg",
+      "bytes": 402538,
+      "sha256": "c4fbccb98826583304d7f9d1e78847bde1a1e86cd84e79ff67b8d4b7f209ca53",
+      "new_path": "lab1/tmp/materials/Лекция 2-1_contact_1.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/Лекция 2-1_contact_2.jpg",
+      "bytes": 364084,
+      "sha256": "a5d360db88d030657ffa3f9911f817daa2955891ad3ae4fe6110b0f25b8f1ff3",
+      "new_path": "lab1/tmp/materials/Лекция 2-1_contact_2.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/Лекция 2-1_contact_3.jpg",
+      "bytes": 296655,
+      "sha256": "40f5a606a631eeccd903de5f8f50adb47cbe6ad522048f0719996c290f50b246",
+      "new_path": "lab1/tmp/materials/Лекция 2-1_contact_3.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/Лекция 2-1_contact_4.jpg",
+      "bytes": 106431,
+      "sha256": "bb4f0e9e96749dc5c14207c923c65a3e4812d5fb7297e55285b215ba1f3aaf02",
+      "new_path": "lab1/tmp/materials/Лекция 2-1_contact_4.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/Методический материал к ЛР.txt",
+      "bytes": 4429,
+      "sha256": "0ee54a90278f46e1ffb6157d4a35a56104de28888bf5b3634659666fc407d7e2",
+      "new_path": "lab1/tmp/materials/Методический материал к ЛР.txt",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/Методический материал к ЛР_contact_1.jpg",
+      "bytes": 82968,
+      "sha256": "41898262db00b3a0e195e41723da01677e9100c7b3857e79a26e024b1fbb24ec",
+      "new_path": "lab1/tmp/materials/Методический материал к ЛР_contact_1.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/Семинар №1 2024.txt",
+      "bytes": 6801,
+      "sha256": "f904b9c122508f8f6edb3529d927b8bcafc79e40536a388bd8edfd5946cec505",
+      "new_path": "lab1/tmp/materials/Семинар №1 2024.txt",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/Семинар №1 2024_contact_1.jpg",
+      "bytes": 312771,
+      "sha256": "abe42883f22a1511b70afce9608298d2400f4770eec279b9dbe1aefe73f7de86",
+      "new_path": "lab1/tmp/materials/Семинар №1 2024_contact_1.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/Семинар №1 2024_contact_2.jpg",
+      "bytes": 327911,
+      "sha256": "9b23f50a87b26fb0c7a69c68c86b36f37d33423ae993938c4a03579e9dbee565",
+      "new_path": "lab1/tmp/materials/Семинар №1 2024_contact_2.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/Семинар №1 2024_contact_3.jpg",
+      "bytes": 58280,
+      "sha256": "52feae32266e458c4542a903de73f7f4f47717f63fb6b206f2d3574cc9ff71cc",
+      "new_path": "lab1/tmp/materials/Семинар №1 2024_contact_3.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/README.md",
+      "bytes": 53,
+      "sha256": "eb77d6889d3bf97ba7cce54059c7d99ea227dfefd819f60e8108275e2592504d",
+      "new_path": "lab1/tmp/publish-lab22-20261020/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/report_render/page-1.png",
+      "bytes": 178110,
+      "sha256": "13c479adcbfbb3bf6fee8fc2b2381a15f5d6cf6bd636e9f7981c2162f1baf440",
+      "new_path": "lab1/tmp/report_render/page-1.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/report_render/page-2.png",
+      "bytes": 186817,
+      "sha256": "0c4927396c8d0631570b7fe21c217433eaa3aa129909df6c383172f554f5190c",
+      "new_path": "lab1/tmp/report_render/page-2.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/report_render/page-3.png",
+      "bytes": 212547,
+      "sha256": "8ee8aebb0a860f81c8b4be510c111d93b4113d2b04e3bd6f285c42875712bf4e",
+      "new_path": "lab1/tmp/report_render/page-3.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/report_render/page-4.png",
+      "bytes": 291890,
+      "sha256": "717b9f56b9016f81cba4f8deb304aec2ea2d3e97c89ba9806ad221a863d0a2af",
+      "new_path": "lab1/tmp/report_render/page-4.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/report_render/page-5.png",
+      "bytes": 145952,
+      "sha256": "37598131e68ba3ce0fa6c93487b8bb278e139d7bd3e59e08a2470132627052a6",
+      "new_path": "lab1/tmp/report_render/page-5.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/report_render/page-6.png",
+      "bytes": 253389,
+      "sha256": "2d864083f480da4e794821ca080a9ce1c46d795eb7b57d2b5415647b92039157",
+      "new_path": "lab1/tmp/report_render/page-6.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/report_render/page-7.png",
+      "bytes": 229262,
+      "sha256": "19d4adc2d2eed38cde5763f1011c919ad66334054a0a572da42552ac2ad1a0c7",
+      "new_path": "lab1/tmp/report_render/page-7.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/schema-report-render/final-1.png",
+      "bytes": 106622,
+      "sha256": "8bac4f5d4be8152cd36dd7b3a7620823eff1943f7ad0e48a6988c8c29f8dbfef",
+      "new_path": "lab1/tmp/schema-report-render/final-1.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/schema-report-render/final-6.png",
+      "bytes": 156519,
+      "sha256": "bc853b55d5df07615a5488a940f93ac512d5c9389b2fe993d7faa85fb1fedc33",
+      "new_path": "lab1/tmp/schema-report-render/final-6.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/schema-report-render/page-1.png",
+      "bytes": 141104,
+      "sha256": "dff0d61afeeca9cbc86653876dad1a02748b2d0accfe45ba764aa3770b78739a",
+      "new_path": "lab1/tmp/schema-report-render/page-1.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/schema-report-render/page-2.png",
+      "bytes": 155995,
+      "sha256": "295f6b1a3e37930dfd057ec9f1524b469629ba26a60f09764a6c38755b198438",
+      "new_path": "lab1/tmp/schema-report-render/page-2.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/schema-report-render/page-3.png",
+      "bytes": 165903,
+      "sha256": "e5f01df1e22e9b2613e886a580fb9736798065f367dd7eacfa2540c3cbf54e6e",
+      "new_path": "lab1/tmp/schema-report-render/page-3.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/schema-report-render/page-4.png",
+      "bytes": 229342,
+      "sha256": "89a96c2ef579c7054f40a97d65349b8fff7921d7d261a4c2b10b0d5e68cfdbb0",
+      "new_path": "lab1/tmp/schema-report-render/page-4.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/schema-report-render/page-5.png",
+      "bytes": 117803,
+      "sha256": "8a1e52c4704303732781e76e09b449ab54452ada35a49bf74fe9a1936f43f3ba",
+      "new_path": "lab1/tmp/schema-report-render/page-5.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/schema-report-render/page-6.png",
+      "bytes": 210228,
+      "sha256": "5ee5c979ff9d1cb6de238eda9b03f45d9a6dfe6156feac530ea726860f702370",
+      "new_path": "lab1/tmp/schema-report-render/page-6.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/schema-report-render/page-7.png",
+      "bytes": 183137,
+      "sha256": "face5a9e3a58276f321405faa96aa3593652b77bc9a744a94cec5bc7f1d1146e",
+      "new_path": "lab1/tmp/schema-report-render/page-7.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/boards/photo_2026-10-19_02-19-56.png",
+      "bytes": 530255,
+      "sha256": "c525b136519823d571c616a91f846e98e45a3c0982810170b332e1469feebba5",
+      "new_path": "lab1/tmp/materials/boards/photo_2026-10-19_02-19-56.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/boards/photo_2026-10-19_02-20-03.png",
+      "bytes": 698439,
+      "sha256": "01eb569e3d9e60092993b7259da12273a3bd1beac59efb6b77f22f0f397e8a21",
+      "new_path": "lab1/tmp/materials/boards/photo_2026-10-19_02-20-03.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/boards/photo_2026-10-19_02-20-06.png",
+      "bytes": 605096,
+      "sha256": "be36219b44b0886c53056d998832fc08d85d4a8a97b92b797b7e202ecbab4ada",
+      "new_path": "lab1/tmp/materials/boards/photo_2026-10-19_02-20-06.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/boards/photo_2026-10-19_02-20-11.png",
+      "bytes": 925986,
+      "sha256": "ec74b72642227af6c3fb6df7c895b9865f0ed61b5cb2c0a386168adad53cea20",
+      "new_path": "lab1/tmp/materials/boards/photo_2026-10-19_02-20-11.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/boards/photo_2026-10-19_02-20-15.png",
+      "bytes": 589611,
+      "sha256": "ce78abf271589afe87ed92ad446db30153f140544d90b2538902d612d905afad",
+      "new_path": "lab1/tmp/materials/boards/photo_2026-10-19_02-20-15.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/boards/photo_2026-10-19_02-20-17.png",
+      "bytes": 537758,
+      "sha256": "43b9dcdde56b1a3d8d84439648e317c202a016175bba22aca47f9c8ea8ee378e",
+      "new_path": "lab1/tmp/materials/boards/photo_2026-10-19_02-20-17.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/boards/photo_2026-10-19_02-20-19.png",
+      "bytes": 624931,
+      "sha256": "ad5f9e36a557aafb5dca271c65b37609ba5b5e1ca98b5bd9886bc65759590c32",
+      "new_path": "lab1/tmp/materials/boards/photo_2026-10-19_02-20-19.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/boards/photo_2026-10-19_02-20-22.png",
+      "bytes": 564255,
+      "sha256": "89d7759b5312de9d6c28942c46276f189c5bdf41b0ad7a91e0a8bea70d14189d",
+      "new_path": "lab1/tmp/materials/boards/photo_2026-10-19_02-20-22.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/boards/photo_2026-10-19_02-20-24.png",
+      "bytes": 737953,
+      "sha256": "c836091dc8e6c5fb98760ed99563eed5979e9b0226f1fd244066b5c627fde8db",
+      "new_path": "lab1/tmp/materials/boards/photo_2026-10-19_02-20-24.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/boards/photo_2026-10-19_02-20-27.png",
+      "bytes": 820419,
+      "sha256": "6e269191fe5a622849ec7228c3788531de32c37a01729cf71e70edfb4a771f7c",
+      "new_path": "lab1/tmp/materials/boards/photo_2026-10-19_02-20-27.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/boards/photo_2026-10-19_02-20-30.png",
+      "bytes": 657311,
+      "sha256": "9f819c9c0670cd143d9d3b6ba0d90b4c487f5ea7caae7bb7772ea8c5ecd0b7f1",
+      "new_path": "lab1/tmp/materials/boards/photo_2026-10-19_02-20-30.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/boards/photo_2026-10-19_02-20-32.png",
+      "bytes": 728756,
+      "sha256": "4d2855979ebb21b41a4c3b6b6073ac724081f768e964083d2b80d33b837bab25",
+      "new_path": "lab1/tmp/materials/boards/photo_2026-10-19_02-20-32.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/boards/photo_2026-10-19_02-20-34.png",
+      "bytes": 593043,
+      "sha256": "403668909cc737ca2fd081a4449fa531f87a2a907ba3608708ba141b7d9569f7",
+      "new_path": "lab1/tmp/materials/boards/photo_2026-10-19_02-20-34.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/boards/photo_2026-10-19_02-20-37.png",
+      "bytes": 676723,
+      "sha256": "990598f5807dd43446077c0c3531ffecb36f2b68bb0df56a12fe0369e2aecd6e",
+      "new_path": "lab1/tmp/materials/boards/photo_2026-10-19_02-20-37.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/boards/photo_2026-10-19_02-20-39.png",
+      "bytes": 732894,
+      "sha256": "7c6f3d0e376dc12bc62b7c185625c021d1b25d87419f3e53d6edacf15bfcd73d",
+      "new_path": "lab1/tmp/materials/boards/photo_2026-10-19_02-20-39.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/boards/photo_2026-10-19_02-20-41.png",
+      "bytes": 775163,
+      "sha256": "955b754a95074b5fc25a757dd97611340d5a72a27eba66958aeb59b5b8f81442",
+      "new_path": "lab1/tmp/materials/boards/photo_2026-10-19_02-20-41.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лабораторная работа №1/page-1.png",
+      "bytes": 288962,
+      "sha256": "20848edf416e7ae075be3881de5695da808e02982b3de794b5af22ab16c97f00",
+      "new_path": "lab1/tmp/materials/render/Лабораторная работа №1/page-1.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лабораторная работа №1/page-2.png",
+      "bytes": 120760,
+      "sha256": "ab2fa7df30e4637387d1394a5bb16c908f21fd3ff558bc4fdaba4426db0505e5",
+      "new_path": "lab1/tmp/materials/render/Лабораторная работа №1/page-2.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лабораторная работа №1/page-3.png",
+      "bytes": 19671,
+      "sha256": "92e199503b11b90f26afe21a870f2bb085c57d44a5907dbe0eb982a6cc2ef316",
+      "new_path": "lab1/tmp/materials/render/Лабораторная работа №1/page-3.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 1/Слайд1.PNG",
+      "bytes": 31143,
+      "sha256": "eed1056f2413f2ddd0f52fa888ac13e7afb20ae0d513faa83d5bced01b7e463d",
+      "new_path": "lab1/tmp/materials/render/Лекция 1/Слайд1.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 1/Слайд10.PNG",
+      "bytes": 49017,
+      "sha256": "ddfe55d571ea3a4c70e9f920a45d8cc1218b13cab750fcb54af676ce21453004",
+      "new_path": "lab1/tmp/materials/render/Лекция 1/Слайд10.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 1/Слайд11.PNG",
+      "bytes": 37361,
+      "sha256": "fc87bf1bac5dfe68c99aa3559668eac42114c7e42c940af0ace67025cbe97f93",
+      "new_path": "lab1/tmp/materials/render/Лекция 1/Слайд11.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 1/Слайд12.PNG",
+      "bytes": 72611,
+      "sha256": "6bd15270dedb0d6e19e11f8b79ad0b4dd31db0e5af7a419040f415c26e6c0235",
+      "new_path": "lab1/tmp/materials/render/Лекция 1/Слайд12.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 1/Слайд13.PNG",
+      "bytes": 47796,
+      "sha256": "a2d5a4ce71bd3c86d0669eebb0f20a461c1cd427fe8c559de196e8402bfeac8d",
+      "new_path": "lab1/tmp/materials/render/Лекция 1/Слайд13.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 1/Слайд14.PNG",
+      "bytes": 48530,
+      "sha256": "f1d83fce408676cc2c3f0ee80bb422f02f965b23b4f23d489f2c0558f7bd0bb8",
+      "new_path": "lab1/tmp/materials/render/Лекция 1/Слайд14.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 1/Слайд15.PNG",
+      "bytes": 48643,
+      "sha256": "72e8fcee22acc9d2e9d1a4770e90bad9b46fc34784913d78cf6ce19734e05780",
+      "new_path": "lab1/tmp/materials/render/Лекция 1/Слайд15.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 1/Слайд16.PNG",
+      "bytes": 40747,
+      "sha256": "a87435d57fcb2e766f0189d4e23bb61af3e3bc87ddef927408081fa1e78a8fdc",
+      "new_path": "lab1/tmp/materials/render/Лекция 1/Слайд16.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 1/Слайд17.PNG",
+      "bytes": 39831,
+      "sha256": "63141cb2fdee9575b1532dcd0193353abe5c5bd4ffa3bdb427f20d22005d527a",
+      "new_path": "lab1/tmp/materials/render/Лекция 1/Слайд17.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 1/Слайд18.PNG",
+      "bytes": 33894,
+      "sha256": "241bbe1e659d45c4a1381984bb9850a286852d7d84486fed44c7bcdd52a85275",
+      "new_path": "lab1/tmp/materials/render/Лекция 1/Слайд18.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 1/Слайд19.PNG",
+      "bytes": 33276,
+      "sha256": "b4c7530c6dd45843cac751e1a16ddf52f7e685caccfde951ef49456094ce50cb",
+      "new_path": "lab1/tmp/materials/render/Лекция 1/Слайд19.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 1/Слайд2.PNG",
+      "bytes": 18872,
+      "sha256": "31c2f5835bba80d90880e6b63cd17d018153926b9d206cee67311fe52734e51b",
+      "new_path": "lab1/tmp/materials/render/Лекция 1/Слайд2.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 1/Слайд20.PNG",
+      "bytes": 39132,
+      "sha256": "83ef43eaec3d679d31351586500397de29a9487c99fbbe69158f7d9e27bf1d80",
+      "new_path": "lab1/tmp/materials/render/Лекция 1/Слайд20.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 1/Слайд21.PNG",
+      "bytes": 33314,
+      "sha256": "a32e59a103e6738ca2a22c48a7e50e2d62029f12ebc48b7a5f291e84f0b1d6b5",
+      "new_path": "lab1/tmp/materials/render/Лекция 1/Слайд21.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 1/Слайд22.PNG",
+      "bytes": 41698,
+      "sha256": "c2ed1989fcd4babb5d393f07dc393f4171eddb0e6213073898b64bd81027a3ef",
+      "new_path": "lab1/tmp/materials/render/Лекция 1/Слайд22.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 1/Слайд23.PNG",
+      "bytes": 44945,
+      "sha256": "0bccadf138984de9533318298167e0a658b2c744d401baed105b1c3462625f41",
+      "new_path": "lab1/tmp/materials/render/Лекция 1/Слайд23.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 1/Слайд24.PNG",
+      "bytes": 100293,
+      "sha256": "2896accdae4e8d07ff2e060943125b7d7bcc929990deca23999b257bbe860c0f",
+      "new_path": "lab1/tmp/materials/render/Лекция 1/Слайд24.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 1/Слайд25.PNG",
+      "bytes": 208175,
+      "sha256": "dbca2725eb3119f2122476b91e2c33e61ce5d8b2d6beda3eb1a062b9702c23d6",
+      "new_path": "lab1/tmp/materials/render/Лекция 1/Слайд25.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 1/Слайд3.PNG",
+      "bytes": 20191,
+      "sha256": "877b48e61d34e206f716c6a6e62368028ed3e5d5036c5c1409aca77e7b0c7840",
+      "new_path": "lab1/tmp/materials/render/Лекция 1/Слайд3.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 1/Слайд4.PNG",
+      "bytes": 33669,
+      "sha256": "edec7c6d41c9d9286b9787f4adf3d6de47ea1d43afc342e3ac35fb1d2a194b4b",
+      "new_path": "lab1/tmp/materials/render/Лекция 1/Слайд4.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 1/Слайд5.PNG",
+      "bytes": 75269,
+      "sha256": "1337f66f3136a920f71e2945046c58bdfcb41c70a947e113132a71e056243389",
+      "new_path": "lab1/tmp/materials/render/Лекция 1/Слайд5.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 1/Слайд6.PNG",
+      "bytes": 63354,
+      "sha256": "5ae90f6637465eae627dc8d80d23284ce557dd69f0f2736abb749223e3b13a81",
+      "new_path": "lab1/tmp/materials/render/Лекция 1/Слайд6.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 1/Слайд7.PNG",
+      "bytes": 42160,
+      "sha256": "2d8336837695db662d50a3797ddfd39169011ad5ef605f88744bf98bbec0affe",
+      "new_path": "lab1/tmp/materials/render/Лекция 1/Слайд7.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 1/Слайд8.PNG",
+      "bytes": 61078,
+      "sha256": "f08b0f7182e3e732c6edd10dbd8eb7d7ecd4063abe87efbfaa7541f6c683fe2f",
+      "new_path": "lab1/tmp/materials/render/Лекция 1/Слайд8.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 1/Слайд9.PNG",
+      "bytes": 66757,
+      "sha256": "ca8323ed8522149ef72348810ea0f0dd1cd30782eea61bb139f46d749339ac3a",
+      "new_path": "lab1/tmp/materials/render/Лекция 1/Слайд9.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 2-1/Слайд1.PNG",
+      "bytes": 37918,
+      "sha256": "944da2181adc3772b45fe2cea9c69ec4cef50d4c499e8cd94ed47c5d49bbf5c4",
+      "new_path": "lab1/tmp/materials/render/Лекция 2-1/Слайд1.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 2-1/Слайд10.PNG",
+      "bytes": 28204,
+      "sha256": "aa140d5b3058f753c2052fe9b88b3d9c90a7de314222f510705ab7db1837ff74",
+      "new_path": "lab1/tmp/materials/render/Лекция 2-1/Слайд10.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 2-1/Слайд11.PNG",
+      "bytes": 40368,
+      "sha256": "2a755b5de1f116ea17c5244e972fd9e57c54c8244f3e25501a7119086385ead3",
+      "new_path": "lab1/tmp/materials/render/Лекция 2-1/Слайд11.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 2-1/Слайд12.PNG",
+      "bytes": 29481,
+      "sha256": "42bbb9e0ae1de0b8f9ad7d7881672baea48825e40b80ec4de7d2e31ada62dc44",
+      "new_path": "lab1/tmp/materials/render/Лекция 2-1/Слайд12.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 2-1/Слайд13.PNG",
+      "bytes": 44927,
+      "sha256": "f8f681d30a417caac684613224b22f89b8d2546021225b69b031d6f43835bb61",
+      "new_path": "lab1/tmp/materials/render/Лекция 2-1/Слайд13.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 2-1/Слайд14.PNG",
+      "bytes": 23236,
+      "sha256": "f09af957522e2ee500bb7d1456d50a283f4b5f0175b96c46c491f20701900fbc",
+      "new_path": "lab1/tmp/materials/render/Лекция 2-1/Слайд14.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 2-1/Слайд15.PNG",
+      "bytes": 24313,
+      "sha256": "2a970cfc1436fb3ac456236ef2d58f40ab2dfee0b09f356566b3d1f46f6a8651",
+      "new_path": "lab1/tmp/materials/render/Лекция 2-1/Слайд15.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 2-1/Слайд16.PNG",
+      "bytes": 47370,
+      "sha256": "beb9678ac913a458d1d576de750b5c587727ce7538c93f7560ca2f51959d50b2",
+      "new_path": "lab1/tmp/materials/render/Лекция 2-1/Слайд16.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 2-1/Слайд17.PNG",
+      "bytes": 32345,
+      "sha256": "fab1866ece8ccf8d0bf71f7cdb1666e34323bf3431496c449fd3521e944e0334",
+      "new_path": "lab1/tmp/materials/render/Лекция 2-1/Слайд17.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 2-1/Слайд18.PNG",
+      "bytes": 21361,
+      "sha256": "a47059f8a659b350d4a4c5439dbc406f0e5b2be974523e3c84eecdce327fdf28",
+      "new_path": "lab1/tmp/materials/render/Лекция 2-1/Слайд18.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 2-1/Слайд19.PNG",
+      "bytes": 49378,
+      "sha256": "00de112dff13e2ef8915076d972987a7a8b05a629c0d83c7deebb3965882d5d8",
+      "new_path": "lab1/tmp/materials/render/Лекция 2-1/Слайд19.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 2-1/Слайд2.PNG",
+      "bytes": 47444,
+      "sha256": "4d11e941c37e2714375f21cf87683e8d5245186696ad84fb8ca72df873d715c4",
+      "new_path": "lab1/tmp/materials/render/Лекция 2-1/Слайд2.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 2-1/Слайд20.PNG",
+      "bytes": 208195,
+      "sha256": "8e8a633f542380447ec03f6a2bb99d1a7bc0cbfb42cd2ce1150988a549fcc74f",
+      "new_path": "lab1/tmp/materials/render/Лекция 2-1/Слайд20.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 2-1/Слайд3.PNG",
+      "bytes": 48564,
+      "sha256": "c1625724842711a6ac66540ce1e31c33e082bab480d8275a4b3c03bd17f10881",
+      "new_path": "lab1/tmp/materials/render/Лекция 2-1/Слайд3.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 2-1/Слайд4.PNG",
+      "bytes": 48139,
+      "sha256": "10b54b6d2a091fc00db4bbce8e93d89d5e526a1603a48c42021f8275605b8879",
+      "new_path": "lab1/tmp/materials/render/Лекция 2-1/Слайд4.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 2-1/Слайд5.PNG",
+      "bytes": 39774,
+      "sha256": "a28b2783969fd557953ca5a024b7f2b8cff47528d457cc94165e756db5bdb5e6",
+      "new_path": "lab1/tmp/materials/render/Лекция 2-1/Слайд5.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 2-1/Слайд6.PNG",
+      "bytes": 33750,
+      "sha256": "077581686e6ebae63cc8bc01f9a6eaab8082ded7acb9d14a86e78af454a9e99e",
+      "new_path": "lab1/tmp/materials/render/Лекция 2-1/Слайд6.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 2-1/Слайд7.PNG",
+      "bytes": 32974,
+      "sha256": "1aba948d1af70f8fb4e100038c26cc52cc64cc96480b346d45d124e183bc63fc",
+      "new_path": "lab1/tmp/materials/render/Лекция 2-1/Слайд7.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 2-1/Слайд8.PNG",
+      "bytes": 37873,
+      "sha256": "a2657a82712d74b4180b416aa7cd97ec1b13380661f166d8a5f8b582dd549fd9",
+      "new_path": "lab1/tmp/materials/render/Лекция 2-1/Слайд8.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Лекция 2-1/Слайд9.PNG",
+      "bytes": 37055,
+      "sha256": "e0da190a4d97d21422b7b4328ac50a136ff66efce778e5a25c308d52aa717e98",
+      "new_path": "lab1/tmp/materials/render/Лекция 2-1/Слайд9.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Методический материал к ЛР/page-1.png",
+      "bytes": 163829,
+      "sha256": "f19de7659e3350afff1926928880f736928f2e716ea68d634f9ea2a0231c7f99",
+      "new_path": "lab1/tmp/materials/render/Методический материал к ЛР/page-1.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Методический материал к ЛР/page-2.png",
+      "bytes": 161071,
+      "sha256": "2c9901d96300cbff945b9906d0350f3a138e2b5924fb47508fa7b44c237b4d8f",
+      "new_path": "lab1/tmp/materials/render/Методический материал к ЛР/page-2.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Семинар №1 2024/Слайд1.PNG",
+      "bytes": 26349,
+      "sha256": "c1180fdae67649b21a2480b5b856d7ec2c1dfab9d33d1fbab8a45909773e15fd",
+      "new_path": "lab1/tmp/materials/render/Семинар №1 2024/Слайд1.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Семинар №1 2024/Слайд10.PNG",
+      "bytes": 34614,
+      "sha256": "ebd489574ca448a8b7e4fbcd63fada4532ebed947ab1a2aa22ce19f20c0fa76a",
+      "new_path": "lab1/tmp/materials/render/Семинар №1 2024/Слайд10.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Семинар №1 2024/Слайд11.PNG",
+      "bytes": 30745,
+      "sha256": "f28278e9a6d6fa2529348d7b26f0e394504690d9f318f179cde9c597ca32cedc",
+      "new_path": "lab1/tmp/materials/render/Семинар №1 2024/Слайд11.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Семинар №1 2024/Слайд12.PNG",
+      "bytes": 14818,
+      "sha256": "0439691d6e67f9ab5358b267491b541622ef8818f0fb8855a4026a1bdf88c0da",
+      "new_path": "lab1/tmp/materials/render/Семинар №1 2024/Слайд12.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Семинар №1 2024/Слайд13.PNG",
+      "bytes": 10682,
+      "sha256": "d77da6e5cee68763e638b82f9e5ae4377d16f7aeeb9a71701199a18ba6ac8055",
+      "new_path": "lab1/tmp/materials/render/Семинар №1 2024/Слайд13.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Семинар №1 2024/Слайд2.PNG",
+      "bytes": 27724,
+      "sha256": "fb66e164afe03c32ec22d4d7c651e2bff8460fc885fa7858c89c17b636dcefe0",
+      "new_path": "lab1/tmp/materials/render/Семинар №1 2024/Слайд2.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Семинар №1 2024/Слайд3.PNG",
+      "bytes": 56930,
+      "sha256": "fae7483f3703780d6861c7900db23ef4349ff9ef73ef7a82d606a8e35e671375",
+      "new_path": "lab1/tmp/materials/render/Семинар №1 2024/Слайд3.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Семинар №1 2024/Слайд4.PNG",
+      "bytes": 66364,
+      "sha256": "f0505888517c9fe04c6fa2a3cfdf13fb672b345e5562debe31be0552a0778ce7",
+      "new_path": "lab1/tmp/materials/render/Семинар №1 2024/Слайд4.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Семинар №1 2024/Слайд5.PNG",
+      "bytes": 59320,
+      "sha256": "197639a46ba8b639bbfe057164837713e6a043ea9a25ba03e1db609920150320",
+      "new_path": "lab1/tmp/materials/render/Семинар №1 2024/Слайд5.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Семинар №1 2024/Слайд6.PNG",
+      "bytes": 47284,
+      "sha256": "be306a85cf2a5f59df9d810ce787203035a2fccb5e3dd564e98bc0718352d867",
+      "new_path": "lab1/tmp/materials/render/Семинар №1 2024/Слайд6.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Семинар №1 2024/Слайд7.PNG",
+      "bytes": 276273,
+      "sha256": "f935a027487cd1a95a927628f78c0917e1efff803ecfde7d1aead0f359bfd96d",
+      "new_path": "lab1/tmp/materials/render/Семинар №1 2024/Слайд7.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Семинар №1 2024/Слайд8.PNG",
+      "bytes": 43205,
+      "sha256": "22fea8d281dc0069b16d76b523b27345a8f1aeabb8abffc92dc564fa0c2d3853",
+      "new_path": "lab1/tmp/materials/render/Семинар №1 2024/Слайд8.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/materials/render/Семинар №1 2024/Слайд9.PNG",
+      "bytes": 16375,
+      "sha256": "6fbe175f752a1494ae9bd62e15cb7ea534cadb3535eb1312fca01960e3a7e0d3",
+      "new_path": "lab1/tmp/materials/render/Семинар №1 2024/Слайд9.PNG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/COMMIT_EDITMSG",
+      "bytes": 66,
+      "sha256": "91ac9533ce98f7fbda840b074f150ae83d1f48d6901e8cedde0aa7392a74d375",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/COMMIT_EDITMSG",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/config",
+      "bytes": 341,
+      "sha256": "e5c24048b509632146ddb9bdfa803b98cb0fb1ad0c6b440963efb4b08bbfcde9",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/config",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/description",
+      "bytes": 73,
+      "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/description",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/FETCH_HEAD",
+      "bytes": 138,
+      "sha256": "5dcea73f836b2ba466bba1376ff68d669e29b96b707f0bdd1a189967e445c0f4",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/FETCH_HEAD",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/HEAD",
+      "bytes": 21,
+      "sha256": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/HEAD",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/index",
+      "bytes": 8462,
+      "sha256": "5d39effacd48789e17978979c68e3c2f6a238b17536027ae92484a3f422f1949",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/index",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/packed-refs",
+      "bytes": 112,
+      "sha256": "8782f0df9de07c9be0fec9867839802db32275894e2fd81df5682262d0948e53",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/packed-refs",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab1_variant3/demo.py",
+      "bytes": 655,
+      "sha256": "177d91eca415d6cc17170a8aa37bf94cde13e7a0b7ea055d38381c061c22fd39",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab1_variant3/demo.py",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab1_variant3/logic.py",
+      "bytes": 15781,
+      "sha256": "c6a55d3c49176db18ec68329b6570d5a8c7e698bd06e215a878ba6ee756204e8",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab1_variant3/logic.py",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab1_variant3/main.py",
+      "bytes": 3146,
+      "sha256": "ffa1758032e252588bac9420b2f526c0347941af91fc51535a32608db582c1a1",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab1_variant3/main.py",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab1_variant3/run.bat",
+      "bytes": 79,
+      "sha256": "46d817ec659561c912cc915b5a0714f7b07717ddd8a038409c6477338e818325",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab1_variant3/run.bat",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab1_variant3/test.bat",
+      "bytes": 129,
+      "sha256": "ef192e668c3914576113ecaf6ef986f676da5482b039236b82e0511737fb795e",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab1_variant3/test.bat",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/.gitignore",
+      "bytes": 28,
+      "sha256": "ffff10087cd8a093a21b30c8ee62d8d8a81bb90c2a06cdc3a489072d2271aeeb",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/.gitignore",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/lab1.py",
+      "bytes": 167,
+      "sha256": "6df9f5eea4fcf61838636c1ca62cc53358e66c70be4c4032741ead737fb56497",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/lab1.py",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/README.md",
+      "bytes": 10575,
+      "sha256": "dec54874b9b1ac09a039276aeee0ec416ba9c13f8a4b54ecf5c13c8fa96fcbb0",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/start.cmd",
+      "bytes": 169,
+      "sha256": "f7f03aa420f88963780eefeecb4aed5dfab4217a0a1569c59b005337da0e65ec",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/start.cmd",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/hooks/applypatch-msg.sample",
+      "bytes": 478,
+      "sha256": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/hooks/applypatch-msg.sample",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/hooks/commit-msg.sample",
+      "bytes": 1972,
+      "sha256": "efc1401b0e99d1ff51494d154d98b46c1e99059bcd8bf9f73cecde19fd3eb23b",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/hooks/commit-msg.sample",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/hooks/fsmonitor-watchman.sample",
+      "bytes": 4611,
+      "sha256": "9159720099ad5595b8e66645cbfd47763c1e920f46e0b50ae75e642bbec57ef0",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/hooks/fsmonitor-watchman.sample",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/hooks/post-update.sample",
+      "bytes": 189,
+      "sha256": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/hooks/post-update.sample",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/hooks/pre-applypatch.sample",
+      "bytes": 424,
+      "sha256": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/hooks/pre-applypatch.sample",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/hooks/pre-commit.sample",
+      "bytes": 1649,
+      "sha256": "57185b7b9f05239d7ab52db045f5b89eb31348d7b2177eab214f5eb872e1971b",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/hooks/pre-commit.sample",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/hooks/pre-merge-commit.sample",
+      "bytes": 416,
+      "sha256": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/hooks/pre-merge-commit.sample",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/hooks/pre-push.sample",
+      "bytes": 1374,
+      "sha256": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/hooks/pre-push.sample",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/hooks/pre-rebase.sample",
+      "bytes": 4898,
+      "sha256": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/hooks/pre-rebase.sample",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/hooks/pre-receive.sample",
+      "bytes": 544,
+      "sha256": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/hooks/pre-receive.sample",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/hooks/prepare-commit-msg.sample",
+      "bytes": 1492,
+      "sha256": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/hooks/prepare-commit-msg.sample",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/hooks/push-to-checkout.sample",
+      "bytes": 2783,
+      "sha256": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/hooks/push-to-checkout.sample",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/hooks/sendemail-validate.sample",
+      "bytes": 2308,
+      "sha256": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/hooks/sendemail-validate.sample",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/hooks/update.sample",
+      "bytes": 3650,
+      "sha256": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/hooks/update.sample",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/info/exclude",
+      "bytes": 240,
+      "sha256": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/info/exclude",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/logs/HEAD",
+      "bytes": 632,
+      "sha256": "2ae1b91630bb06fc05aad4c9b3cc182ac82ed639b34bbd796718f34ab965863e",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/logs/HEAD",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/logs/refs/heads/main",
+      "bytes": 632,
+      "sha256": "2ae1b91630bb06fc05aad4c9b3cc182ac82ed639b34bbd796718f34ab965863e",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/logs/refs/heads/main",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/logs/refs/remotes/origin/HEAD",
+      "bytes": 231,
+      "sha256": "5d00c547b7e0cfdf7aaa8bfee399db30cb6c18cb10de7623172dd390d02ca5a0",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/logs/refs/remotes/origin/HEAD",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/logs/refs/remotes/origin/main",
+      "bytes": 302,
+      "sha256": "3d4ec79de2d0cd4fd6b8153b8f5fdc642e6eb9873381b3e54d1353a224c72bca",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/logs/refs/remotes/origin/main",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/00/68407f8e82f83a6c95680b1906c872bc148bc0",
+      "bytes": 156037,
+      "sha256": "174d9bb4083af166ccc6a6c00c48f7333aef40f602db92fb680680f6f33d8228",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/00/68407f8e82f83a6c95680b1906c872bc148bc0",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/02/b93c5d843d6b00bb412f0780040a3aeb12f26b",
+      "bytes": 154948,
+      "sha256": "ae9de67d34bed9b8fa402e52a50d029162244f8ffe93e193d5a5a3374314cf0c",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/02/b93c5d843d6b00bb412f0780040a3aeb12f26b",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/08/e7d9704f2d265269357d4b3bc7263d35d27438",
+      "bytes": 120,
+      "sha256": "edfdc1e26bc5c45cb899607e730da4c2fa956abbc6c7ba1a9172c26fbcccdff5",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/08/e7d9704f2d265269357d4b3bc7263d35d27438",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/0a/5c96a3e048f2cdf3fde69dd91c20b3587c6bda",
+      "bytes": 614,
+      "sha256": "957f06ac2fda15de59eb58988cd04ca461e914aadff21d3a41923d004c03c880",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/0a/5c96a3e048f2cdf3fde69dd91c20b3587c6bda",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/0a/9fef3508e0b3455d01701579c67a951f68c137",
+      "bytes": 124894,
+      "sha256": "7c79cf64c254ddcfa6997f1a7e80a1cc3588d6395546c1f02f5e4012419258fd",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/0a/9fef3508e0b3455d01701579c67a951f68c137",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/0c/523e9d44570b9eb11643ba7747b2a95e2ceb21",
+      "bytes": 635,
+      "sha256": "eeb0bc138842b97b55af480ed028f75e66d70ff5a7a157a9df9346cafedb9e1d",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/0c/523e9d44570b9eb11643ba7747b2a95e2ceb21",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/11/95f8f017b1f4b0712aab33219517ca43d14105",
+      "bytes": 101331,
+      "sha256": "bf909171eb60b7dd8769ffadd4833dc2d718735a07023b3456d9e3cad4918b50",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/11/95f8f017b1f4b0712aab33219517ca43d14105",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/19/050d4946e5955adec8d7ad45a9db6ef64bcd02",
+      "bytes": 2427,
+      "sha256": "70436e8c4e82dab86f9a0b8f4eb4cd0de17b75f833944af750bd9ef707e19282",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/19/050d4946e5955adec8d7ad45a9db6ef64bcd02",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/1a/80453a8f823a363c3195090afacf1466c45d38",
+      "bytes": 2388,
+      "sha256": "5948c293f610dcf362f8308038be69897a952055b43951d52c2ef444504e6089",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/1a/80453a8f823a363c3195090afacf1466c45d38",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/1c/72a3b88cf7815e5133fa74b9ba6c00abbd995f",
+      "bytes": 43691,
+      "sha256": "c070e32904d4ec4653eb7b2988aaa3dd391affb363d2eb50fc0164ce702b4966",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/1c/72a3b88cf7815e5133fa74b9ba6c00abbd995f",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/1c/9a87128c726da5191c5c30021444ff7e6d7cc1",
+      "bytes": 589,
+      "sha256": "3739490c9071e08c906471884dc0e20e118813adf134fd4ce1a87049ef943ee5",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/1c/9a87128c726da5191c5c30021444ff7e6d7cc1",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/1d/da805e079557b8f5c1064f7b18ab4bb548b88b",
+      "bytes": 150,
+      "sha256": "017a64ba3662f9291b86027ee6d1ccfe1f51ad5ab168efb3ae109794390d80d8",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/1d/da805e079557b8f5c1064f7b18ab4bb548b88b",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/23/801a972b8f430c3a9fbc9369ffdd56c7c06102",
+      "bytes": 507,
+      "sha256": "0e3d496da6a6a5145bbbdf7a0b9bd3cc3989939970d96159d334c1b4dd4af2a1",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/23/801a972b8f430c3a9fbc9369ffdd56c7c06102",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/26/16dd2b020c2b707a0b1ff9bec93d6734cbfa7c",
+      "bytes": 3019,
+      "sha256": "9d764c4af0c60ff5dfee8cf9c0bf92b5d021ebd8edb96da00ef551d4b6e1bc57",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/26/16dd2b020c2b707a0b1ff9bec93d6734cbfa7c",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/26/8477edf5e3329b8ddc7eaa256dfad3d25baf93",
+      "bytes": 121,
+      "sha256": "1a869aba7734303a30418ad2709c0ef23d4dd4bdb545869b00d4fe132b6beb86",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/26/8477edf5e3329b8ddc7eaa256dfad3d25baf93",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/2a/2c7a3655b30edf777963e0ad521e117954d83e",
+      "bytes": 2162,
+      "sha256": "e68f06053c75f73d0a6d83f0d0189df66604873f16ac8d2068528e370064023f",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/2a/2c7a3655b30edf777963e0ad521e117954d83e",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/2b/b74a2de5630a014834a09a66f0e47cdc0b4ffd",
+      "bytes": 42642,
+      "sha256": "3e9e7a9cc1f6cea5c944bef74d4a8f840300be299fc15f470f57f63bafad11bd",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/2b/b74a2de5630a014834a09a66f0e47cdc0b4ffd",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/2b/e9f9350fe920164d617279a6f6a0d1e38c0200",
+      "bytes": 3123,
+      "sha256": "d89f2f55cb242fd9266c9b37a0dcf6ea0109f6e5e57de372cb48f7e593b5cb21",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/2b/e9f9350fe920164d617279a6f6a0d1e38c0200",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/2c/cd71c054bc6dea4028814a499f3531394928e8",
+      "bytes": 115836,
+      "sha256": "7cd9ebe4c56034118e6c184f196519f49e98f0c40c6ee4d30e1e84894fc9da18",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/2c/cd71c054bc6dea4028814a499f3531394928e8",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/2d/f6707d975262461992efed8941ca44dc6d8663",
+      "bytes": 207,
+      "sha256": "5819dbabee2658c87312900b6ee567decc61ef35c643cf936faa09c146561d5a",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/2d/f6707d975262461992efed8941ca44dc6d8663",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/2e/8c9032ce90f09518d02ee6a257edcb571bfc66",
+      "bytes": 1563,
+      "sha256": "d4ef577704352191bcbd0b800dbecd3fdccaaae0f9f43eb858876cedf02940df",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/2e/8c9032ce90f09518d02ee6a257edcb571bfc66",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/2f/4a4e01bc853030c6679e117a9df84213b4a44d",
+      "bytes": 741,
+      "sha256": "88e938bcdf4d141999a321ea888c244ce95d17bca6ab050ff04cb9e2671c79b7",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/2f/4a4e01bc853030c6679e117a9df84213b4a44d",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/31/9058cc3acf38db75b0d2ca7ce407ec46e1d354",
+      "bytes": 44,
+      "sha256": "6b8f762c7317940bdfd92f4e83f0a37c0872b58293f72463f73a4b5738648393",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/31/9058cc3acf38db75b0d2ca7ce407ec46e1d354",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/35/6de90679cfefb99530f60292fd3051deabefd4",
+      "bytes": 2568,
+      "sha256": "e20d11b437663bd5cd2f413ec47b0684eeb9df9b0564389979af02e4998163b5",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/35/6de90679cfefb99530f60292fd3051deabefd4",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/37/5aa71761ce1575c5b4ab3ca3d53b6ebe2cbcca",
+      "bytes": 2339,
+      "sha256": "bcf8eb14f62ff2eeaedbeebd0f3ae9f701970335e9a6c3beabc5a5a0b0fbc1eb",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/37/5aa71761ce1575c5b4ab3ca3d53b6ebe2cbcca",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/39/80574df46ecb5c4ba3858aa0cbb1c597bba0bc",
+      "bytes": 247,
+      "sha256": "722ea7e636c6ba71e39d71389b6ca243f8e53a08bc938d8ea3fc89c3903d5a84",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/39/80574df46ecb5c4ba3858aa0cbb1c597bba0bc",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/39/83042e3242cb07f616b3e80ea153730943594b",
+      "bytes": 574,
+      "sha256": "fde0ca1b0bce038af7f83c6f3f41d3a54404afdb09321755e6b4f7d28a367ac2",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/39/83042e3242cb07f616b3e80ea153730943594b",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/3a/6adbf8a9d001a839691e22cb82ae21a34d9f15",
+      "bytes": 1254,
+      "sha256": "91990ec571baddf29d02adad9a84718760db5db37a96c5880b065093fe037a6f",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/3a/6adbf8a9d001a839691e22cb82ae21a34d9f15",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/3a/73546fd764be770ed15ee509262aa9f5ed7e16",
+      "bytes": 190,
+      "sha256": "78c621bec3662d13fff318b1601a6f19bc42d12d95058fd3d773805c5a152a53",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/3a/73546fd764be770ed15ee509262aa9f5ed7e16",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/3a/c5c37b5f44955f79a337bdf89e3e297492221a",
+      "bytes": 20738,
+      "sha256": "047a417dde1a93d324a2f52f91fc0bc3600a733c49f3ae0c5a84ad3dda19cbee",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/3a/c5c37b5f44955f79a337bdf89e3e297492221a",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/3e/e84f16f8e40eba0f61858ec7f19de9cf769f65",
+      "bytes": 1701,
+      "sha256": "a0cf6d10435cc6cc5e9173577b2e95a12637565244ce2e03e6085786a68a9bdc",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/3e/e84f16f8e40eba0f61858ec7f19de9cf769f65",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/3f/d9e4b63e2702ad627f48aaa2b1312941c2f0b6",
+      "bytes": 476,
+      "sha256": "a23cc4b887babcafe29a52ca643491f3064674832dec2137384c26be83b10f68",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/3f/d9e4b63e2702ad627f48aaa2b1312941c2f0b6",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/40/2ab87bba5a75243986810e7b24a2a4dd392edc",
+      "bytes": 4687,
+      "sha256": "14c4bacb37ef3911a06d1f2a5466d3461c72c94679cef6d5478f562c6c14ac02",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/40/2ab87bba5a75243986810e7b24a2a4dd392edc",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/43/473ee03ea7d053f5bb2fb35d469c3f31ef6642",
+      "bytes": 583,
+      "sha256": "1cfc5c9ddd0256e77fae06a28821c07d6027aba2e7cba097fddd4d8717d3a39c",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/43/473ee03ea7d053f5bb2fb35d469c3f31ef6642",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/43/505630be81c9567d6b0e86da12ae63521e7b75",
+      "bytes": 1020,
+      "sha256": "8c1ad723778eb799fb9f7c108c63d0ec3063708c8e850efa486d037acbcdf39f",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/43/505630be81c9567d6b0e86da12ae63521e7b75",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/44/faa9981dd6477d90d9287503ca4223b0c8ff1d",
+      "bytes": 120,
+      "sha256": "39f2528b547bfd57ea3d232d359791191ac8a06694119bfe5339d9abf5c311c9",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/44/faa9981dd6477d90d9287503ca4223b0c8ff1d",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/48/a25a4cafbdacb1eb6a1cd7040c2bd234bee000",
+      "bytes": 4771820,
+      "sha256": "0a4165edfc7ab8786208c34fc7e15c3f5c0894e1c3b8c448989ac5ef3f17f6fe",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/48/a25a4cafbdacb1eb6a1cd7040c2bd234bee000",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/48/f8c1b92130eb57aa0e3cb2c60228465a191af8",
+      "bytes": 1452,
+      "sha256": "fbd9f859301fb9bc84bae0b5c34e28b238eea706c84a38e336371a72e2a0cc4b",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/48/f8c1b92130eb57aa0e3cb2c60228465a191af8",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/4b/f12de1bfee9d2fef4b9eb6968d8ddb7b5ef1a7",
+      "bytes": 502,
+      "sha256": "c85c405ec6a4b3ec3b0a6acf78727cd17a1556cb754f8347831a867028a72e7d",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/4b/f12de1bfee9d2fef4b9eb6968d8ddb7b5ef1a7",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/4d/492dda4bf04e15fc346c23db2ae14e2a9ffbd6",
+      "bytes": 113,
+      "sha256": "561639b27c7c66a941daeaf56351ac8dd9981422768b1a79c5cb49329ffe1dc6",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/4d/492dda4bf04e15fc346c23db2ae14e2a9ffbd6",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/53/5b0339f5973d05f20074d80dc7f5a355b7f6cb",
+      "bytes": 338818,
+      "sha256": "270a09b8de3b52246ce4305228a8a38cd632074759ee4f4eeacdef65a7687937",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/53/5b0339f5973d05f20074d80dc7f5a355b7f6cb",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/54/07e3d91f7db05cfbda4efd67af30ef7f9e3c99",
+      "bytes": 601,
+      "sha256": "ede424b387b31aea04496ddd7dab4a288b64348e3fbaa65ede63308b6c5c5293",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/54/07e3d91f7db05cfbda4efd67af30ef7f9e3c99",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/56/5361235da3ff7bc9177767d5f7991be6fd87c7",
+      "bytes": 168,
+      "sha256": "40b3f63bf253fcbe94132a6a9de5ece45d9a96df40ae5cd8332f52da8803d1bc",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/56/5361235da3ff7bc9177767d5f7991be6fd87c7",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/57/eccb8b59f76141ea12f8f768ca93b3746f9f62",
+      "bytes": 111318,
+      "sha256": "3a4838d8a05cc1c964867ff29a1cf94b9888a05ae03734d9746ab4eec0236a7e",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/57/eccb8b59f76141ea12f8f768ca93b3746f9f62",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/5a/914ad9d02ad2b6d90577ec1528374361642737",
+      "bytes": 236,
+      "sha256": "b478757fd80e3760bf29a613cbec4b5b13f9493f299e6def60aa6f23f43d9ce0",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/5a/914ad9d02ad2b6d90577ec1528374361642737",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/5f/b0d46c96ef9b51a8a49c99efc961b2936f56d8",
+      "bytes": 236,
+      "sha256": "5064084583e323397c7464aaf1856353a054d2bc39b150b3f86598094c83cdfb",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/5f/b0d46c96ef9b51a8a49c99efc961b2936f56d8",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/65/8dd922ec86f8b3204213dfc395c0b6c0a1423d",
+      "bytes": 92,
+      "sha256": "012ff04faea349c485a5c6d48d9ae60ec7845f09b98e8911c91cd72ba3309a32",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/65/8dd922ec86f8b3204213dfc395c0b6c0a1423d",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/66/ebaec2a3af3a3380faeb4c04d8c2798162aa99",
+      "bytes": 123856,
+      "sha256": "820b5c734905b1850730589e2da0c35258a9a7e424182516cb5e22b90441f00f",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/66/ebaec2a3af3a3380faeb4c04d8c2798162aa99",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/68/7456b953b935332fac5511f00375b1d6fb3194",
+      "bytes": 150,
+      "sha256": "20f88e88ee90b268f5dafdf3a5f41b418c7b347e5ab5cb46aee6f7e8c95662b1",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/68/7456b953b935332fac5511f00375b1d6fb3194",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/69/0ee48bb2504ce0f4c0fa7eb1e9204bc03756b4",
+      "bytes": 2812,
+      "sha256": "341aea9a09ee08d60a18a2ae08b5323ffbd590612fc8e6349d0693da9dea414f",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/69/0ee48bb2504ce0f4c0fa7eb1e9204bc03756b4",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/6b/0252e2688632c7757eaa381c342e0750eca10f",
+      "bytes": 590,
+      "sha256": "c477952a3f8f34e3b79c5701ded478687d4e1b312486939d8e3dfcd1be822a5b",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/6b/0252e2688632c7757eaa381c342e0750eca10f",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/6b/e3afd0928a1875a37ad6b67931e2d1052d0e1c",
+      "bytes": 371038,
+      "sha256": "30d60fb7df8fd1c030abd7565d430fd063c32008182673f9ebd63b925ec0ae9b",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/6b/e3afd0928a1875a37ad6b67931e2d1052d0e1c",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/6c/675d82819bee76f79aca6e25619f6284b72e76",
+      "bytes": 614,
+      "sha256": "cd507a86e3b0e698fe9906ee4cf44b89a06f65b39522247ee14ac1521f718f52",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/6c/675d82819bee76f79aca6e25619f6284b72e76",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/6d/fb9951c61a0767bf774d21d552e75278253e3f",
+      "bytes": 556,
+      "sha256": "47122e5bfea61af63f14fbe9635d05e239651eee4fe3cc84e02be4cffdc9b520",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/6d/fb9951c61a0767bf774d21d552e75278253e3f",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/6e/087ed7865a3b0c8b17cdadb00384764ef3d69e",
+      "bytes": 584,
+      "sha256": "3d606f97fbe0bb828a200886abde26dcefb0dba4f2a209ab31be8b4ffb623cb9",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/6e/087ed7865a3b0c8b17cdadb00384764ef3d69e",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/6e/97ce7efa0a9b7a2b18dc907cfc1a206fc45146",
+      "bytes": 2703,
+      "sha256": "780d41b77a598b1a60e7c4c76f4248513f9696cb0f9ce3867550f299e4297f36",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/6e/97ce7efa0a9b7a2b18dc907cfc1a206fc45146",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/6e/c54594b5414fc224374abb29da741f8634b6d4",
+      "bytes": 1341,
+      "sha256": "55299424996e435ee228b4c271216e2d358f43b1e0d5ab1c0964682676d613d1",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/6e/c54594b5414fc224374abb29da741f8634b6d4",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/6f/0b70c65d924f44952fafbb03ac8db73dcf3bc9",
+      "bytes": 142053,
+      "sha256": "c586ee99393207a48a56fa4efbbd3f0a81949788308f0a781badc2ddf51171fd",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/6f/0b70c65d924f44952fafbb03ac8db73dcf3bc9",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/6f/ea1ab1c7eef82e1a38e4706f23e01a6b9e7635",
+      "bytes": 4317,
+      "sha256": "97148c7a75c0a3e609a1e8e3561aa10a03d9c0a6283cfcf548e6377c75b8271e",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/6f/ea1ab1c7eef82e1a38e4706f23e01a6b9e7635",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/73/e8658510214588d243e36f280574e15c48a0b0",
+      "bytes": 333005,
+      "sha256": "0976b2da2b9abee5ba68a258a66c4ad2419c86eab4c8d38d18891d49926a5afc",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/73/e8658510214588d243e36f280574e15c48a0b0",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/74/9ba79dd5a9657d3a4ad98e3bea1d728a035f4a",
+      "bytes": 635,
+      "sha256": "510f4ac0c99b192d1eb6abe46fca35f1e619c5ca615eca78ba558276a5108ed2",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/74/9ba79dd5a9657d3a4ad98e3bea1d728a035f4a",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/76/fd873a3c284f3ea20694ddd9d70575ad736cab",
+      "bytes": 2084,
+      "sha256": "4a48194cd24b3f92e41bd40b4194381fe1b5937d2894a9d5837b62074c0bb536",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/76/fd873a3c284f3ea20694ddd9d70575ad736cab",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/79/581d18b2f76260fefe79976ce8709034b8cd7b",
+      "bytes": 138830,
+      "sha256": "6036b1aa1bac1957e7d6c850984161a3a285af5be88a0fd50de4c38b0de9de00",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/79/581d18b2f76260fefe79976ce8709034b8cd7b",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/7b/d505b5c04e90689d36177039847da159fd7286",
+      "bytes": 1277,
+      "sha256": "e2a8dee80a3e9a3af4cefdc1e866d5ceeabd8918e0ea02bb0c165c53aff40825",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/7b/d505b5c04e90689d36177039847da159fd7286",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/7d/80a8b1f008a49217ad455e025daf4a334a0dd1",
+      "bytes": 137714,
+      "sha256": "17a184517564f9e23800940cc4a28fc06ce40ad0c5d6f3ef1c57a7205a4270f6",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/7d/80a8b1f008a49217ad455e025daf4a334a0dd1",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/81/d167bb1a76fdd3d0aea8b9f391306369dc466f",
+      "bytes": 160,
+      "sha256": "bd56afeb02cbd2e355b1b8cec6e6bb78b994baee57d22b370b89d6c42ac9f539",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/81/d167bb1a76fdd3d0aea8b9f391306369dc466f",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/83/02235a69fc8be7b14a87899ab318ac811fee7d",
+      "bytes": 352,
+      "sha256": "e43ddc8d8e53a228c04f1d7d68e52c06cb079af3e4b1c212f686ea124a701a4f",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/83/02235a69fc8be7b14a87899ab318ac811fee7d",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/87/2b2c0db2c4b65814feed2c519d418f0a081100",
+      "bytes": 86,
+      "sha256": "dc514b3d31d9e2f55d73f020cafe94848323b4e550195306d9b19c8600e41551",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/87/2b2c0db2c4b65814feed2c519d418f0a081100",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/87/393a97c43dbf0bc885018ed7eb5e6bd25d9231",
+      "bytes": 233624,
+      "sha256": "73543b8314abcc0db823cf9296360592f5571f074fdcbee2747d7063cce8f7b4",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/87/393a97c43dbf0bc885018ed7eb5e6bd25d9231",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/88/bc370c5331e0d5b014beba6b6760166f0c53e1",
+      "bytes": 138906,
+      "sha256": "9abd3d946e3898b4a213bd4c4cadef8486c579b32569ab1c37587fb0d418412c",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/88/bc370c5331e0d5b014beba6b6760166f0c53e1",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/8b/0026532b1b71242403f3c8a525173bb0a4f0c0",
+      "bytes": 246427,
+      "sha256": "38669331e46bc13242888d1ad7a71c025c7b60fc9227681af03808eb870a8df3",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/8b/0026532b1b71242403f3c8a525173bb0a4f0c0",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/8d/d9039e5cf791ba5ecb4ffc01a5db7e8ebe25e4",
+      "bytes": 132293,
+      "sha256": "901a11f7e51c0121c229b29b0f5312dac90553f574ef3ef50acab64000f51aed",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/8d/d9039e5cf791ba5ecb4ffc01a5db7e8ebe25e4",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/8f/b0e922c48b62a49182448dcb9512b398bb7277",
+      "bytes": 1811,
+      "sha256": "51dfe9bbebcc6d469f7189ea57e17f3eff43efcf669a3ae493d23e2d01f7ba7b",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/8f/b0e922c48b62a49182448dcb9512b398bb7277",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/90/3b9ab7782f3d6f9520a96f1048bbbe0d702a2f",
+      "bytes": 10549,
+      "sha256": "0ea55f1cafd2b44108f135e6df36a8acc1418b83f4fc3a7c77334c6a32fcffd8",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/90/3b9ab7782f3d6f9520a96f1048bbbe0d702a2f",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/90/ddcd7c40bf6fb5759beafbce1a108d6121422b",
+      "bytes": 162525,
+      "sha256": "d8cafafbfd1a168913093858398fa319b60c7232ab061e0db52824c40ac25884",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/90/ddcd7c40bf6fb5759beafbce1a108d6121422b",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/91/f22769d8a8fca175dace4798061aae23d04c72",
+      "bytes": 11545,
+      "sha256": "6dd92555a1251720addb709e9dc8ec7374b9ee751e138a380a6e49736803533a",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/91/f22769d8a8fca175dace4798061aae23d04c72",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/97/aa019ebc216a2e5be86f6801c4ebd9a24a7ab4",
+      "bytes": 31769,
+      "sha256": "d8fd3483ee942422f24abf39ce01259da6dce90b453768f4d764f559bcd8b121",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/97/aa019ebc216a2e5be86f6801c4ebd9a24a7ab4",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/98/f6db55fa49b6172005bc53c91a2ec2d57dc6c0",
+      "bytes": 132,
+      "sha256": "b5bda75d687bb29c5b24cf361a045dfe5197e3bd5c8a3ff66566debf627b0227",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/98/f6db55fa49b6172005bc53c91a2ec2d57dc6c0",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/9a/6f2adddf69592af58d33817ee412813c5154dd",
+      "bytes": 234423,
+      "sha256": "53af5f2acfbf263c1c60b82e248394d4c8ccf6586d68ee70ac06b3e6f5fa686a",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/9a/6f2adddf69592af58d33817ee412813c5154dd",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/9b/1e5cf6293ca01c6fccccce352fa806114f07ba",
+      "bytes": 42749,
+      "sha256": "e06d8566fc73003e4c8cfa5a0821a656879c06e279c3ebf4b80dc8f662a12f0d",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/9b/1e5cf6293ca01c6fccccce352fa806114f07ba",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/9d/ee74ea55f3ca84cdf6933b7af44b9f84b22058",
+      "bytes": 2409,
+      "sha256": "1d86dfc81566d92d99ebca194ecb2a0f81ea98e68b743c429a66b92854cd324a",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/9d/ee74ea55f3ca84cdf6933b7af44b9f84b22058",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/9f/7399921fb7f3eee480b48234b936250c7dd9f2",
+      "bytes": 1851,
+      "sha256": "8ec758b7a8851a33b09adff6307667d4fba934cb7b1ffb34a1d474d709f8b9d8",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/9f/7399921fb7f3eee480b48234b936250c7dd9f2",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/a2/926975a549adf66e50890e01db077d5861f2a1",
+      "bytes": 10719,
+      "sha256": "e922dcdbb8c082568e9b6691da1cd1ae84a4146bd75bcdb094ee21ee9f7d37ce",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/a2/926975a549adf66e50890e01db077d5861f2a1",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/a8/ad457e8b85555cfe2f2efdca5769efcb01efd5",
+      "bytes": 168,
+      "sha256": "99536c57a3fe2238525febbcba3e603d3f7104ea7f046ee53f9ca48396a53644",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/a8/ad457e8b85555cfe2f2efdca5769efcb01efd5",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/a8/d1b999c7c5e90152249fa856c18754f9a44451",
+      "bytes": 1564,
+      "sha256": "1eb8a9c8e3e0989646aaa648c1816fbec88d2b49d30d89ec80b2cc86cd64615f",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/a8/d1b999c7c5e90152249fa856c18754f9a44451",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/aa/88f88d6c0bc34562b5563b90f137a3806d3b3c",
+      "bytes": 366,
+      "sha256": "77f6a46c1356a73a2a0692ac643424f5cf3d9b88e9edafc2f2e3a42c3c773164",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/aa/88f88d6c0bc34562b5563b90f137a3806d3b3c",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/ab/8fb6d8a760df4b4467d73c8cd8a6bba8d3e5a7",
+      "bytes": 416,
+      "sha256": "4094e412715ebbb045f1333ee23946524600c369ac47b1603b003294ce2dffa6",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/ab/8fb6d8a760df4b4467d73c8cd8a6bba8d3e5a7",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/b0/5aab49298033ff74ae1087f23e859b59aca1a4",
+      "bytes": 167,
+      "sha256": "d5df0b8b3375f42d15c459e7cdae85c4940a8dcf9047e2eaa98b3d72d0f3559b",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/b0/5aab49298033ff74ae1087f23e859b59aca1a4",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/b1/c9e918f8adfdf6b0572a2a4c517d72b8bd67f4",
+      "bytes": 282,
+      "sha256": "2a26741b6198ec63b10ec11e65b5ea6485c4865b20d25dc51f912476aa1605b5",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/b1/c9e918f8adfdf6b0572a2a4c517d72b8bd67f4",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/b4/89a58835b1991f130923aa420c99cd927f8bcb",
+      "bytes": 600175,
+      "sha256": "200b1acb7100b8271412de0446ac874d452211516805de47e7443a2c4ff4b650",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/b4/89a58835b1991f130923aa420c99cd927f8bcb",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/b8/32c1968dcf13409edb9beb845a8e8c9c37ec40",
+      "bytes": 124095,
+      "sha256": "d78602a32e26ff45cd7dd7a04f0d79cee1d8a3360f87b83dc212a0831fcb8611",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/b8/32c1968dcf13409edb9beb845a8e8c9c37ec40",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/b9/23042ae6b4047fa7208cc9fb10a20b57c81eee",
+      "bytes": 103895,
+      "sha256": "560d27d12c12d1d6ed5097aab6a69d2ad9996fe895473a7a8866dd5e2444178b",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/b9/23042ae6b4047fa7208cc9fb10a20b57c81eee",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/b9/888f26599df35822033c5fe1fc7150ac5e5ff5",
+      "bytes": 167,
+      "sha256": "20b46a755172454da4a23e705a81a26c1f01eb7aa40e6537c38175594dcdb47c",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/b9/888f26599df35822033c5fe1fc7150ac5e5ff5",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/bb/1c580cbcb37c55579dc60f28f7812e15a42308",
+      "bytes": 11415,
+      "sha256": "91b4eec29b4a144058d2a012a4e9d8067920a6d7e30c0cbec7848628e45e13f9",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/bb/1c580cbcb37c55579dc60f28f7812e15a42308",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/be/3b6e2b24647a890ee383bebea7b127b68eb7bd",
+      "bytes": 1365,
+      "sha256": "35724ed053a6c96841e918d85ca559df3fe887b456f932559413d0f4d150772a",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/be/3b6e2b24647a890ee383bebea7b127b68eb7bd",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/be/694c766f65f7667908b37ab053779a4896ef0e",
+      "bytes": 1279,
+      "sha256": "3fd35bc10877ad491d714dbba49e3affa21ece35098b6bf40bdc5739b8b17dd3",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/be/694c766f65f7667908b37ab053779a4896ef0e",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/c0/e60261415a60c171180a147bf396595dddb437",
+      "bytes": 668,
+      "sha256": "4663932c5dc8d183e2a93945b05a5393e2f241cf3b41ea7aad19f76dc9419612",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/c0/e60261415a60c171180a147bf396595dddb437",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/c5/923ad0b9b22f9178c6766e8e9e5da2a758f5a5",
+      "bytes": 1357,
+      "sha256": "f7a45f5732adb06ac9f9e870a70ff03299a1c1afe14eda0d98c45e82d6f1e85a",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/c5/923ad0b9b22f9178c6766e8e9e5da2a758f5a5",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/c6/829e870d06fc749355a7811a8a7c8c8d156229",
+      "bytes": 108256,
+      "sha256": "caa8f798ca1127e312f4b4a33cf32ae24a36cddf29369ffedc04da6a71c43925",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/c6/829e870d06fc749355a7811a8a7c8c8d156229",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/c7/b8dacfabc04ba1659a4817a427069adce67abd",
+      "bytes": 130876,
+      "sha256": "0d6722280b99502ccdea89a27687b43be9373b8231ab3bc5677456eb92651a12",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/c7/b8dacfabc04ba1659a4817a427069adce67abd",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/c8/150a0940f4b5654e1bc6a898b0c5fbd0947aa4",
+      "bytes": 157191,
+      "sha256": "9717c50696ba653ec3a1a056e632ad069037539fc3ebabcb2043ea297b1864b9",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/c8/150a0940f4b5654e1bc6a898b0c5fbd0947aa4",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/c8/db98af7ac46c5506ed7b891be8826d57eb2384",
+      "bytes": 161,
+      "sha256": "f904d70e68e3efbea2b318d2a1a7e2e86abee01fe2bc5c41802b9a7afdfefe53",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/c8/db98af7ac46c5506ed7b891be8826d57eb2384",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/ca/2fcedcf5b443613f30860340b649d36ee14b47",
+      "bytes": 3323,
+      "sha256": "327f3335525a138b324d51a9518f4c8d7ee60f9f21e9d0a04e6cee218189c205",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/ca/2fcedcf5b443613f30860340b649d36ee14b47",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/ca/ae72d77f2d7b5151c26e55739e3ef6bf08b4bf",
+      "bytes": 1341,
+      "sha256": "823ade9481c5ecec10b0800604cb93c4c0fe5584f5a560e8a631b0558f33f8af",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/ca/ae72d77f2d7b5151c26e55739e3ef6bf08b4bf",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/cb/7a8b76387abc7aa8fde42848bffbc7a001e052",
+      "bytes": 114,
+      "sha256": "586a76f4b57938bdebc13bc17c3206b41e787c454d5199830fa3317009160881",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/cb/7a8b76387abc7aa8fde42848bffbc7a001e052",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/cf/e6ef985b1814c0e06b2cdcc9c2d16c89400b58",
+      "bytes": 602,
+      "sha256": "2df353f7ee6f7e72458c208ccfbb28a2f95d8697944e5b11c11595ca457601ab",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/cf/e6ef985b1814c0e06b2cdcc9c2d16c89400b58",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/d2/4275c4f5f26ebc7ab2c768d7e0925969cfcb3a",
+      "bytes": 93,
+      "sha256": "6592275d7ba73b11c23a8cb62f8f57fd2cde7440c8235c219f25bf396ac1b7cd",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/d2/4275c4f5f26ebc7ab2c768d7e0925969cfcb3a",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/d7/59e0ce2fa06f22d1daacc03bdde9e50687e072",
+      "bytes": 86,
+      "sha256": "2f5b9409c09d38da44657f5ac727f27e374e0dc71da7e9d7c93e54817ce44f17",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/d7/59e0ce2fa06f22d1daacc03bdde9e50687e072",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/df/e853b09c8d9664e42aee75800725e851f4d11e",
+      "bytes": 476,
+      "sha256": "909c626aaede0dd40e47d7cd018c141ad5983d02050d985a992e134757b68d5f",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/df/e853b09c8d9664e42aee75800725e851f4d11e",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/e3/a935018bd988739e3378f9c650cfa8e4aa903c",
+      "bytes": 150,
+      "sha256": "7e38dc2e66025c6a05af0cfb1fad7fbd6c805e4387fcb0fed62147c09b6ee3d7",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/e3/a935018bd988739e3378f9c650cfa8e4aa903c",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/e8/ca038f0fa936fcda1d393d2a776178094a5415",
+      "bytes": 457401,
+      "sha256": "302f1e759660de41f3909d841f6a3c8944780a1d1f6f9a924b3eaa6c97eee5b0",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/e8/ca038f0fa936fcda1d393d2a776178094a5415",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/eb/bbaef44bc5b43d78d39df965d8bffa72832671",
+      "bytes": 1674,
+      "sha256": "8c9fecf687c730700b983bf0fc4e4438a55562a610e9ed876ceeb3f838dd60f7",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/eb/bbaef44bc5b43d78d39df965d8bffa72832671",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/ec/216a258e3e5d3b006ae595ab38aadc76357c15",
+      "bytes": 573,
+      "sha256": "4ccc1ef4298af84d733504530a3f1a09b101d863944137d1b04ef631ce611852",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/ec/216a258e3e5d3b006ae595ab38aadc76357c15",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/f1/a0f65ae3d0cbced0a3482120a24dd357082f69",
+      "bytes": 734,
+      "sha256": "dc390511ae8cf44abe950ec82e0f9b889d4e2f97ac50985f4a066dd92010cb2f",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/f1/a0f65ae3d0cbced0a3482120a24dd357082f69",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/f8/3c0cad908800b238d29d4f997ac0f9b212b369",
+      "bytes": 465,
+      "sha256": "c7469dd03901b6f44aa6f74dc2413af701b8b8d36c7913cce48d21585d1684b9",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/f8/3c0cad908800b238d29d4f997ac0f9b212b369",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/f9/f45f4f610a38b3939b076ab43dd04b5007bc51",
+      "bytes": 2155,
+      "sha256": "7abe875159d17ecc24ebc04adf22125fe82f36a6c1cbc31d851b804a1beab082",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/f9/f45f4f610a38b3939b076ab43dd04b5007bc51",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/fa/666b2fbfe75b278a06c89ec9554c20e56a15e5",
+      "bytes": 583,
+      "sha256": "5538465ae65c0aec18971917789bce2cdff3348eeae62bcdde86f8736d454399",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/fa/666b2fbfe75b278a06c89ec9554c20e56a15e5",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/pack/pack-5e7cc82f939f554e70c62a1bfdaf0761f901649e.idx",
+      "bytes": 1548,
+      "sha256": "ff85f8dbd5149962c9e3314cd71712d381e64772bd2ed62d693d69c61c94e863",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/pack/pack-5e7cc82f939f554e70c62a1bfdaf0761f901649e.idx",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/pack/pack-5e7cc82f939f554e70c62a1bfdaf0761f901649e.pack",
+      "bytes": 21843,
+      "sha256": "e89209588d8c7b663260ac41195b40cbac49fcde2a8e4f7f54cd77dfd52e3611",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/pack/pack-5e7cc82f939f554e70c62a1bfdaf0761f901649e.pack",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/objects/pack/pack-5e7cc82f939f554e70c62a1bfdaf0761f901649e.rev",
+      "bytes": 120,
+      "sha256": "6fa039e0202e7c093fc0678bd6571a52a00e182e80ea70a375c15f5658170a46",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/objects/pack/pack-5e7cc82f939f554e70c62a1bfdaf0761f901649e.rev",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/refs/heads/main",
+      "bytes": 41,
+      "sha256": "2506a749933727cc442f45c0a79ece3c76a8b9ef15e9dc994932734b5b23ba95",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/refs/heads/main",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/refs/remotes/origin/HEAD",
+      "bytes": 30,
+      "sha256": "2bb6a24aa0fc6c484100f5d51a29bbad841cd2c755f5d93faa204e5dbb4eb2b4",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/refs/remotes/origin/HEAD",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/.git/refs/remotes/origin/main",
+      "bytes": 41,
+      "sha256": "2506a749933727cc442f45c0a79ece3c76a8b9ef15e9dc994932734b5b23ba95",
+      "new_path": "lab1/tmp/publish-lab22-20261020/.git/refs/remotes/origin/main",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab1_variant3/tests/test_logic.py",
+      "bytes": 5133,
+      "sha256": "bcfcf805d273824632940131e401ea1de8665d65e90352d5f4021107f6eb0f93",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab1_variant3/tests/test_logic.py",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab1_variant3/__pycache__/logic.cpython-313.pyc",
+      "bytes": 21459,
+      "sha256": "5499c3a46481804bdb693f0de87818aac6eae5ad8995ffca633316f443df255a",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab1_variant3/__pycache__/logic.cpython-313.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab1_variant3/tests/__pycache__/test_logic.cpython-313.pyc",
+      "bytes": 10172,
+      "sha256": "bfd39349d6727fbe02371329a40e184a7ce2c2bd8b474c6a3795c745dfc56afc",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab1_variant3/tests/__pycache__/test_logic.cpython-313.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/docs/DEFENSE.md",
+      "bytes": 8035,
+      "sha256": "e5282c619aede6b8d1c7001470e4d4fa437d73486bc82ab49788bea7e52fc97d",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/docs/DEFENSE.md",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/docs/MATERIALS_MANIFEST.json",
+      "bytes": 5751,
+      "sha256": "6983966f3b523224b6973a3a9a6503648913456d2706156ee92280dcfd0de551",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/docs/MATERIALS_MANIFEST.json",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/docs/MATERIALS_REVIEW.md",
+      "bytes": 29639,
+      "sha256": "ed071c2400f5a72a92bbcc6512736b2c7e3c68edc5276c1adfb69ae1c99b877d",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/docs/MATERIALS_REVIEW.md",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/docs/PLAN.md",
+      "bytes": 2891,
+      "sha256": "9d007bedfe8c67f361392e1ae7691f38fe44bf8f5956282c9eb44c8bc7543d25",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/docs/PLAN.md",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/docs/REQUIREMENTS.md",
+      "bytes": 3597,
+      "sha256": "3fc391e2e0af9b38e46d60a2de3b345dd94745b538aa9d05208ed550f097f5cb",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/docs/REQUIREMENTS.md",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/docs/VALIDATION.md",
+      "bytes": 5970,
+      "sha256": "cf396980202e48379861f8d3069490d2a56aa8761e7e919d9930f880c61a6bc9",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/docs/VALIDATION.md",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/evidence/axiom_schema_regression.txt",
+      "bytes": 1396,
+      "sha256": "221b3cfedff0ead0c5dd804c48efa2322fd96c9d6394d2a1da661c9b21dea7dc",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/evidence/axiom_schema_regression.txt",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/evidence/compile_python312.txt",
+      "bytes": 108,
+      "sha256": "1d938888836e52904d3c1c00401ab6206a15802c57681c90969360dfe7211169",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/evidence/compile_python312.txt",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/evidence/compile_python314.txt",
+      "bytes": 107,
+      "sha256": "893a6e8ef985dcb7b8d22ee27965cbf12271e6c9cb8a1b23e05a1ed29bf30c17",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/evidence/compile_python314.txt",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/evidence/demo_file_python312.txt",
+      "bytes": 1674,
+      "sha256": "7c40d0a8c5b4de90a894d1736c6588179c58342a8617b56e8c3ca69114ca5c84",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/evidence/demo_file_python312.txt",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/evidence/demo_file_python314.txt",
+      "bytes": 1673,
+      "sha256": "207c54036268c59263090fcda2aece7997c7d2ce5c17781ca02d26509af0c996",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/evidence/demo_file_python314.txt",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/evidence/demo_python312.txt",
+      "bytes": 1653,
+      "sha256": "6bc79eda547327d9302b0b699007ac6c7a5a0edea46a287b28bd631bfdf9bcb3",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/evidence/demo_python312.txt",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/evidence/demo_python314.txt",
+      "bytes": 1652,
+      "sha256": "40e15fa137ccd49f9f68feb233a8df0e0456215a05db8c7994a749c66bf6dcd4",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/evidence/demo_python314.txt",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/evidence/launcher.txt",
+      "bytes": 1616,
+      "sha256": "d8e92f7000fc37df3029cd55773f4edcf8e75d02f923ca0cdf0afa02e895ef82",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/evidence/launcher.txt",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/evidence/negative_python312.txt",
+      "bytes": 2487,
+      "sha256": "71120d95778806b5a77dd241c7a51fca885e8f8a7364d48938ab9e8b7706ef7d",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/evidence/negative_python312.txt",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/evidence/negative_python314.txt",
+      "bytes": 2486,
+      "sha256": "11f854bd3fb70d9092eb1674025dfb04aa1eba309052153d3066576809596dbe",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/evidence/negative_python314.txt",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/evidence/tests_python312.txt",
+      "bytes": 6750,
+      "sha256": "24272b725734636d1f4027eea8ee8aa302ce6d8f12d44c2a5bc4437e8771cc2f",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/evidence/tests_python312.txt",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/evidence/tests_python314.txt",
+      "bytes": 6749,
+      "sha256": "e04a78d608d72525c7ce851f74b631866f158beeef4e29b0fcb565d9dd8805bd",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/evidence/tests_python314.txt",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/evidence/verification_python312.json",
+      "bytes": 4310,
+      "sha256": "00f449c5aaa5f6b71a532a8d07e882f26470b171e51b9dbae3d1505874d8dc0c",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/evidence/verification_python312.json",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/evidence/verification_python314.json",
+      "bytes": 4285,
+      "sha256": "f4f735d5e46e64575eee1d4c53ee244641378855d15deed1d80094b4e95bab50",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/evidence/verification_python314.json",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/examples/demo.txt",
+      "bytes": 530,
+      "sha256": "645136e59b3764dc9ebc930d520ad6bc96b4dbbcf7de4ab01619f9b52ad35d0f",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/examples/demo.txt",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/examples/negative.txt",
+      "bytes": 609,
+      "sha256": "f6d000a0b915fc76f27285d0d8430fc10073e2178ed78df15533aa3936a84105",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/examples/negative.txt",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/output/LR1_variant3.docx",
+      "bytes": 45133,
+      "sha256": "97c431abcfca08141e014236ecfc9e52934ca87910e4973e126f4cdfa7063802",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/output/LR1_variant3.docx",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/output/LR1_variant3.pdf",
+      "bytes": 248444,
+      "sha256": "c59420ce5ffc5be592e1f4db0ba9544578250c2bb0fc92fe88e940a3bccbf224",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/output/LR1_variant3.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/output/LR1_variant3.zip",
+      "bytes": 342580,
+      "sha256": "075494c314c39968ac122577f80400c8d94bdfd1f8b9ec69270a7a0feb53ebd5",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/output/LR1_variant3.zip",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/output/packaging_verification.json",
+      "bytes": 5029,
+      "sha256": "1d996ac4a4fe832ba02916484b9e1fed65223d759ac209ca216aecd633e11d00",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/output/packaging_verification.json",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/proofchecker/cli.py",
+      "bytes": 5834,
+      "sha256": "8cea4d3d568f6d2ff5f19c0efd56f538351fae467d901e634207fe7f40a408c2",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/proofchecker/cli.py",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/proofchecker/formula.py",
+      "bytes": 8303,
+      "sha256": "7d60d7d4cf44aa2c030c77bb5b165cb41acfd15eb1ba7d50ce3627375abde668",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/proofchecker/formula.py",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/proofchecker/verifier.py",
+      "bytes": 6297,
+      "sha256": "525ad4278c642f0d0b0bb828358257324fe3e551b57a20e61df3916022b50fa9",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/proofchecker/verifier.py",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/proofchecker/__init__.py",
+      "bytes": 82,
+      "sha256": "33689a5cc6722300cb767a121b956afe33589775da57ebd4dba2741e8e5b4ace",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/proofchecker/__init__.py",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/tests/test_axiom_schemas.py",
+      "bytes": 4448,
+      "sha256": "c610f18f31151dd07968114317177491a2ceb0baa3e17658d079ec7e0f85686e",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/tests/test_axiom_schemas.py",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/tests/test_cli.py",
+      "bytes": 2882,
+      "sha256": "15e2750728eef144e6cc54f3c767d393326a0cb3bbe3de98f30b1225a18448e5",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/tests/test_cli.py",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/tests/test_formula.py",
+      "bytes": 5759,
+      "sha256": "00f810b51f75cce5600959bcfb8cc19268d5e512dada11bf2fa5afaf6b24edbe",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/tests/test_formula.py",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/tests/test_verifier.py",
+      "bytes": 7720,
+      "sha256": "3fddb6e9d1548355a08b9ed33dc5c0fc9c05ccadc00c334fd85f0a248971b58c",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/tests/test_verifier.py",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/tools/build_report.py",
+      "bytes": 28143,
+      "sha256": "d6936157fd8f15316e4372cbc6a3c6d067927a8fd7b910ac2caac1faedafda44",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/tools/build_report.py",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/tools/export_report.ps1",
+      "bytes": 816,
+      "sha256": "1a2bcf3a230cb20c6e1e69b1e216935adcafb25999f01a2194ae37f6a1147504",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/tools/export_report.ps1",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/tools/package_submission.py",
+      "bytes": 4359,
+      "sha256": "f907299dfa73c6b3993b154cd5166defdfce1657e14b3e33b9d01925f6b59f42",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/tools/package_submission.py",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/tools/verify.py",
+      "bytes": 2814,
+      "sha256": "f87e4bdaacd245528db02a0a650acafa841451002154b62741e1883eee841a14",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/tools/verify.py",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/Лабы/Лабораторная работа №1.pdf",
+      "bytes": 252008,
+      "sha256": "1e7b3c507b739c7dac5c23aaf4e865159616bed032d9ceac5540c84b5daaf0ed",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/Лабы/Лабораторная работа №1.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/Лабы/Методический материал к ЛР.pdf",
+      "bytes": 467449,
+      "sha256": "ad845c33dc7a3d99437d9f50f8deed7861dfe19f2d5ca88bb3194feb7b95c4c8",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/Лабы/Методический материал к ЛР.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/Лекции/Лекция 1.pptx",
+      "bytes": 408777,
+      "sha256": "536cb0fad20c3f6a09b5df0ee26f29994014ff6e1f19ca67f74ad83d10a2f49a",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/Лекции/Лекция 1.pptx",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/Лекции/Лекция 2-1.pptx",
+      "bytes": 4953504,
+      "sha256": "ab9f490f6bddf2eca39aa3d2e56224ab964dadc153afaf2c748f12334e7a99e1",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/Лекции/Лекция 2-1.pptx",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/Семинары/2.1 2.2.png",
+      "bytes": 24968,
+      "sha256": "b67e6eac46fc26f746a6ec46d7ba28676d83d8d9ac8866bef37d93a1a38bafee",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/Семинары/2.1 2.2.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/Семинары/2_3.png",
+      "bytes": 48793,
+      "sha256": "ad81739ed74dcba41b1ebb0b5c479f12686300a090383ba2ce176206a2c6a1b2",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/Семинары/2_3.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/Семинары/2_4.png",
+      "bytes": 38862,
+      "sha256": "74f54f7e2d513eeeac278c225f2df2281464988827fd12c2e207158da438d73e",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/Семинары/2_4.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/Семинары/2_5.png",
+      "bytes": 124455,
+      "sha256": "44eb53a6636690722fe8721cc386dfccf7c000fb9bafd9694c522b8de0342d15",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/Семинары/2_5.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/Семинары/3.1.png",
+      "bytes": 166441,
+      "sha256": "c9d4fba020a8030e2f303e148b14e8a48f6fd908c220b672fc651c33b1908c90",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/Семинары/3.1.png",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-19-56.jpg",
+      "bytes": 125414,
+      "sha256": "27931dfcd47cf27c1a93ba99de7486e0b637df2cefba1931700e3e9010ba2351",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-19-56.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-03.jpg",
+      "bytes": 143295,
+      "sha256": "58a066b7562b323a9beb414de364e4d2efba10ebe0b955a4895d19d83b848569",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-03.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-06.jpg",
+      "bytes": 102674,
+      "sha256": "6a66a8e1ccfb18e27d97e3b674e8ac9ab653b56820c0a16b13ca8ff10751cfce",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-06.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-11.jpg",
+      "bytes": 157892,
+      "sha256": "a2d6bbd6b83aa2284603608ff76bd8d9578f66a6e64bb058579e975b773b9af9",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-11.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-15.jpg",
+      "bytes": 139373,
+      "sha256": "757f497a51625e60f46d128cd353025741782cf39e6be22ea15334023396d3c2",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-15.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-17.jpg",
+      "bytes": 125320,
+      "sha256": "ca5584e37621a008c0545d9283455519fd9bd9bd6392716235857e8029861a3a",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-17.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-19.jpg",
+      "bytes": 116362,
+      "sha256": "8425657ce9a8445bb423b3d5e203dcb8e802c7ff35a69fa120bc70c9abe7c8a1",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-19.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-22.jpg",
+      "bytes": 104611,
+      "sha256": "c180098041d0aa494afbdb5750794838ef67ff3ce37b6ab86621a26c68a48e44",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-22.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-24.jpg",
+      "bytes": 155667,
+      "sha256": "71f73ba4c138a4e4bfc617f79e79a91eac05f319962cbc00c915fe08da8d6c52",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-24.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-27.jpg",
+      "bytes": 125654,
+      "sha256": "e46ae8dc41325d1432065981db4594537857a31801bd9867eb8abcb8dcbcc5e1",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-27.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-30.jpg",
+      "bytes": 131691,
+      "sha256": "016a4f74fd560788a20541943bb6d404b7693c43eb58d68338a6c19cfaf15f7f",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-30.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-32.jpg",
+      "bytes": 139730,
+      "sha256": "61a893dc14ad23ddefaf83e8130b6a3d99a39afe3b640c8f137d6db6bf719955",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-32.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-34.jpg",
+      "bytes": 112059,
+      "sha256": "ccc16fadad1601676e912c23b270f02d1ba759990ded2186971d75215e4577c2",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-34.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-37.jpg",
+      "bytes": 132940,
+      "sha256": "aef28cd2374edde90b297194754b64911e38606fe00bc7330e35bff94963f3be",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-37.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-39.jpg",
+      "bytes": 139808,
+      "sha256": "eaf4d4a3709cecc10fc86525c29db321e605c9cb128bb9f7c2202fd7c459a30d",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-39.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-41.jpg",
+      "bytes": 156494,
+      "sha256": "c7e28e39c9c9cd41a5bdaef8cc808e0740fa149a2df943f417a008e4f41f0c86",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/Семинары/photo_2026-10-19_02-20-41.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/Семинары/Семинар №1 2024.pptx",
+      "bytes": 613650,
+      "sha256": "a3eb074bb039c8b64b065dc96c9cf4f05c121e392d67a9de1774f1f5333613c8",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/Семинары/Семинар №1 2024.pptx",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/proofchecker/__pycache__/cli.cpython-314.pyc",
+      "bytes": 9083,
+      "sha256": "c7190e34eb687e75f615075246e2010e699e2c0ec93c9255d4280f3ef0af6bde",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/proofchecker/__pycache__/cli.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/proofchecker/__pycache__/formula.cpython-314.pyc",
+      "bytes": 16689,
+      "sha256": "c939e33505bab9db654228dc456b8c25b520bea455f57d9d3b0c0282306f4cd9",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/proofchecker/__pycache__/formula.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/proofchecker/__pycache__/verifier.cpython-314.pyc",
+      "bytes": 11377,
+      "sha256": "95cbd55b5198894ea15bd831496e347914831f3cb356832b265d9f19fdbb8b4b",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/proofchecker/__pycache__/verifier.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/proofchecker/__pycache__/__init__.cpython-314.pyc",
+      "bytes": 298,
+      "sha256": "6365e154781c8e44c70ce242756c9793cbc23fcff152ecd62244dcf3d710a1a2",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/proofchecker/__pycache__/__init__.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/tests/__pycache__/test_axiom_schemas.cpython-314.pyc",
+      "bytes": 8455,
+      "sha256": "22092518998e97570584d7048375aa77bd924f1658ec351c6f52c1c8fe9d5672",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/tests/__pycache__/test_axiom_schemas.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/tests/__pycache__/test_cli.cpython-314.pyc",
+      "bytes": 6104,
+      "sha256": "0fc468f493cd76372132f319edd57d7ac3e7f8ccb945a9ad156f9a8644737cf2",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/tests/__pycache__/test_cli.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/tests/__pycache__/test_formula.cpython-314.pyc",
+      "bytes": 13269,
+      "sha256": "0864714108dbe5862c8478188fbf8c154cdbe76f7726425688d9b70e04a18b16",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/tests/__pycache__/test_formula.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "tmp/publish-lab22-20261020/lab22/tests/__pycache__/test_verifier.cpython-314.pyc",
+      "bytes": 18574,
+      "sha256": "a2501f8ddff43043144fa148acc6c6bb47b3c61148d9293a1654eb4b1012936d",
+      "new_path": "lab1/tmp/publish-lab22-20261020/lab22/tests/__pycache__/test_verifier.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "tools/__pycache__/build_report.cpython-312.pyc",
+      "bytes": 34262,
+      "sha256": "0630bd7d3cd719e01d7e4c6df892c010b4188434f9cca9ce1338d33eed7417d6",
+      "new_path": "lab1/tools/__pycache__/build_report.cpython-312.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "tools/__pycache__/build_report.cpython-314.pyc",
+      "bytes": 34405,
+      "sha256": "61ccaedeb3a0f83d7115f859d6ef0061b2b2251eb188dc29ef09e4a0d4024049",
+      "new_path": "lab1/tools/__pycache__/build_report.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "tools/__pycache__/package_submission.cpython-312.pyc",
+      "bytes": 7035,
+      "sha256": "e01ead026a3302889d60ee67f0eff7160167254b68584db50120ed81b9c3cc37",
+      "new_path": "lab1/tools/__pycache__/package_submission.cpython-312.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "tools/__pycache__/package_submission.cpython-314.pyc",
+      "bytes": 7405,
+      "sha256": "cb2ac5a31a661b992890bf059543e61f764029605a6febc5c53fcb0c9a86d535",
+      "new_path": "lab1/tools/__pycache__/package_submission.cpython-314.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "tools/__pycache__/verify.cpython-312.pyc",
+      "bytes": 4627,
+      "sha256": "0b6b2088928c7768765c392073337130dd66528c64582e6a7b0ad3b14f5149ad",
+      "new_path": "lab1/tools/__pycache__/verify.cpython-312.pyc",
+      "unchanged": true
+    },
+    {
+      "path": "tools/__pycache__/verify.cpython-314.pyc",
+      "bytes": 4957,
+      "sha256": "ca8ee465c56468cc4239e9893024b27d5a924d2ebbae2d0929bed4f6fc8b80b1",
+      "new_path": "lab1/tools/__pycache__/verify.cpython-314.pyc",
+      "unchanged": true
+    }
+  ]
+}

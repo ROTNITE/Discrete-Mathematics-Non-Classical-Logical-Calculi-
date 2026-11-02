@@ -1,0 +1,70 @@
+{
+  "archive": "LR2_variant3.zip",
+  "bytes": 793808,
+  "sha256": "709eaeca398e62faa5b865b09855a221e1bd0674313a45b00761bdbccd43b6b7",
+  "crc": "OK",
+  "payload_files": 84,
+  "zip_entries": 85,
+  "all_entry_hashes_verified": true,
+  "all_extracted_hashes_verified": true,
+  "extracted_variant_matches": true,
+  "python": "3.12.10",
+  "extracted_checks": [
+    {
+      "args": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-q"
+      ],
+      "exit": 0,
+      "passed": true,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_excerpt": "",
+      "stderr": "----------------------------------------------------------------------\nRan 58 tests in 3.790s\n\nOK\n"
+    },
+    {
+      "args": [
+        "lab2.py",
+        "variant",
+        "--json"
+      ],
+      "exit": 0,
+      "passed": true,
+      "stdout_sha256": "64e5bdbbae64ca3841bae328ea1a4e3eb6258df00b3c50c9a92581b35c4a9de4",
+      "stdout_excerpt": "{\n  \"variant\": 3,\n  \"designated_values\": [\n    \"1\"\n  ],\n  \"formulas\": {\n    \"F1\": {\n      \"classic\": {\n        \"formula\": \"(p ∨ ¬p)\",\n        \"logic\": \"classic\",\n        \"variables\": [\n          \"p\"\n        ],\n        \"total_interpretations\": 2,\n        \"value_counts\": {\n          \"0\": 0,\n          \"1\": 2\n        },\n        \"valid\": true,\n        \"satisfiable\": true,\n        \"unsatisfiable\": false,\n        \"identically_false\": false,\n        \"model\": {\n          \"assignment\": {\n            \"p\": \"0\"\n          },\n          \"value\": \"1\"\n        },\n        \"counterexample\": null\n      },\n      \"k3\": {\n        \"formula\": \"(p ∨ ¬p)\",\n        \"logic\": \"k3\",\n        \"variables\": [\n          \"p\"\n        ],\n        \"total_interpretations\": 3,\n        \"value_counts\": {\n          \"0\": 0,\n          \"1/2\": 1,\n          \"1\": 2\n        },\n        \"valid\": false,\n        \"satisfiable\": true,\n        \"unsatisfiable\": false,\n        \"identically_false\": false,\n        \"model\": {\n          \"assignment\": {\n            \"p\": \"0\"\n          },\n          \"value\": \"1\"\n        },\n        \"counterexample\": {\n          \"assignment\": {\n            \"p\": \"1/2\"\n          },\n          \"value\": \"1/2\"\n        }\n      ",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "lab2.py",
+        "eval",
+        "p->q",
+        "--logic",
+        "l3",
+        "--values",
+        "p=1/2,q=1/2",
+        "--json"
+      ],
+      "exit": 0,
+      "passed": true,
+      "stdout_sha256": "06568516d294751699b54c55015c208ba6d4f5d8c9b075a1fb1545ceac564dc8",
+      "stdout_excerpt": "{\n  \"formula\": \"(p → q)\",\n  \"logic\": \"l3\",\n  \"assignment\": {\n    \"p\": \"1/2\",\n    \"q\": \"1/2\"\n  },\n  \"value\": \"1\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "lab2.py"
+      ],
+      "exit": 0,
+      "passed": true,
+      "stdout_sha256": "a3620910a4f64f303d9a7c7202bca649b2d17a8f0540403f711615465fa57d92",
+      "stdout_excerpt": "ЛР2. Вариант 3. Переменные — одиночные латинские буквы.\nСвязки: ¬ ~ !; ∧ &; ∨ |; → ⊃ ->. Приоритет: ¬, ∧, ∨, →.\nБинарные операции группируются слева. Для иной группировки ставьте скобки.\nЗначения: 0, 1/2, 1 (или F, U, T). Выделенное значение — только 1.\n1 — вычислить; 2 — таблица; 3 — свойства; 4 — следование;\n5 — сравнить три логики; 6 — весь вариант 3; 0 — выход.\nРежим [0–6]: Формула: Логика classic/k3/l3 [k3]: Оценка, например p=1/2,q=1: k3: (p → q) = 1/2 при p=1/2, q=1/2\nРежим [0–6]: Формула: Логика classic/k3/l3 [k3]: Оценка, например p=1/2,q=1: l3: (p → q) = 1 при p=1/2, q=1/2\nРежим [0–6]: Формула: Логика classic/k3/l3 [k3]: p   | F  \n----+----\n0   | 0  \n1/2 | 1/2\n1   | 0  \nk3: ¬(p ∨ ¬p)\nИнтерпретаций: 3; распределение значений: {'0': 2, '1/2': 1, '1': 0}\nОбщезначима: нет. Выполнима: нет.\nНевыполнима: да. Тождественно ложна: нет.\nКонтрпример к общезначимости: p=0; F=0.\nРежим [0–6]: Формула: Логика classic/k3/l3 [k3]: classic: (p ∨ ¬p)\nИнтерпретаций: 2; распределение значений: {'0': 0, '1': 2}\nОбщезначима: да. Выполнима: да.\nНевыполнима: нет. Тождественно ложна: нет.\nМодель: p=0; F=1.\nРежим [0–6]: Посылки через ; (пусто — без посылок): Заключение: Логика classic/k3/l3 [k3]: l3",
+      "stderr": ""
+    }
+  ],
+  "physical_other_pc_tested": false,
+  "passed": true
+}
